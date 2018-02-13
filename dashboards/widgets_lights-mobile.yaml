@@ -1,0 +1,25 @@
+familyroom_lights:
+    widget_type: switch_short
+    entity: group.familyroom_lights
+    title: All Lights
+    icon_off: mdi-lightbulb
+    icon_on: mdi-lightbulb-on
+desk_lamp:
+    widget_type: switch_short
+    entity: light.desk_lamp
+    title: Desk Lamp
+    icon_off: mdi-lamp
+    icon_on: mdi-lamp
+couch_light:
+    widget_type: switch_short
+    entity: light.couch_light
+    title: Couch Light
+    icon_off: mdi-lightbulb-outline
+    icon_on: mdi-lightbulb-on-outline    
+
+kitchen_island_night:
+    widget_type: script_short
+    entity: script.kitchen_island_lights_night
+    title: Island Dim
+    icon_off: mdi-weather-night
+    icon_on: mdi-weather-night

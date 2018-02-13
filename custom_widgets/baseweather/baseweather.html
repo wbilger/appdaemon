@@ -1,0 +1,23 @@
+<h1 class="title" data-bind="text: title, attr:{ style: title_style}"></h1>
+<div data-bind="attr: {style: main_style}">
+	<p class="primary-climacon" data-bind="html: dark_sky_icon"></p>
+	<p class="primary-info" data-bind="text: dark_sky_temperature"></p>
+	<p class="primary-unit" data-bind="html: unit, attr: {style: unit_style}"></p>
+<div data-bind="attr: {style: sub_style}">
+	<p class="secondary-info" data-bind="text: dark_sky_daily_low_temperature"></p>
+	<p class="secondary-info">/</p>
+	<p class="secondary-info" data-bind="text: dark_sky_daily_high_temperature"></p>
+	<p class="secondary-info" data-bind="attr: {style: main_style}">&nbsp;Feel:</p>
+	<p class="secondary-info" data-bind="html: dark_sky_apparent_temperature, attr: {style: main_style}"></p>
+	<p class="secondary-info">&nbsp;</p>
+	<p class="secondary-info" data-bind="html: dark_sky_daily_low_apparent_temperature"></p>
+	<p class="secondary-info">/</p>
+	<p class="secondary-info" data-bind="html: dark_sky_daily_high_apparent_temperature"></p>
+	<br>
+	<p class="secondary-info">Precip:&nbsp;</p>
+	<p class="secondary-info" data-bind="text: dark_sky_precip_probability"></p>
+	<p class="secondary-info">%</p>
+	<p class="secondary-info">&nbsp;(</p>
+	<p class="secondary-info" data-bind="text: dark_sky_precip_intensity"></p>
+	<p class="secondary-info">mm)</p>
+</div>

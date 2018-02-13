@@ -1,0 +1,43 @@
+#
+# Main arguments, all optional
+#
+title: Family Room TV Remote
+widget_dimensions: [28, 28]
+widget_size: [4, 4]
+widget_margins: [1, 1]
+columns: 12
+
+layout:
+    - include: widgets_lights-mobile
+    - include: widgets_remote-fr
+
+    - desk_lamp(3x3),familyroom_lights(3x3),couch_light(3x3),kitchen_island_night(3x3)
+    -
+    -
+    - familyroom_tv_time(6x2),familyroom_chromecast_time(6x2)
+    -
+    - label_top(12x1)
+    - ir_tv_netflix(2x2),ir_tv_youtube(2x2),ir_tv_up,ir_tv_volume_down(2x2),ir_tv_volume_up(2x2)
+    - 
+    - ir_tv_10(2x2),ir_tv_31(2x2),ir_tv_input(2x2),ir_tv_mute(2x2)
+    - 
+    - ir_tv_left,enter,ir_tv_right
+    -
+    - 
+    - 
+    - ir_tv_back(4x2),ir_tv_down,ir_tv_channel_up(4x2)
+    -
+    - ir_tv_exit(4x2),ir_tv_channel_down(4x2)
+    -
+    - ir_tv_stop(2x2),ir_tv_play(2x2),ir_tv_pause(2x2),ir_tv_rewind(3x2),ir_tv_fastforward(3x2)
+    -
+    - ir_tv_home(2x2),ir_tv_apps(2x2),ir_tv_settings(2x2),volume_down(3x2),volume_up(3x2)
+    -
+    -
+    - include: row_remote-fr
+    - include: row_bottom-mobile
+    
+label_top:
+    widget_type: label
+    title: Family Room TV Remote
+    widget_style: "background: red"

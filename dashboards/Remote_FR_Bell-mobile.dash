@@ -1,0 +1,43 @@
+#
+# Main arguments, all optional
+#
+title: Family Room Bell Remote
+widget_dimensions: [28, 28]
+widget_size: [4, 4]
+widget_margins: [1, 1]
+columns: 12
+
+layout:
+    - include: widgets_lights-mobile
+    - include: widgets_remote-fr
+
+    - desk_lamp(3x3),familyroom_lights(3x3),couch_light(3x3),kitchen_island_night(3x3)
+    -
+    -
+    - familyroom_bell_time(6x2),familyroom_chromecast_time(3x2),monitor_on_off(3x2)
+    -
+    - label_top(12x1)
+    - bell_esc(2x2),bell_play(2x2),mouse_up_move(4x2),mouse_scroll_up(2x2),mouse_scroll_up_page(2x2)
+    - 
+    - bell_move_tv(2x2),bell_fullscreen(2x2),mouse_up(4x2),mouse_scroll_down(2x2),mouse_scroll_down_page(2x2)
+    - 
+    - mouse_left_move(2x4),mouse_left(2x4),mouse_click,mouse_right(2x4),mouse_right_move(2x4)
+    -
+    - 
+    - 
+    - bell_guide,mouse_down(4x2),bell_channel_last
+    -
+    - mouse_down_move(4x2)
+    -
+    - bell_sno(2x2),bell_sn1(2x2),bell_hgtv(2x2),bell_channel_down(3x2),bell_channel_up(3x2)
+    -
+    - bell_tsn1(2x2),bell_tsn4(2x2),bell_discovery(2x2),volume_down(3x2),volume_up(3x2)
+    -
+    -
+    - include: row_remote-fr
+    - include: row_bottom-mobile
+    
+label_top:
+    widget_type: label
+    title: Family Room Bell TV Remote
+    widget_style: "background: blue"

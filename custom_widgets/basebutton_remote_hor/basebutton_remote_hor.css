@@ -1,0 +1,40 @@
+.widget-basebutton_remote_hor-{{id}} {
+	position: relative;
+}
+
+.widget-basebutton_remote_hor-{{id}} .title {
+	position: absolute;
+	right: 3px;
+	top: 5px;
+	width: 60%;
+}
+
+.widget-basebutton_remote_hor-{{id}} .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-basebutton_remote_hor-{{id}} .state_text {
+	position: absolute;
+	right 3px;
+	bottom: -3px;
+	width: 60%;
+}
+
+.widget-basebutton_remote_hor-{{id}} .icon {
+	position: absolute;
+	top: 8px;
+	width: 50%;
+}
+
+.widget-basebutton_remote_hor-{{id}} .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+

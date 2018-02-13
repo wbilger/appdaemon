@@ -1,0 +1,99 @@
+front_entrance_way:
+    widget_type: switch
+    entity: group.entrance_way_lights
+    title: Front Entrance Lights
+    icon_off: mdi-lightbulb
+    icon_on: mdi-lightbulb-on
+front_porch:
+    widget_type: switch
+    entity: light.front_porch_light
+    title: Front Porch
+    icon_off: mdi-lightbulb-outline
+    icon_on: mdi-lightbulb-on-outline
+front_entrance:
+    widget_type: switch
+    entity: light.entrance_light
+    title: Entrance Way
+    icon_off: mdi-ceiling-light
+    icon_on: mdi-ceiling-light
+#    icon_style_active: "color: yellow"
+#    icon_style_inactive: "color: gray"
+front_window:
+    widget_type: light_with_brightness
+    entity: light.front_window
+    title: Front Window
+    icon_off: mdi-lightbulb-outline
+    icon_on: mdi-lightbulb-on-outline
+    slider_style: "color: green"
+kitchen_island:
+    widget_type: group
+    entity: group.kitchen_island_lights
+    title: Kitchen Island
+    icon_off: mdi-lightbulb
+    icon_on: mdi-lightbulb-on
+    monitored_entity: light.kitchen_island_2
+kitchen_island_night:
+    widget_type: script
+    entity: script.kitchen_island_lights_night
+    title: Island Dim
+    icon_off: mdi-weather-night
+    icon_on: mdi-weather-night
+kitchen_island_max:
+    widget_type: script
+    entity: script.kitchen_island_lights_bright
+    title: Island Bright
+    icon_off: mdi-lightbulb-on
+    icon_on: mdi-lightbulb-on
+    
+jenn_bedroom:
+    widget_type: light_with_brightness
+    entity: light.jenn_bedroom
+    title: Jenn Bedroom
+    icon_off: mdi-lightbulb-outline
+    icon_on: mdi-lightbulb-on-outline
+    # on_attributes:
+    #   brightness: 120
+theatre:
+    widget_type: group
+    entity: group.theatre_lights
+    title: Theatre Lights
+    icon_off: mdi-spotlight-beam
+    icon_on: mdi-spotlight-beam
+    monitored_entity: light.theatre_rr
+theatre_dim:
+    widget_type: script
+    entity: script.theatre_lights_dim
+    title: Theatre Dim
+    icon_off: mdi-weather-night
+    icon_on: mdi-weather-night
+theatre_max:
+    widget_type: script
+    entity: script.theatre_lights_bright
+    title: Theatre Bright
+    icon_off: mdi-lightbulb-on
+    icon_on: mdi-lightbulb-on
+theatre_bar:
+    widget_type: switch
+    entity: light.bar_light
+    title: Theatre Bar Light
+    icon_off: mdi-lightbulb-outline
+    icon_on: mdi-lightbulb-on-outline
+
+familyroom_lights:
+    widget_type: switch
+    entity: group.familyroom_lights
+    title: Family Room Lights
+    icon_off: mdi-lightbulb
+    icon_on: mdi-lightbulb-on
+desk_lamp:
+    widget_type: switch
+    entity: light.desk_lamp
+    title: Desk Lamp
+    icon_off: mdi-lamp
+    icon_on: mdi-lamp
+couch_light:
+    widget_type: switch
+    entity: light.couch_light
+    title: Couch Light
+    icon_off: mdi-lightbulb-outline
+    icon_on: mdi-lightbulb-on-outline

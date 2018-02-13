@@ -1,0 +1,63 @@
+#
+# Main arguments, all optional
+#
+title: Bedroom
+widget_dimensions: [28, 28]
+widget_size: [4, 4]
+widget_margins: [1, 1]
+columns: 12
+
+layout:
+    - include: widgets_lights
+    - include: widgets_media
+    - include: widgets_scripts-mobile
+    - include: widgets_scenes-mobile
+    - include: widgets_google_home
+    
+    - include: row_top-mobile
+    - jenn_bedroom(6x4),bedtime (6x4)
+    -
+    -
+    -
+    - bedroom_radio_station(12x2)
+    -
+    - bedroom_speaker(8x8),bedroom_radio_station_p1(2x3),bedroom_radio_station_p2(2x3)
+    -
+    -
+    - bedroom_radio_station_p3(2x3),bedroom_radio_station_p4(2x3)
+    -
+    -
+    - kitchen_bedroom_speaker_group(4x2)
+    -
+    - bedroom_plex(6x8), bedroom_chromecast(6x8)
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    - include: row_bottom-mobile
+    
+
+    
+
+
+
+
+label_1:
+    widget_type: label
+label_2:
+    widget_type: label
+label_3:
+    widget_type: label
+label_4:
+    widget_type: label
+label_5:
+    widget_type: label
+label_6:
+    widget_type: label
+label_7:
+    widget_type: label
+

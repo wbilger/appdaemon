@@ -1,0 +1,48 @@
+layout: 
+    - load_main_panel(4x3),load_familyroom_panel(4x3),load_theatre_panel(4x3),load_bedroom_panel(4x3),load_weather(4x3),load_sensors_panel(4x3),load_settings(4x3),reload(4x3)
+
+load_main_panel:
+    widget_type: navigate
+    title: Home
+    icon_inactive: fa-home
+    dashboard: Home
+
+load_bedroom_panel:
+    widget_type: navigate
+    title: Bedroom
+    icon_inactive: fa-bed
+    dashboard: Panel_Bedroom
+
+load_familyroom_panel:
+    widget_type: navigate
+    title: Family Room
+    icon_inactive: mdi-windows
+    dashboard: Panel_FamilyRoom
+
+load_theatre_panel:
+    widget_type: navigate
+    title: Theatre
+    icon_inactive: mdi-theater
+    dashboard: Panel_Theatre
+
+load_sensors_panel:
+    widget_type: navigate
+    title: Sensors
+    icon_inactive: mdi-gauge
+    dashboard: Panel_Sensors
+
+load_weather:
+    widget_type: navigate
+    title: Weather
+    icon_inactive: mdi-weather-lightning-rainy
+    dashboard: Panel_Weather
+
+load_settings:
+    widget_type: navigate
+    title: Settings
+    icon_inactive: mdi-settings
+    dashboard: Panel_Settings
+
+reload:
+    widget_type: reload
+    title: Reload

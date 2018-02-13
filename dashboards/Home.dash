@@ -1,0 +1,49 @@
+#
+# Main arguments, all optional
+#
+title: Home
+# widget_dimensions: [126, 118]     #for 8 columns
+widget_dimensions: [31, 34]         #for 32 columns
+widget_size: [4, 4]
+widget_margins: [1, 1]
+columns: 32
+
+#use_comma: 1
+#precision: 2
+#use_hass_icon: 1
+
+
+layout:
+    - include: widgets_weather
+    - include: widgets_lights
+    - include: widgets_google_home
+    - include: widgets_scripts
+    - include: widgets_scenes
+    
+    - include: row_top
+    -
+    -
+    - include: row_news
+    -
+    - 
+    - front_porch(2x4),front_entrance_way,front_entrance(2x4),front_window,kitchen_island_night(2x4),kitchen_island,kitchen_island_max(2x4),jenn_bedroom(2x4),kitchen_outside_speakers_group(4x2),kitchen_bedroom_speaker_group(4x2),kitchen_radio_station_p1(2x3)
+    -
+    - kitchen_radio_station(8x2)
+    - kitchen_radio_station_p2(2x3)
+    - desk_lamp(2x4),familyroom_lights,couch_light(2x4),spacer(1x8),label_scenes_top(12x1),spacer(1x8),kitchen_speaker(8x8)
+    - familyroom_plex_time(4x3),familyroom_bell_time(4x3),familyroom_off(4x3),spacer(1x6)
+    - kitchen_radio_station_p3(2x3)
+    -
+    - theatre,theatre_bar,theatre_movie_time(4x3),theatre_off(4x3),bedtime(4x3)
+    - kitchen_radio_station_p4(2x3)
+    - 
+    - label_scenes_bottom(12x1)
+    -
+    - include: row_bottom
+    
+label_scenes_top:
+    widget_type: label
+    widget_style: "background: gray"
+label_scenes_bottom:
+    widget_type: label
+    widget_style: "background: gray"

@@ -1,0 +1,77 @@
+## IR PC keypresses
+ir_pc_direction_up:
+    widget_type: button_remote
+    entity: switch.ir_pc_direction_up
+    icon_off: fa-arrow-up
+    icon_on: fa-arrow-up
+ir_pc_direction_down:
+    widget_type: button_remote
+    entity: switch.ir_pc_direction_down
+    icon_off: fa-arrow-down
+    icon_on: fa-arrow-down
+ir_pc_direction_left:
+    widget_type: button_remote
+    entity: switch.ir_pc_direction_left
+    icon_off: fa-arrow-left
+    icon_on: fa-arrow-left
+ir_pc_direction_right:
+    widget_type: button_remote
+    entity: switch.ir_pc_direction_right
+    icon_off: fa-arrow-right
+    icon_on: fa-arrow-right
+ir_pc_page_up:
+    widget_type: button_remote_small
+    entity: switch.ir_pc_pageup
+    icon_off: fa-angle-double-up
+    icon_on: fa-angle-double-up
+ir_pc_page_down:
+    widget_type: button_remote_small
+    entity: switch.ir_pc_pagedown
+    icon_off: fa-angle-double-down
+    icon_on: fa-angle-double-down
+ir_pc_home:
+    widget_type: button_remote_small
+    entity: switch.ir_pc_home
+    icon_off: mdi-format-vertical-align-top
+    icon_on: mdi-format-vertical-align-top
+ir_pc_end:
+    widget_type: button_remote_small
+    entity: switch.ir_pc_end
+    icon_off: mdi-format-vertical-align-bottom
+    icon_on: mdi-format-vertical-align-bottom
+ir_pc_mouse_up:
+    widget_type: button_remote
+    entity: switch.ir_pc_mouse_up
+    icon_off: fa-arrow-up
+    icon_on: fa-arrow-up
+ir_pc_mouse_down:
+    widget_type: button_remote
+    entity: switch.ir_pc_mouse_down
+    icon_off: fa-arrow-down
+    icon_on: fa-arrow-down
+ir_pc_mouse_left:
+    widget_type: button_remote
+    entity: switch.ir_pc_mouse_left
+    icon_off: fa-arrow-left
+    icon_on: fa-arrow-left
+ir_pc_mouse_right:
+    widget_type: button_remote
+    entity: switch.ir_pc_mouse_right
+    icon_off: fa-arrow-right
+    icon_on: fa-arrow-right
+ir_pc_mouse_click:
+    widget_type: button_remote
+    entity: switch.ir_pc_mouse_click
+    icon_off: fa-arrow-right
+    icon_on: fa-arrow-right
+    
+# ir_pc_enter:
+#     widget_type: button_remote
+#     entity: switch.ir_pc_enter
+#     icon_off: fa-circle
+#     icon_on: fa-circle
+# ir_pc_escape:
+#     widget_type: button_remote
+#     entity: switch.ir_pc_escape
+#     icon_off: mdi-keyboard-backspace
+#     icon_on: mdi-keyboard-backspace

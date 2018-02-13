@@ -1,0 +1,38 @@
+title: Webcams
+widget_dimensions: [28, 28]
+widget_size: [4, 4]
+widget_margins: [1, 1]
+columns: 12
+
+ha_frame:
+    widget_type: iframe
+    title: Bilger Cameras
+    #refresh: 60
+    url_list: 
+      - https://bilger.duckdns.org:8123/states/group.view_webcams
+
+layout:
+    - ha_frame(12x22)
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    - 
+    -
+    -
+    -
+    - 
+    -
+    -
+    -    
+    -
+    -
+    -
+    -
+    - 
+    -
+    -
+    - include: row_bottom-mobile

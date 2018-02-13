@@ -1,0 +1,73 @@
+#
+# Main arguments, all optional
+#
+title: Weather
+widget_dimensions: [28, 28]
+widget_size: [4, 4]
+widget_margins: [1, 1]
+columns: 12
+
+layout:
+    - include: widgets_weather
+    
+    - include: row_top-mobile
+    - summary(4x2),hourly_summary(8x2)
+    -
+    - minutely_summary(4x2),daily_summary(8x2)
+    -
+    - weather_frame(12x9)
+    -
+    -
+    -
+    -
+    - 
+    -
+    -
+    -
+    - visibility(4x2),storm_distance(4x2),storm_direction(4x2)
+    -
+    - humidity(4x2),wind_speed(4x2),wind_direction(4x2)
+    -
+    -
+    - include: row_bottom-mobile
+
+summary:
+    widget_type: sensor_small
+    entity: sensor.dark_sky_summary
+    title: Current
+hourly_summary:
+    widget_type: sensor_small
+    entity: sensor.dark_sky_hourly_summary
+    title: Short Term Forecast
+minutely_summary:
+    widget_type: sensor_small
+    entity: sensor.dark_sky_minutely_summary
+    title: Upcoming
+daily_summary:
+    widget_type: sensor_small
+    entity: sensor.dark_sky_daily_summary
+    title: Long Term Forecast
+visibility:
+    widget_type: sensor_small
+    entity: sensor.dark_sky_visibility    
+    title: Visibility
+storm_distance:
+    widget_type: sensor_small
+    entity: sensor.dark_sky_nearest_storm_distance
+    title: Nearest Storm
+storm_direction:
+    widget_type: sensor_small
+    entity: sensor.dark_sky_nearest_storm_bearing
+    title: Direction
+humidity:
+    widget_type: sensor_small
+    entity: sensor.dark_sky_humidity
+    title: Humidity
+wind_speed:
+    widget_type: sensor_small
+    entity: sensor.dark_sky_humidity
+    title: Wind Speed
+wind_direction:
+    widget_type: sensor_small
+    entity: sensor.dark_sky_wind_bearing
+    title: Wind Direction

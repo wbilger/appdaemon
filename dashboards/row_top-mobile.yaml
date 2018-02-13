@@ -1,0 +1,17 @@
+layout:
+    - rss_weather(12x1)
+    - weather(12x3)
+    -
+    -
+
+rss_weather:
+    widget_type: rss
+    entity: rss_weather_alerts
+    widget_style: "font-size: 75%;"
+    interval: 30
+
+weather:
+    widget_type: weather #_noicon
+    units: "&deg;C"
+    widget_style: "font-size: 75%;"
+

@@ -1,0 +1,61 @@
+ikea_dimmer_kitchen_island:
+    widget_type: sensor
+    entity: sensor.kitchen_island_dimmer
+    title: Kitchen Island
+
+ikea_dimmer_jenn:
+    widget_type: sensor
+    entity: sensor.jenn_bedroom_dimmer
+    title: Jenn
+
+ikea_dimmer_theatre:
+    widget_type: sensor
+    entity: sensor.theatre_dimmer
+    title: Theatre
+
+wallpanel_kitchen_battery:
+    widget_type: sensor
+    entity: sensor.wallpanel_kitchen_battery_level
+    title: Battery Level
+
+wallpanel_kitchen_motion:
+    widget_type: sensor
+    entity: binary_sensor.wall_panel_kitchen_motion
+    title: Motion
+#used for iconsensor    state_icons:
+#      off: mdi-home
+#      on: mdi-eye
+
+wallpanel_kitchen_url:
+    widget_type: sensor
+    entity: sensor.wallpanel_kitchen_url
+    title: Current URL
+wallpanel_kitchen_screen_on:
+    widget_type: sensor
+    entity: sensor.wallpanel_kitchen_screen_on
+    title: Screen On
+
+wallpanel_kitchen_relaunch:
+    widget_type: button_remote
+    entity: switch.wallpanel_kitchen_relaunch
+    title: Relaunch
+    icon_off: mdi-reload
+    icon_on: mdi-reload
+wallpanel_kitchen_reload:
+    widget_type: button_remote
+    entity: switch.wallpanel_kitchen_reload
+    title: Reload
+    icon_off: fa-refresh
+    icon_on: fa-refresh
+wallpanel_kitchen_clear_cache:
+    widget_type: button_remote
+    entity: switch.wallpanel_kitchen_clear_cache
+    title: Clear Cache
+    icon_off: fa-trash-o
+    icon_on: fa-trash-o
+wallpanel_kitchen_home:
+    widget_type: button_remote
+    entity: switch.wallpanel_kitchen_home
+    title: Home
+    icon_off: mdi-home
+    icon_on: mdi-home

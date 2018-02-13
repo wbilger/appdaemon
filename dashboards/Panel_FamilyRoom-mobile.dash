@@ -1,0 +1,59 @@
+#
+# Main arguments, all optional
+#
+title: Family Room
+widget_dimensions: [28, 28]
+widget_size: [4, 4]
+widget_margins: [1, 1]
+columns: 12
+
+layout:
+    - include: widgets_lights-mobile
+    - include: widgets_media
+    - include: widgets_scripts-mobile
+    - include: widgets_scenes-mobile
+
+    - include: row_top-mobile
+    - desk_lamp(3x3),familyroom_lights(3x3),couch_light(3x3),monitor_on_off(3x3)
+    -
+    -
+    - familyroom_pc(3x3),familyroom_4ktv(3x3),familyroom_surround_sound(2x3),familyroom_plex_switch(2x3),familyroom_bell_switch(2x3)
+    -
+    -
+    - familyroom_plex_time(3x3),familyroom_bell_time(3x3),familyroom_tv_time(3x3),familyroom_chromecast_time(3x3)
+    -
+    -
+    - remote_plex(3x2),remote_bell(3x2),remote_tv(3x2),familyroom_off(3x2)
+    -
+    - familyroom_plex(6x7),familyroom_chromecast(6x7)
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    - include: row_bottom-mobile
+    
+remote_plex:
+    widget_type: navigate_hor
+    title2: Plex
+    icon_inactive: mdi-remote
+    dashboard: Remote_FR_Plex-mobile
+remote_bell:
+    widget_type: navigate_hor
+    title2: Bell
+    icon_inactive: mdi-remote
+    dashboard: Remote_FR_Bell-mobile
+remote_tv:
+    widget_type: navigate_hor
+    title2: TV
+    icon_inactive: mdi-remote
+    dashboard: Remote_FR_TV-mobile
+familyroom_off:
+    widget_type: button_remote_short
+    entity: script.familyroom_off
+    icon_off: mdi-power
+    icon_on: mdi-power
+    
+    

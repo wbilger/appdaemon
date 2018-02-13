@@ -1,0 +1,465 @@
+## Scenes
+familyroom_plex_time: 
+    widget_type: script_hor
+    entity: script.familyroom_watch_plex
+    title2: Watch Plex
+    icon_off: fa-television
+    icon_on: fa-television
+    dashboard: Remote_FR_Plex-mobile
+familyroom_bell_time: 
+    widget_type: script_hor
+    entity: script.familyroom_watch_bell
+    title2: Watch Bell
+    icon_off: fa-television
+    icon_on: fa-television
+    dashboard: Remote_FR_Bell-mobile
+familyroom_tv_time: 
+    widget_type: script_hor
+    entity: script.familyroom_watch_tv
+    title2: Watch TV
+    icon_off: fa-television
+    icon_on: fa-television
+    dashboard: Remote_FR_TV-mobile
+familyroom_chromecast_time: 
+    widget_type: script_short
+    entity: script.familyroom_watch_chromecast
+    icon_off: mdi-google-chrome
+    icon_on: mdi-google-chrome
+monitor_on_off:
+    widget_type: button_remote_small
+    entity: switch.monitor_on_off
+    icon_off: mdi-laptop-off
+    icon_on: mdi-laptop-off
+    
+## Remote PC keypresses
+direction_up:
+    widget_type: button_remote
+    entity: switch.direction_up
+    icon_off: fa-arrow-up
+    icon_on: fa-arrow-up
+direction_down:
+    widget_type: button_remote
+    entity: switch.direction_down
+    icon_off: fa-arrow-down
+    icon_on: fa-arrow-down
+direction_left:
+    widget_type: button_remote
+    entity: switch.direction_left
+    icon_off: fa-arrow-left
+    icon_on: fa-arrow-left
+direction_right:
+    widget_type: button_remote
+    entity: switch.direction_right
+    icon_off: fa-arrow-right
+    icon_on: fa-arrow-right
+mouse_up:
+    widget_type: button_remote_short
+    entity: switch.mouse_up
+    icon_off: fa-angle-up
+    icon_on: fa-angle-up
+mouse_down:
+    widget_type: button_remote_short
+    entity: switch.mouse_down
+    icon_off: fa-angle-down
+    icon_on: fa-angle-down
+mouse_left:
+    widget_type: button_remote
+    entity: switch.mouse_left
+    icon_off: fa-angle-left
+    icon_on: fa-angle-left
+mouse_right:
+    widget_type: button_remote
+    entity: switch.mouse_right
+    icon_off: fa-angle-right
+    icon_on: fa-angle-right
+mouse_up_move:
+    widget_type: button_remote_short
+    entity: switch.mouse_up_move
+    icon_off: fa-angle-double-up
+    icon_on: fa-angle-double-up
+mouse_down_move:
+    widget_type: button_remote_short
+    entity: switch.mouse_down_move
+    icon_off: fa-angle-double-down
+    icon_on: fa-angle-double-down
+mouse_left_move:
+    widget_type: button_remote
+    entity: switch.mouse_left_move
+    icon_off: fa-angle-double-left
+    icon_on: fa-angle-double-left
+mouse_right_move:
+    widget_type: button_remote
+    entity: switch.mouse_right_move
+    icon_off: fa-angle-double-right
+    icon_on: fa-angle-double-right
+mouse_click:
+    widget_type: button_remote
+    entity: switch.mouse_click
+    icon_off: fa-circle
+    icon_on: fa-circle
+mouse_scroll_up:
+    widget_type: button_remote_small
+    entity: switch.mouse_scroll_up
+    icon_off: fa-angle-double-up
+    icon_on: fa-angle-double-up
+mouse_scroll_down:
+    widget_type: button_remote_small
+    entity: switch.mouse_scroll_down
+    icon_off: fa-angle-double-down
+    icon_on: fa-angle-double-down
+mouse_scroll_up_page:
+    widget_type: button_remote_small
+    entity: switch.mouse_scroll_up_page
+    icon_off: mdi-format-vertical-align-top
+    icon_on: mdi-format-vertical-align-top
+mouse_scroll_down_page:
+    widget_type: button_remote_small
+    entity: switch.mouse_scroll_down_page
+    icon_off: mdi-format-vertical-align-bottom
+    icon_on: mdi-format-vertical-align-bottom
+enter:
+    widget_type: button_remote
+    entity: switch.enter
+    icon_off: fa-circle
+    icon_on: fa-circle
+escape:
+    widget_type: button_remote
+    entity: switch.escape
+    icon_off: mdi-keyboard-backspace
+    icon_on: mdi-keyboard-backspace
+page_up:
+    widget_type: button_remote_small
+    entity: switch.page_up
+    icon_off: fa-angle-double-up
+    icon_on: fa-angle-double-up
+page_down:
+    widget_type: button_remote_small
+    entity: switch.page_down
+    icon_off: fa-angle-double-down
+    icon_on: fa-angle-double-down
+top:
+    widget_type: button_remote_small
+    entity: switch.home
+    icon_off: mdi-format-vertical-align-top
+    icon_on: mdi-format-vertical-align-top
+bottom:
+    widget_type: button_remote_small
+    entity: switch.end
+    icon_off: mdi-format-vertical-align-bottom
+    icon_on: mdi-format-vertical-align-bottom
+
+## Remote PC keypresses for PLEX Home Theatre
+plex_active:
+    widget_type: button_remote_small
+    entity: switch.plex_active
+    icon_off: mdi-plex
+    icon_on: mdi-plex
+plex_home:
+    widget_type: button_remote_small
+    entity: switch.plex_home
+    icon_off: fa-home
+    icon_on: fa-home
+plex_home_back:
+    widget_type: button_remote_small
+    entity: switch.plex_home_back
+    icon_off: mdi-replay
+    icon_on: mdi-replay
+plex_info:
+    widget_type: button_remote
+    entity: switch.plex_info
+    icon_off: mdi-information-variant
+    icon_on: mdi-information-variant
+plex_play:
+    widget_type: button_remote_small
+    entity: switch.plex_play
+    icon_off: fa-play
+    icon_on: fa-play
+plex_stop:
+    widget_type: button_remote_small
+    entity: switch.plex_stop
+    icon_off: fa-stop
+    icon_on: fa-stop
+plex_pause:
+    widget_type: button_remote_small
+    entity: switch.plex_pause
+    icon_off: fa-pause
+    icon_on: fa-pause
+plex_fastforward:
+    widget_type: button_remote_small
+    entity: switch.plex_fastforward
+    icon_off: mdi-fast-forward
+    icon_on: mdi-fast-forward
+plex_rewind:
+    widget_type: button_remote_small
+    entity: switch.plex_rewind
+    icon_off: mdi-rewind
+    icon_on: mdi-rewind
+plex_menu:
+    widget_type: button_remote_small
+    entity: switch.plex_menu
+    icon_off: mdi-menu-down
+    icon_on: mdi-menu-down
+plex_context_menu:
+    widget_type: button_remote_small
+    entity: switch.plex_context_menu
+    icon_off: mdi-menu
+    icon_on: mdi-menu
+plex_subtitles:
+    widget_type: button_remote_small
+    entity: switch.plex_subtitles
+    icon_off: fa-strikethrough
+    icon_on: fa-strikethrough
+plex_subtitles_next:
+    widget_type: button_remote_small
+    entity: switch.plex_subtitles_next
+    icon_off: mdi-format-strikethrough
+    icon_on: mdi-format-strikethrough
+
+## Remote PC keypresses for Bell Stream TV
+bell_guide:
+    widget_type: button_remote
+    entity: switch.bell_channel0
+    icon_off: mdi-menu
+    icon_on: mdi-menu
+bell_play:
+    widget_type: button_remote_small
+    entity: switch.bell_command1
+    icon_off: fa-play
+    icon_on: fa-play
+bell_esc:
+    widget_type: button_remote_small
+    entity: switch.bell_command2
+    icon_off: mdi-close-circle
+    icon_on: mdi-close-circle!
+bell_move_tv:
+    widget_type: button_remote_small
+    entity: switch.bell_command8
+    icon_off: fa-television
+    icon_on: fa-television
+bell_move_pc:
+    widget_type: button_remote_small
+    entity: switch.bell_command9
+    icon_off: fa-desktop
+    icon_on: fa-desktop
+bell_fullscreen:
+    widget_type: button_remote_small
+    entity: switch.bell_command3
+    icon_off: mdi-fullscreen
+    icon_on: mdi-fullscreen
+bell_channel_up:
+    widget_type: button_remote_hor
+    entity: switch.bell_command6
+    title2: CH
+    icon_off: mdi-menu-up
+    icon_on: mdi-menu-up
+bell_channel_down:
+    widget_type: button_remote_hor
+    entity: switch.bell_command7
+    title2: CH
+    icon_off: mdi-menu-down
+    icon_on: mdi-menu-down
+bell_channel_last:
+    widget_type: button_remote
+    entity: switch.bell_command5
+    title2: Last
+    icon_off: mdi-backup-restore
+    icon_on: mdi-backup-restore
+bell_sno:
+    widget_type: button_remote_small
+    entity: switch.bell_channel1
+    title2: SNO
+bell_sn1:
+    widget_type: button_remote_small
+    entity: switch.bell_channel2
+    title2: SN1
+bell_tsn1:
+    widget_type: button_remote_small
+    entity: switch.bell_channel3
+    title2: TSN1
+bell_tsn4:
+    widget_type: button_remote_small
+    entity: switch.bell_channel4
+    title2: TSN4
+bell_leafs:
+    widget_type: button_remote_small
+    entity: switch.bell_channel5
+    title2: Leafs
+bell_hgtv:
+    widget_type: button_remote_small
+    entity: switch.bell_channel6
+    title2: HGTV
+bell_diy:
+    widget_type: button_remote_small
+    entity: switch.bell_channel7
+    title2: DIY
+bell_discovery:
+    widget_type: button_remote_small
+    entity: switch.bell_channel8
+    title2: DISC
+bell_weather:
+    widget_type: button_remote_small
+    entity: switch.bell_channel9
+    icon_off: mdi-weather_cloudy
+    icon_on: mdi-weather_cloudy
+
+## Family Room Denon Surround Sound Amp
+volume_up:
+    widget_type: button_remote_small
+    entity: switch.volume_up
+    icon_off: mdi-volume-plus
+    icon_on: mdi-volume-plus
+volume_down:
+    widget_type: button_remote_small
+    entity: switch.volume_down
+    icon_off: mdi-volume-minus
+    icon_on: mdi-volume-minus
+input_plex:
+    widget_type: switch_hor
+    entity: script.family_room_plex
+    title2: Plex
+    icon_off: mdi-plex
+    icon_on: mdi-plex
+input_chromecast:
+    widget_type: switch_hor
+    entity: script.family_room_chromecast
+    title: Chrome
+    title2: Cast
+    icon_off: mdi-google-chrome
+    icon_on: mdi-google-chrome
+input_bell:
+    widget_type: switch_hor
+    entity: script.family_room_bell
+    title2: Bell TV
+    icon_off: mdi-television
+    icon_on: mdi-television
+input_tv:
+    widget_type: switch_hor
+    entity: script.family_room_tv
+    title2: TV
+    icon_off: mdi-television-classic
+    icon_on: mdi-television-classic
+
+## Family Room TV remote keypresses
+ir_tv_up:
+    widget_type: button_remote
+    entity: switch.ir_tv_up
+    icon_off: fa-arrow-up
+    icon_on: fa-arrow-up
+ir_tv_down:
+    widget_type: button_remote
+    entity: switch.ir_tv_down
+    icon_off: fa-arrow-down
+    icon_on: fa-arrow-down
+ir_tv_left:
+    widget_type: button_remote
+    entity: switch.ir_tv_left
+    icon_off: fa-arrow-left
+    icon_on: fa-arrow-left
+ir_tv_right:
+    widget_type: button_remote
+    entity: switch.ir_tv_right
+    icon_off: fa-arrow-right
+    icon_on: fa-arrow-right
+ir_tv_back:
+    widget_type: button_remote_short
+    entity: switch.ir_tv_back
+    icon_off: mdi-keyboard-backspace
+    icon_on: mdi-keyboard-backspace
+ir_tv_exit:
+    widget_type: button_remote_short
+    entity: switch.ir_tv_exit
+    icon_off: mdi-exit-to-app
+    icon_on: mdi-exit-to-app
+ir_tv_channel_up:
+    widget_type: button_remote_hor
+    entity: switch.ir_tv_channel_up
+    title2: CH
+    icon_off: mdi-menu-up
+    icon_on: mdi-menu-up
+ir_tv_channel_down:
+    widget_type: button_remote_hor
+    entity: switch.ir_tv_channel_down
+    title2: CH
+    icon_off: mdi-menu-down
+    icon_on: mdi-menu-down
+ir_tv_volume_up:
+    widget_type: button_remote_small
+    entity: switch.ir_tv_volume_up
+    icon_off: mdi-volume-plus
+    icon_on: mdi-volume-plus
+ir_tv_volume_down:
+    widget_type: button_remote_small
+    entity: switch.ir_tv_volume_down
+    icon_off: mdi-volume-minus
+    icon_on: mdi-volume-minus
+ir_tv_mute:
+    widget_type: button_remote_small
+    entity: switch.ir_tv_mute
+    icon_off: mdi-volume-mute
+    icon_on: mdi-volume-mute
+ir_tv_play:
+    widget_type: button_remote_small
+    entity: switch.ir_tv_play
+    icon_off: fa-play
+    icon_on: fa-play
+ir_tv_stop:
+    widget_type: button_remote_small
+    entity: switch.ir_tv_stop
+    icon_off: fa-stop
+    icon_on: fa-stop
+ir_tv_pause:
+    widget_type: button_remote_small
+    entity: switch.ir_tv_pause
+    icon_off: fa-pause
+    icon_on: fa-pause
+ir_tv_fastforward:
+    widget_type: button_remote_small
+    entity: switch.ir_tv_fastforward
+    icon_off: mdi-fast-forward
+    icon_on: mdi-fast-forward
+ir_tv_rewind:
+    widget_type: button_remote_small
+    entity: switch.ir_tv_rewind
+    icon_off: mdi-rewind
+    icon_on: mdi-rewind
+ir_tv_input:
+    widget_type: button_remote_short
+    entity: switch.ir_tv_input
+    title2: Input
+ir_tv_settings:
+    widget_type: button_remote_small
+    entity: switch.ir_tv_settings
+    icon_off: mdi-settings  
+    icon_on: mdi-settings
+ir_tv_home:
+    widget_type: button_remote_small
+    entity: switch.ir_tv_home
+    icon_off: fa-home
+    icon_on: fa-home
+ir_tv_apps:
+    widget_type: button_remote_small
+    entity: switch.ir_tv_apps
+    icon_off: mdi-apps
+    icon_on: mdi-apps
+ir_tv_netflix:
+    widget_type: button_remote_small
+    entity: script.tv_netflix
+    icon_off: mdi-netflix
+    icon_on: mdi-netflix
+ir_tv_youtube:
+    widget_type: button_remote_small
+    entity: script.tv_youtube
+    icon_off: mdi-youtube-play
+    icon_on: mdi-youtube-play
+ir_tv_10:
+    widget_type: script_short
+    entity: script.tv_channel_10
+    title2: CTV
+    icon_off: ""
+    icon_on: ""
+ir_tv_31:
+    widget_type: script_short
+    entity: script.tv_channel_31
+    title2: CITY
+    icon_off: ""
+    icon_on: ""

@@ -1,0 +1,30 @@
+widget_type: basebutton_remote_small
+entity: {{entity}}
+state_active: "on"
+state_inactive: "off"
+enable: 1
+momentary: 1
+post_service_active:
+    service: homeassistant/turn_on
+    entity_id: {{entity}}
+post_service_inactive:
+    service: homeassistant/turn_off
+    entity_id: {{entity}}
+fields:
+  title: {{title}}
+  title2: {{title2}}
+  icon: ""
+  icon_style: ""
+  state_text: ""
+icons:
+  icon_on: ""
+  icon_off: ""
+static_icons: []
+css:
+  icon_style_active: $button_icon_style_active 
+  icon_style_inactive: $button_icon_style_ininactive 
+static_css:
+  title_style: $button_title_style
+  title2_style: $button_title2_style
+  state_text_style: $button_state_text_style
+  widget_style: $button_widget_style

@@ -1,0 +1,36 @@
+#
+# Main arguments, all optional
+#
+title: Home
+widget_dimensions: [28, 28]
+widget_size: [4, 4]
+widget_margins: [1, 1]
+columns: 12
+
+layout:
+    - include: widgets_weather
+    - include: widgets_lights
+    - include: widgets_google_home
+    - include: widgets_scripts
+    
+    - include: row_top-mobile
+    - front_porch(2x4),front_entrance_way,front_entrance(2x4),front_window
+    - 
+    - 
+    - 
+    - kitchen_island_night(2x4),kitchen_island,kitchen_island_max(2x4),jenn_bedroom
+    -
+    -
+    -
+    - kitchen_radio_station(8x2),kitchen_radio_station_p1(2x3),kitchen_radio_station_p2(2x3)
+    -
+    - kitchen_speaker(8x8)
+    - kitchen_radio_station_p3(2x3),kitchen_radio_station_p4(2x3)
+    - 
+    - 
+    - kitchen_outside_speakers_group(4x2)
+    - 
+    - kitchen_bedroom_speaker_group(4x2)
+    -
+    -
+    - include: row_bottom-mobile

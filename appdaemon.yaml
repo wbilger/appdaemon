@@ -1,0 +1,29 @@
+AppDaemon:
+  cert_verify: True
+  disable_apps: 1
+  dash_force_compile: 0
+  logfile: STDOUT
+  errorfile: STDERR
+  logfile: /home/homeassistant/.appdaemon/appdaemon.log
+  errorfile: /home/homeassistant/.appdaemon/appdaemonerr.log
+  threads: 10
+  api_ssl_certificate: !secret ssl_certificate
+  api_ssl_key: !secret ssl_key
+  rss_feeds:
+    - feed: https://weather.gc.ca/rss/warning/on-137_e.xml
+      target: rss_weather_alerts
+    - feed: https://london.ctvnews.ca/rss/ctv-news-london-1.1073369
+      target: rss_ctv
+    - feed: http://www.lfpress.com/rss.xml
+      target: rss_lfpress
+    - feed: http://www.lfpress.com/sports/rss.xml
+      target: rss_lfpress_sports
+  rss_update: 180
+  
+HASS:
+  ha_url: !secret ha_url
+HADashboard:
+  dash_url: !secret dash_url
+  dash_dir: /home/homeassistant/.appdaemon/dashboards
+  dash_ssl_certificate: !secret ssl_certificate
+  dash_ssl_key: !secret ssl_key

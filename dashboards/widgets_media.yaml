@@ -1,0 +1,58 @@
+plex_wayneserver:
+    widget_type: media_player
+    entity: media_player.plex_wayneserver
+    title: Wayne Server Plex
+
+familyroom_plex:
+    widget_type: media_player
+    entity: media_player.plex_family_room
+    title: Family Room Plex
+    widget_style: "background: orange"
+    
+familyroom_chromecast:
+    widget_type: media_player
+    entity: media_player.family_room_tv
+    title: Family Room Chromecast
+    widget_style: "background: green"
+
+diningroom_roku:
+    widget_type: media_player
+    entity: media_player.dining_room
+    title: Dining Room Roku
+    widget_style: "background: purple"
+
+diningroom_chromecast:
+    widget_type: media_player
+    entity: media_player.family_room_tv
+    title: Dining Room Chromecast
+    widget_style: "background: green"
+
+theatre_plex:
+    widget_type: media_player
+    entity: media_player.plex_theatre
+    title: Theatre Plex
+    widget_style: "background: orange"
+
+theatre_roku:
+    widget_type: media_player
+    entity: media_player.theatre
+    title: Theatre Roku
+    widget_style: "background: purple"
+    
+theatre_chromecast:
+    widget_type: media_player
+    entity: media_player.theatre_tv
+    title: Theatre Chromecast
+    widget_style: "background: green"
+    
+bedroom_plex:
+    widget_type: media_player
+    entity: media_player.plex_bedroom
+    title: Bedroom Plex
+    widget_style: "background: orange"
+    
+bedroom_chromecast:
+    widget_type: media_player
+    entity: media_player.bedroom_tv
+    title: Bedroom Chromecast
+    widget_style: "background: green"

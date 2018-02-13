@@ -1,0 +1,30 @@
+layout: 
+    - watch_plex_nav_remote(3x2),watch_bell_nav_remote(3x2),watch_tv_nav_remote(3x2),familyroom_off(3x2)
+    -
+    
+watch_plex_nav_remote:
+    widget_type: script_hor
+    entity: script.familyroom_watch_plex
+    title2: Plex
+    icon_off: mdi-remote
+    icon_on: mdi-remote
+    dashboard: Remote_FR_Plex-mobile
+watch_bell_nav_remote:
+    widget_type: script_hor
+    entity: script.familyroom_watch_bell
+    title2: Bell
+    icon_off: mdi-remote
+    icon_on: mdi-remote
+    dashboard: Remote_FR_Bell-mobile
+watch_tv_nav_remote:
+    widget_type: script_hor
+    entity: script.familyroom_watch_tv
+    title2: TV
+    icon_off: mdi-remote
+    icon_on: mdi-remote
+    dashboard: Remote_FR_TV-mobile
+familyroom_off:
+    widget_type: button_remote_short
+    entity: script.familyroom_off
+    icon_off: mdi-power
+    icon_on: mdi-power

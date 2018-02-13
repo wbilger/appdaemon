@@ -1,0 +1,1804 @@
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #222;
+  font-size: 15px;
+  color: #fff;
+  padding: 0;
+  line-height: 1;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Open Sans', 'Arial'
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+img, object {
+  max-width: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;}
+
+iframe {
+  max-width: 100%;
+}
+  
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+td {
+  vertical-align: middle;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, p {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  margin-bottom: 6px;
+  text-align: center;
+  font-size: 100%;
+  font-weight: 200;
+}
+h2 {
+  font-size: 300%;
+  font-weight: 400;
+  color: #fff;
+}
+h3 {
+  font-size: 125%;
+  font-weight: 300;
+  color: #fff;
+}
+
+input {
+  background-color: #444;
+  border: none;
+}
+
+.dashboard_main {
+	margin: 0px auto;
+}
+
+.gridster {
+  margin: 0px auto;
+}
+
+.icon-background {
+  pointer-events: none;
+  width: 100%!important;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.1;
+  font-size: 1375%;
+  text-align: center;
+  margin-top: 82px;
+}
+
+.list-nostyle {
+  list-style: none;
+}
+
+.gridster ul {
+  list-style: none;
+}
+
+.gs-w {
+  width: 100%;
+  display: table;
+  cursor: pointer;
+  z-index: auto !important;
+}
+
+.iframe {
+  position: relative;
+  overflow: hidden;  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;}
+
+.widget {
+  padding: 0px 0px;
+  text-align: center;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #444444;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;}
+
+.title {
+  color: #fff;
+}
+
+.icon-inactive {
+  color: #888;
+}
+
+.icon-active {
+  color: #aaff00;
+}
+
+
+#container {
+  padding-top: 0px;
+}
+
+.modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 9999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialogOpen {
+	opacity:0.95;
+	pointer-events: auto;
+}
+
+.modalDialogClose {
+	opacity:0;
+	pointer-events: none;
+}
+
+.modalDialog > div {
+	width: 275px;
+	position: relative;
+	margin: 3% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+}
+
+.modalDialogCloseButton {
+	line-height: 50px;
+	position: absolute;
+	right: -25px;
+	text-align: center;
+	top: -20px;
+	width: 50px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+}
+
+.modalDialogCloseButton:hover { background: #444; }
+
+.widget-baseswitch_short-default-desk-lamp {
+	position: relative;
+}
+
+.widget-baseswitch_short-default-desk-lamp .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-desk-lamp .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-desk-lamp .state_text {
+	position: absolute;
+	bottom: -6px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-desk-lamp .icon {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-desk-lamp .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_short-default-familyroom-lights {
+	position: relative;
+}
+
+.widget-baseswitch_short-default-familyroom-lights .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-familyroom-lights .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-familyroom-lights .state_text {
+	position: absolute;
+	bottom: -6px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-familyroom-lights .icon {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-familyroom-lights .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_short-default-couch-light {
+	position: relative;
+}
+
+.widget-baseswitch_short-default-couch-light .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-couch-light .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-couch-light .state_text {
+	position: absolute;
+	bottom: -6px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-couch-light .icon {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-couch-light .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_short-default-kitchen-island-night {
+	position: relative;
+}
+
+.widget-baseswitch_short-default-kitchen-island-night .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-kitchen-island-night .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-kitchen-island-night .state_text {
+	position: absolute;
+	bottom: -6px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-kitchen-island-night .icon {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-kitchen-island-night .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_hor-default-familyroom-plex-time {
+	position: relative;
+}
+
+.widget-baseswitch_hor-default-familyroom-plex-time .title {
+	position: absolute;
+	right: 3px;
+	top: 5px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-familyroom-plex-time .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-familyroom-plex-time .state_text {
+	position: absolute;
+	right 3px;
+	bottom: -3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-familyroom-plex-time .icon {
+	position: absolute;
+	top: 8px;
+	width: 50%;
+}
+
+.widget-baseswitch_hor-default-familyroom-plex-time .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_short-default-familyroom-chromecast-time {
+	position: relative;
+}
+
+.widget-baseswitch_short-default-familyroom-chromecast-time .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-familyroom-chromecast-time .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-familyroom-chromecast-time .state_text {
+	position: absolute;
+	bottom: -6px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-familyroom-chromecast-time .icon {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-familyroom-chromecast-time .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-monitor-on-off {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-monitor-on-off .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-monitor-on-off .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-monitor-on-off .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-monitor-on-off .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-monitor-on-off .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basedisplay-default-label-top .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay-default-label-top .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay-default-label-top .valueunit {
+	position: absolute;
+	top: 43px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-label-top .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-label-top .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-label-top .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-active {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-plex-active .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-active .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-active .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-active .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-active .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-context-menu {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-plex-context-menu .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-context-menu .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-context-menu .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-context-menu .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-context-menu .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote-default-direction-up {
+	position: relative;
+}
+
+.widget-basebutton_remote-default-direction-up .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-direction-up .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-direction-up .icon {
+	position: absolute;
+	top: 27px;
+	font-size: 400%;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-direction-up .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-top {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-top .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-top .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-top .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-top .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-top .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-page-up {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-page-up .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-page-up .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-page-up .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-page-up .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-page-up .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-home {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-plex-home .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-home .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-home .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-home .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-home .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-home-back {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-plex-home-back .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-home-back .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-home-back .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-home-back .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-home-back .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-bottom {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-bottom .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-bottom .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-bottom .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-bottom .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-bottom .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-page-down {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-page-down .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-page-down .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-page-down .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-page-down .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-page-down .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote-default-direction-left {
+	position: relative;
+}
+
+.widget-basebutton_remote-default-direction-left .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-direction-left .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-direction-left .icon {
+	position: absolute;
+	top: 27px;
+	font-size: 400%;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-direction-left .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote-default-enter {
+	position: relative;
+}
+
+.widget-basebutton_remote-default-enter .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-enter .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-enter .icon {
+	position: absolute;
+	top: 27px;
+	font-size: 400%;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-enter .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote-default-direction-right {
+	position: relative;
+}
+
+.widget-basebutton_remote-default-direction-right .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-direction-right .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-direction-right .icon {
+	position: absolute;
+	top: 27px;
+	font-size: 400%;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-direction-right .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote-default-plex-info {
+	position: relative;
+}
+
+.widget-basebutton_remote-default-plex-info .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-plex-info .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-plex-info .icon {
+	position: absolute;
+	top: 27px;
+	font-size: 400%;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-plex-info .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote-default-direction-down {
+	position: relative;
+}
+
+.widget-basebutton_remote-default-direction-down .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-direction-down .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-direction-down .icon {
+	position: absolute;
+	top: 27px;
+	font-size: 400%;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-direction-down .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote-default-escape {
+	position: relative;
+}
+
+.widget-basebutton_remote-default-escape .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-escape .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-escape .icon {
+	position: absolute;
+	top: 27px;
+	font-size: 400%;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-escape .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-stop {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-plex-stop .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-stop .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-stop .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-stop .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-stop .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-play {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-plex-play .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-play .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-play .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-play .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-play .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-pause {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-plex-pause .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-pause .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-pause .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-pause .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-pause .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-rewind {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-plex-rewind .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-rewind .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-rewind .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-rewind .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-rewind .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-fastforward {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-plex-fastforward .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-fastforward .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-fastforward .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-fastforward .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-fastforward .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-menu {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-plex-menu .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-menu .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-menu .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-menu .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-menu .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-subtitles {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-plex-subtitles .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-subtitles .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-subtitles .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-subtitles .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-subtitles .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-subtitles-next {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-plex-subtitles-next .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-subtitles-next .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-subtitles-next .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-subtitles-next .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-plex-subtitles-next .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-down {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-volume-down .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-down .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-down .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-down .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-down .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-up {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-volume-up .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-up .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-up .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-up .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-up .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_hor-default-watch-plex-nav-remote {
+	position: relative;
+}
+
+.widget-baseswitch_hor-default-watch-plex-nav-remote .title {
+	position: absolute;
+	right: 3px;
+	top: 5px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-watch-plex-nav-remote .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-watch-plex-nav-remote .state_text {
+	position: absolute;
+	right 3px;
+	bottom: -3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-watch-plex-nav-remote .icon {
+	position: absolute;
+	top: 8px;
+	width: 50%;
+}
+
+.widget-baseswitch_hor-default-watch-plex-nav-remote .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_hor-default-watch-bell-nav-remote {
+	position: relative;
+}
+
+.widget-baseswitch_hor-default-watch-bell-nav-remote .title {
+	position: absolute;
+	right: 3px;
+	top: 5px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-watch-bell-nav-remote .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-watch-bell-nav-remote .state_text {
+	position: absolute;
+	right 3px;
+	bottom: -3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-watch-bell-nav-remote .icon {
+	position: absolute;
+	top: 8px;
+	width: 50%;
+}
+
+.widget-baseswitch_hor-default-watch-bell-nav-remote .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_hor-default-watch-tv-nav-remote {
+	position: relative;
+}
+
+.widget-baseswitch_hor-default-watch-tv-nav-remote .title {
+	position: absolute;
+	right: 3px;
+	top: 5px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-watch-tv-nav-remote .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-watch-tv-nav-remote .state_text {
+	position: absolute;
+	right 3px;
+	bottom: -3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-watch-tv-nav-remote .icon {
+	position: absolute;
+	top: 8px;
+	width: 50%;
+}
+
+.widget-baseswitch_hor-default-watch-tv-nav-remote .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_short-default-familyroom-off {
+	position: relative;
+}
+
+.widget-basebutton_remote_short-default-familyroom-off .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_short-default-familyroom-off .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_short-default-familyroom-off .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_short-default-familyroom-off .icon {
+	position: absolute;
+	top: 0px;
+	font-size: 400%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_short-default-familyroom-off .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basenavigate-default-load-main-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-main-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-main-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-main-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-familyroom-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-familyroom-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-familyroom-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-familyroom-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-theatre-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-theatre-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-theatre-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-theatre-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-bedroom-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-bedroom-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-bedroom-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-bedroom-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-sensors-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-sensors-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-sensors-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-sensors-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-weather .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-weather .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-weather .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-weather .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-settings .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-settings .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-settings .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-settings .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-reload .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-reload .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-reload .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-reload .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

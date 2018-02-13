@@ -1,0 +1,40 @@
+kitchen_radio_station_preset_1:
+  widget_type: input_select_thin
+  entity: input_select.kitchen_radio_station_p1
+  title: Kitchen Radio Preset 1
+kitchen_radio_station_preset_2:
+  widget_type: input_select_thin
+  entity: input_select.kitchen_radio_station_p2
+  title: Kitchen Radio Preset 2
+kitchen_radio_station_preset_3:
+  widget_type: input_select_thin
+  entity: input_select.kitchen_radio_station_p3
+  title: Kitchen Radio Preset 3
+kitchen_radio_station_preset_4:
+  widget_type: input_select_thin
+  entity: input_select.kitchen_radio_station_p4
+  title: Kitchen Radio Preset 4
+kitchen_radio_station_preset_dog:
+  widget_type: input_select_thin
+  entity: input_select.kitchen_radio_station_pdog
+  title: Dog Work Day Station
+kitchen_radio_volume_dog:
+  widget_type: input_slider_thin
+  entity: input_number.kitchen_speaker_volume_dog
+  title: Dog Work Day Volume
+bedroom_radio_station_preset_1:
+  widget_type: input_select_thin
+  entity: input_select.bedroom_radio_station_p1
+  title: Bedroom Radio Preset 1
+bedroom_radio_station_preset_2:
+  widget_type: input_select_thin
+  entity: input_select.bedroom_radio_station_p2
+  title: Bedroom Radio Preset 2
+bedroom_radio_station_preset_3:
+  widget_type: input_select_thin
+  entity: input_select.bedroom_radio_station_p3
+  title: Bedroom Radio Preset 3
+bedroom_radio_station_preset_4:
+  widget_type: input_select_thin
+  entity: input_select.bedroom_radio_station_p4
+  title: Bedroom Radio Preset 4

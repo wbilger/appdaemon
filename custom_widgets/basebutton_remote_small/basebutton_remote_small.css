@@ -1,0 +1,39 @@
+.widget-basebutton_remote_small-{{id}} {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-{{id}} .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-{{id}} .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-{{id}} .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-{{id}} .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-{{id}} .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+

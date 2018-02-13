@@ -1,0 +1,52 @@
+#
+# Main arguments, all optional
+#
+title: Theatre
+widget_dimensions: [31, 34]
+widget_size: [4, 4]
+widget_margins: [1, 1]
+columns: 32
+
+layout:
+    - include: widgets_media
+    - include: widgets_lights
+    - include: widgets_scripts
+    - include: widgets_scenes
+    
+    - include: row_top
+    - 
+    -
+    - label_1(32x1)
+    - theatre_dim(3x4),theatre(6x4),theatre_max(3x4),spacer(2x4),theatre_projector,theatre_surround_sound,theatre_butt_kickers,spacer(2x4),label_2
+    -
+    -
+    -
+    - label_3(32x1)
+    - theatre_plex(8x8),label_scenes_top(8x1),theatre_roku(8x8),theatre_chromecast(8x8)
+    - theatre_movie_time(4x3),theatre_netflix_time(4x3)
+    - 
+    -
+    - theatre_off(8x3)
+    - 
+    -
+    - label_scenes_bottom(8x1)
+    - label_4(32x1)
+    - 
+    - include: row_bottom
+    
+label_scenes_top:
+    widget_type: label
+    widget_style: "background: gray"
+
+label_scenes_bottom:
+    widget_type: label
+    widget_style: "background: gray"
+    
+label_1:
+    widget_type: label
+label_2:
+    widget_type: label
+label_3:
+    widget_type: label
+label_4:
+    widget_type: label

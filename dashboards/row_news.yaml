@@ -1,0 +1,18 @@
+layout:
+    - rss_news_ctv(12x3), rss_news(10x3), rss_sports(10x3)
+    
+rss_news_ctv:
+    widget_type: rss
+    entity: rss_ctv
+    title: CTV Latest News
+    interval: 20
+rss_news:
+    widget_type: rss
+    entity: rss_lfpress
+    title: London Free Press Headlines
+    interval: 15
+rss_sports:
+    widget_type: rss
+    entity: rss_lfpress_sports
+    title: London Free Press Sports
+    interval: 10

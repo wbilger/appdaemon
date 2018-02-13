@@ -1,0 +1,9 @@
+weather_frame:
+    widget_type: iframe
+    title: Radar
+    refresh: 300
+    frame_style: ""
+    img_list: 
+      - https://radblast.wunderground.com/cgi-bin/radar/WUNIDS_map?station=WSO&brand=wui&num=10&delay=100&type=C0R&frame=0&scale=1.000&noclutter=0&showstorms=5&mapx=400&mapy=240&centerx=400&centery=240&transx=0&transy=0&showlabels=1&severe=0&rainsnow=1&lightning=1&smooth=0&rand=25206986&lat=0&lon=0&label=you
+      #Florida - https://radblast.wunderground.com/cgi-bin/radar/WUNIDS_map?station=MLB&brand=wui&num=1&delay=15&type=N0R&frame=0&scale=1.000&noclutter=0&showstorms=0&mapx=400&mapy=240&centerx=400&centery=240&transx=0&transy=0&showlabels=1&severe=0&rainsnow=1&lightning=1&smooth=0&rand=25253246&lat=0&lon=0&label=you
+      #Demo- https://icons.wxug.com/data/weather-maps/radar/united-states/hartford-connecticut-region-current-radar-animation.gif

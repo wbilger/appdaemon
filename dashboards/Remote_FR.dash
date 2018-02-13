@@ -1,0 +1,97 @@
+#
+# Main arguments, all optional
+#
+title: Family Room Remote
+# widget_dimensions: [126, 118]     #for 8 columns
+widget_dimensions: [31, 31]         #for 32 columns
+widget_size: [4, 4]
+widget_margins: [1, 1]
+columns: 32
+
+layout:
+    - include: widgets_remote-fr
+
+    - label_left(10x24),desk_lamp(3x3),familyroom_lights(3x3),couch_light(3x3),kitchen_island_night(3x3),label_right(10x24)
+    -
+    -
+    - input_plex(4x2),input_chromecast(4x2),input_tv(4x2)
+    -
+    - label_top(12x1)
+    - top(4x2),direction_up,page_up(4x2)
+    - 
+    - bottom(4x2),page_down(4x2)
+    - 
+    - direction_left,enter,direction_right
+    -
+    - 
+    - 
+    - information,direction_down,escape
+    -
+    - 
+    -
+    - stop(2x2),play(2x2),pause(2x2),rewind(3x2),fastforward(3x2)
+    -
+    - home(2x2)
+    -
+    -
+    - include: row_bottom-remote
+    -
+    - include: row_bottom
+    
+label_top:
+    widget_type: label
+    
+    title: Family Room Plex Remote
+    widget_style: "background: orange"
+label_left:
+    widget_type: label
+label_right:
+    widget_type: label
+    
+label_1:
+    widget_type: label
+
+input_plex:
+    widget_type: switch_hor
+    entity: switch.family_room_plex
+    title2: Plex
+    icon_off: mdi-plex
+    icon_on: mdi-plex
+input_chromecast:
+    widget_type: switch_hor
+    entity: switch.family_room_plex
+    title: Chrome
+    title2: Cast
+    icon_off: mdi-google-chrome
+    icon_on: mdi-google-chrome
+input_tv:
+    widget_type: switch_hor
+    entity: switch.family_room_plex
+    title2: TV
+    icon_off: mdi-television-classic
+    icon_on: mdi-television-classic
+    
+kitchen_island_night:
+    widget_type: script_short
+    entity: script.kitchen_island_lights_night
+    title: Island Dim
+    icon_off: mdi-weather-night
+    icon_on: mdi-weather-night
+familyroom_lights:
+    widget_type: switch_short
+    entity: group.familyroom_lights
+    title: All Lights
+    icon_off: mdi-lightbulb
+    icon_on: mdi-lightbulb-on
+desk_lamp:
+    widget_type: switch_short
+    entity: light.desk_lamp
+    title: Desk Lamp
+    icon_off: mdi-lamp
+    icon_on: mdi-lamp
+couch_light:
+    widget_type: switch_short
+    entity: light.couch_light
+    title: Couch Light
+    icon_off: mdi-lightbulb-outline
+    icon_on: mdi-lightbulb-on-outline

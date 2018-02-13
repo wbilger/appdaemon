@@ -1,0 +1,17 @@
+widget_type: baseselect_thin
+entity: {{entity}}
+post_service:
+    service: input_select/select_option
+    entity_id: {{entity}}
+fields:
+  title: {{title}}
+  inputoptions: []
+  selectedoption: ""
+icons: []
+css: []
+static_icons: {}
+static_css:
+  title_style: $input_select_thin_title_style
+  select_style: $input_select_thin_select_style
+  widget_style: $input_select_thin_widget_style
+  selectcontainer_style: $input_select_thin_container_style

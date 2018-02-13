@@ -1,0 +1,63 @@
+bedtime:
+    widget_type: script_short
+    entity: script.bedtime
+    title: Bedtime
+    icon_off: fa-bed
+    icon_on: fa-bed
+
+familyroom_plex_time: 
+    widget_type: script_short
+    entity: script.familyroom_watch_plex
+    title: Watch 
+    title2: Plex
+    icon_off: fa-television
+    icon_on: fa-television
+    dashboard: Remote_FR_Plex-mobile
+familyroom_bell_time: 
+    widget_type: script_short
+    entity: script.familyroom_watch_bell
+    title: Watch
+    title2: Bell
+    icon_off: fa-television
+    icon_on: fa-television
+    dashboard: Remote_FR_Bell-mobile
+familyroom_tv_time: 
+    widget_type: script_short
+    entity: script.familyroom_watch_tv
+    title: Watch
+    title2: TV
+    icon_off: fa-television
+    icon_on: fa-television
+    dashboard: Remote_FR_TV-mobile
+familyroom_chromecast_time: 
+    widget_type: script_short
+    entity: script.familyroom_watch_chromecast
+    title: Chrome
+    title2: Cast
+    icon_off: mdi-google-chrome
+    icon_on: mdi-google-chrome
+
+theatre_movie_time: 
+    widget_type: script_short
+    entity: script.theatre_movie_time
+    title: Theatre
+    title2: Movie Time
+    icon_off: mdi-projector
+    icon_on: mdi-projector
+    
+theatre_netflix_time: 
+    widget_type: script_short
+    entity: script.theatre_netflix_time
+    title: Theatre
+    title2: Watch Netflix
+    icon_off: mdi-netflix
+    icon_on: mdi-netflix
+    
+theatre_off: 
+    widget_type: script_short
+    entity: script.theatre_off
+    title: Theatre
+    title2: Shutdown
+    icon_off: mdi-power
+    icon_on: mdi-power
+    

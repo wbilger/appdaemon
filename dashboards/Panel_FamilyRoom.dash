@@ -1,0 +1,56 @@
+#
+# Main arguments, all optional
+#
+title: Family Room
+widget_dimensions: [31, 34]
+widget_size: [4, 4]
+widget_margins: [1, 1]
+columns: 32
+
+layout:
+    - include: widgets_lights
+    - include: widgets_media
+    - include: widgets_scripts
+    - include: widgets_scenes
+    
+    - include: row_top
+    -
+    -
+    - label_1(32x1)
+    - desk_lamp(3x4),familyroom_lights(6x4),couch_light(3x4),spacer(2x4),familyroom_pc,familyroom_4ktv,familyroom_surround_sound,familyroom_plex_switch(3x4),familyroom_bell_switch(3x4)
+    -
+    -
+    -
+    - label_3(32x1)
+    - label_4(1x8),familyroom_plex(8x8),spacer(2x8),label_scenes_top(10x1),spacer(2x8),familyroom_chromecast(8x8),label_5(1x8)
+    - familyroom_plex_time(5x3),familyroom_bell_time(5x3)
+    - 
+    -
+    - familyroom_off(10x3)
+    - 
+    -
+    - label_scenes_bottom(10x1)
+    - label_6(32x1)
+    - 
+    - include: row_bottom
+    
+label_scenes_top:
+    widget_type: label
+    widget_style: "background: gray"
+
+label_scenes_bottom:
+    widget_type: label
+    widget_style: "background: gray"
+    
+label_1:
+    widget_type: label
+label_2:
+    widget_type: label
+label_3:
+    widget_type: label
+label_4:
+    widget_type: label
+label_5:
+    widget_type: label
+label_6:
+    widget_type: label

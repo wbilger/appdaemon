@@ -1,0 +1,98 @@
+#
+# Main arguments, all optional
+#
+title: Settings
+widget_dimensions: [31, 34]
+widget_size: [4, 4]
+widget_margins: [1, 1]
+columns: 32
+
+#
+# Includes (Optional)
+#
+layout:
+    - include: widgets_settings
+
+    - include: row_top
+    -
+    -
+    - label_top(32x2)
+    -
+    - hass(4x3),hass_camera(4x3),label_1(7x3),kitchen_radio_station_preset_1(8x2),spacer(1x2),bedroom_radio_station_preset_1(8x2)
+    -
+    - kitchen_radio_station_preset_2(8x2),spacer(1x2),bedroom_radio_station_preset_2(8x2)
+    - label_2(15x7)
+    - kitchen_radio_station_preset_3(8x2),spacer(1x2),bedroom_radio_station_preset_3(8x2)
+    -
+    - kitchen_radio_station_preset_4(8x2),spacer(1x2),bedroom_radio_station_preset_4(8x2)
+    -
+    - kitchen_radio_station_preset_dog(8x2),spacer(1x2),kitchen_radio_volume_dog(8x2)
+    -
+    - default(3x3), obsidian(3x3), zen(3x3), glassic(3x3), simplyred(3x3)
+    -
+    -
+    -
+    - include: row_bottom
+
+label_top:
+    widget_type: label
+label_bottom:
+    widget_type: label
+    
+label_1:
+    widget_type: label
+label_11:
+    widget_type: label
+label_2:
+    widget_type: label
+label_3:
+    widget_type: label
+label_4:
+    widget_type: label
+
+hass:
+  widget_type: navigate
+  title: HA Web
+  icon_inactive: mdi-home-assistant
+  dashboard: Panel_Hass
+
+hass_camera:
+  widget_type: navigate
+  title: Cameras
+  icon_inactive: mdi-camera
+  dashboard: Panel_Hass-camera
+    
+default:
+  title: Skin Change
+  title2: Default
+  widget_type: navigate
+  dashboard: Panel_Settings
+  skin: default
+
+obsidian:
+  title: Skin Change
+  title2: Obsidian
+  widget_type: navigate
+  dashboard: Panel_Settings
+  skin: obsidian
+  
+simplyred:
+  title: Skin Change
+  title2: Simply Red
+  widget_type: navigate
+  dashboard: Panel_Settings
+  skin: simplyred
+
+zen:
+  title: Skin Change
+  title2: Zen
+  widget_type: navigate
+  dashboard: Panel_Settings
+  skin: zen
+
+glassic:
+  title: Skin Change
+  title2: Glassic
+  widget_type: navigate
+  dashboard: Panel_Settings
+  skin: glassic

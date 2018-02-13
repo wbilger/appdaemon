@@ -1,0 +1,135 @@
+kitchen_speaker:
+    widget_type: media_player
+    entity: media_player.kitchen_speaker
+    title: Kitchen Google Home
+    widget_style: "background: lightgray"
+    
+kitchen_radio_station:
+    widget_type: input_select_thin
+    entity: input_select.kitchen_radio_station
+    title: Station Select
+    widget_style: "background: darkgray"
+
+kitchen_bedroom_speaker_group:
+    widget_type: switch_hor
+    entity: input_boolean.kitchen_bedroom_speakers_group
+    title: Kitchen & Bedroom
+    widget_style: "background: darkgray"
+    icon_off: mdi-google-chrome
+    icon_on: mdi-google-chrome
+
+kitchen_outside_speakers_group:
+    widget_type: switch_hor
+    entity: input_boolean.kitchen_outside_speakers_group
+    title: Kitchen & Outside
+    widget_style: "background: darkgray"
+    icon_off: mdi-google-chrome
+    icon_on: mdi-google-chrome
+    
+kitchen_radio_station_p1:
+    widget_type: button
+    entity: input_select.kitchen_radio_station_p1
+    title: Preset
+    icon_off: mdi-numeric-1-box
+    icon_on: mdi-numeric-1-box
+    widget_style: "background: darkgray"
+    title_style: $style_inactive
+    button_icon_style_inactive: $style_inactive
+    script: script.kitchen_radio_station_p1   
+    state_text: 1
+
+kitchen_radio_station_p2:
+    widget_type: button
+    entity: input_select.kitchen_radio_station_p2
+    title: Preset
+    icon_off: mdi-numeric-2-box
+    icon_on: mdi-numeric-2-box
+    widget_style: "background: darkgray"
+    title_style: $style_inactive
+    button_icon_style_inactive: $style_inactive
+    script: script.kitchen_radio_station_p2
+    state_text: 1
+
+kitchen_radio_station_p3:
+    widget_type: button
+    entity: input_select.kitchen_radio_station_p3
+    title: Preset
+    icon_off: mdi-numeric-3-box
+    icon_on: mdi-numeric-3-box
+    widget_style: "background: darkgray"
+    title_style: $style_inactive
+    button_icon_style_inactive: $style_inactive
+    script: script.kitchen_radio_station_p3
+    state_text: 1
+
+kitchen_radio_station_p4:
+    widget_type: button
+    entity: input_select.kitchen_radio_station_p4
+    title: Preset
+    icon_off: mdi-numeric-4-box
+    icon_on: mdi-numeric-4-box
+    widget_style: "background: darkgray"
+    title_style: $style_inactive
+    button_icon_style_inactive: $style_inactive
+    script: script.kitchen_radio_station_p4
+    state_text: 1
+
+bedroom_speaker:
+    widget_type: media_player
+    entity: media_player.bedroom_speaker
+    title: Bedroom Google Home Mini
+    widget_style: "background: lightgray"
+
+bedroom_radio_station:
+    widget_type: input_select_thin
+    entity: input_select.bedroom_radio_station
+    title: Station Select
+    widget_style: "background: darkgray"
+
+bedroom_radio_station_p1:
+    widget_type: button
+    entity: input_select.bedroom_radio_station_p1
+    title: Preset
+    icon_off: mdi-numeric-1-box
+    icon_on: mdi-numeric-1-box
+    widget_style: "background: darkgray"
+    title_style: $style_inactive
+    button_icon_style_inactive: $style_inactive
+    script: script.bedroom_radio_station_p1   
+    state_text: 1
+
+bedroom_radio_station_p2:
+    widget_type: button
+    entity: input_select.bedroom_radio_station_p2
+    title: Preset
+    icon_off: mdi-numeric-2-box
+    icon_on: mdi-numeric-2-box
+    widget_style: "background: darkgray"
+    title_style: $style_inactive
+    button_icon_style_inactive: $style_inactive
+    script: script.bedroom_radio_station_p2
+    state_text: 1
+
+bedroom_radio_station_p3:
+    widget_type: button
+    entity: input_select.bedroom_radio_station_p3
+    title: Preset
+    icon_off: mdi-numeric-3-box
+    icon_on: mdi-numeric-3-box
+    widget_style: "background: darkgray"
+    title_style: $style_inactive
+    button_icon_style_inactive: $style_inactive
+    script: script.bedroom_radio_station_p3
+    state_text: 1
+
+bedroom_radio_station_p4:
+    widget_type: button
+    entity: input_select.bedroom_radio_station_p4
+    title: Preset
+    icon_off: mdi-numeric-4-box
+    icon_on: mdi-numeric-4-box
+    widget_style: "background: darkgray"
+    title_style: $style_inactive
+    button_icon_style_inactive: $style_inactive
+    script: script.bedroom_radio_station_p4
+    state_text: 1

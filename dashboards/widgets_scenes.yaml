@@ -1,0 +1,53 @@
+familyroom_pc:
+    widget_type: switch
+    entity: switch.waynepc
+    title: Family Room PC
+    icon_off: fa-desktop
+    icon_on: fa-desktop
+
+familyroom_surround_sound:
+    widget_type: switch
+    entity: switch.surround_sound
+    title: Surround Sound
+    icon_off: mdi-speaker
+    icon_on: mdi-speaker
+
+familyroom_4ktv:
+    widget_type: switch
+    entity: input_boolean.sharp_4k_tv
+    title: Sharp 4k TV
+    icon_off: fa-television
+    icon_on: fa-television
+    
+familyroom_plex_switch:
+    widget_type: switch
+    entity: switch.family_room_plex
+    title: Plex
+    icon_off: mdi-plex
+    icon_on: mdi-plex
+
+familyroom_bell_switch:
+    widget_type: switch
+    entity: switch.family_room_bell
+    title: Bell
+    
+theatre_projector:
+    widget_type: switch
+    entity: switch.projector
+    title: Theatre Projector
+    icon_off: mdi-projector
+    icon_on: mdi-projector
+    
+theatre_surround_sound:
+    widget_type: switch
+    entity: switch.surround_sound_theatre
+    title: Theatre Surround Sound
+    icon_off: mdi-speaker
+    icon_on: mdi-speaker
+    
+theatre_butt_kickers:
+    widget_type: switch
+    entity: switch.butt_kickers
+    title: Butt Kickers
+    icon_off: mdi-speaker-wireless
+    icon_on: mdi-speaker-wireless
