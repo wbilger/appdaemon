@@ -202,14 +202,35 @@ input {
 
 .modalDialogCloseButton:hover { background: #444; }
 
-.widget-baseclock-default-date-time.date {
+.widget-baserss-default-rss-weather .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-baserss-default-rss-weather .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-baserss-default-rss-weather .valueunit {
+	position: absolute;
+	top: 43px;
+	width: 100%;
+}
+
+.widget-baserss-default-rss-weather .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
-.widget-baseclock-default-date-time.time {
- 	position: absolute;
-	top: 45px;
+
+.widget-baserss-default-rss-weather .title2 {
+	position: absolute;
+	top: 23px;
 	width: 100%;
 }
 .widget-baseweather-default-weather {
@@ -285,185 +306,6 @@ input {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-.widget-baserss-default-rss-weather .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-baserss-default-rss-weather .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-baserss-default-rss-weather .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baserss-default-rss-weather .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baserss-default-rss-weather .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-.widget-baseswitch-default-wayne-presence {
-	position: relative;
-}
-
-.widget-baseswitch-default-wayne-presence .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-wayne-presence .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-wayne-presence .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-wayne-presence .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-wayne-presence .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-baseswitch-default-jenn-presence {
-	position: relative;
-}
-
-.widget-baseswitch-default-jenn-presence .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jenn-presence .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jenn-presence .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jenn-presence .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jenn-presence .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-baseswitch-default-kale-presence {
-	position: relative;
-}
-
-.widget-baseswitch-default-kale-presence .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-kale-presence .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-kale-presence .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-kale-presence .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-kale-presence .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-baseswitch-default-jalynne-presence {
-	position: relative;
-}
-
-.widget-baseswitch-default-jalynne-presence .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jalynne-presence .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jalynne-presence .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jalynne-presence .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jalynne-presence .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
 .widget-basedisplay-default-label-top .unit {
 	font-size: 225%;
 	font-weight: 400;
@@ -554,44 +396,136 @@ input {
 	width: 100%;
 	height: 100%;
 }
-.widget-basedisplay-default-label-1 .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-label-1 .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-label-1 .valueunit {
+.widget-basenavigate-default-default .icon {
 	position: absolute;
-	top: 43px;
+	top: 28px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-label-1 .title {
+.widget-basenavigate-default-default .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-label-1 .title2 {
+.widget-basenavigate-default-default .title2 {
 	position: absolute;
-	top: 23px;
+	bottom: -2px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-label-1 .state_text {
+.widget-basenavigate-default-default .toggle-area {
+	z-index: 10;
 	position: absolute;
-	bottom: -3px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-simplyred .icon {
+	position: absolute;
+	top: 28px;
 	width: 100%;
 }
 
+.widget-basenavigate-default-simplyred .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-simplyred .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-simplyred .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-glassic .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-glassic .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-glassic .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-glassic .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-zen .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-zen .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-zen .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-zen .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-obsidian .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-obsidian .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-obsidian .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-obsidian .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 .widget-baseselect_thin-default-kitchen-radio-station-preset-1 {
     position: relative;
 }
@@ -735,44 +669,6 @@ input {
 
 
 
-
-.widget-basedisplay-default-label-2 .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-label-2 .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-label-2 .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-2 .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-2 .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-2 .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
 
 .widget-baseselect_thin-default-kitchen-radio-station-preset-3 {
     position: relative;
@@ -1008,136 +904,6 @@ input {
   height: 24px;
   width: 90%;
 }
-.widget-basenavigate-default-default .icon {
-	position: absolute;
-	top: 28px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-default .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-default .title2 {
-	position: absolute;
-	bottom: -2px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-default .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-.widget-basenavigate-default-obsidian .icon {
-	position: absolute;
-	top: 28px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-obsidian .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-obsidian .title2 {
-	position: absolute;
-	bottom: -2px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-obsidian .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-.widget-basenavigate-default-zen .icon {
-	position: absolute;
-	top: 28px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-zen .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-zen .title2 {
-	position: absolute;
-	bottom: -2px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-zen .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-.widget-basenavigate-default-glassic .icon {
-	position: absolute;
-	top: 28px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-glassic .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-glassic .title2 {
-	position: absolute;
-	bottom: -2px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-glassic .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-.widget-basenavigate-default-simplyred .icon {
-	position: absolute;
-	top: 28px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-simplyred .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-simplyred .title2 {
-	position: absolute;
-	bottom: -2px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-simplyred .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
 .widget-basenavigate-default-load-main-panel .icon {
 	position: absolute;
 	top: 28px;
@@ -1242,32 +1008,6 @@ input {
 	width: 100%;
 	height: 100%;
 }
-.widget-basenavigate-default-load-weather .icon {
-	position: absolute;
-	top: 28px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-load-weather .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-load-weather .title2 {
-	position: absolute;
-	bottom: -2px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-load-weather .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
 .widget-basenavigate-default-load-sensors-panel .icon {
 	position: absolute;
 	top: 28px;
@@ -1287,6 +1027,32 @@ input {
 }
 
 .widget-basenavigate-default-load-sensors-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-weather .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-weather .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-weather .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-weather .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;

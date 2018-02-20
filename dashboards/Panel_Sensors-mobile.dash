@@ -9,62 +9,157 @@ layout:
     - label_1(2x3),wayne_presence(2x3),jenn_presence(2x3),kale_presence(2x3),jalynne_presence(2x3),label_2(2x3)
     -
     -
-    - label_sensors(12x15)
+    - ecobee_temperature_target(4x3),bilger_home_temperature_avg(4x3),ecobee_temperature_avg(4x3)
     -
     -
-    -
-    -
-    -
-    -
+    - ecobee_temperature(3x3),ecobee_temperature_kitchen(3x3),ecobee_temperature_bedroom(3x3),broadlink_temperature_family_room(3x3)
     -
     - 
+    - ecobee_humidity(3x3), ecobee_mode_home(3x3),ecobee_occupancy_kitchen(3x3),ecobee_occupancy_bedroom(3x3)
     -
     -
+    - ecobee_operation(3x3), ecobee_mode_operation(3x3), ecobee_fan(3x3), ecobee_mode_hold(3x3)
     -
-    -
-    - 
+    -    
+    - label_3(12x3)
     -
     -
     - include: row_bottom-mobile
 
-label_sensors:
-    widget_type: label
-    title: No Sensor Data
 label_1:
     widget_type: label
 label_2:
     widget_type: label
-    
+label_3:
+    widget_type: label
+
 wayne_presence:
-    widget_type: device_tracker_short
+    widget_type: presence_short
     title: Wayne
-    entity: device_tracker.phone_wayne
+    entity: sensor.presence_wayne_status
     state_text: 0
     icon_on: fa-male
     icon_off: fa-male
     icon_style_active: "color: #4bcdea"
 jenn_presence:
-    widget_type: device_tracker_short
+    widget_type: presence_short
     title: Jenn
-    entity: device_tracker.phone_jenn
-    state_text: 0
+    entity: sensor.presence_jenn_status
     picture: /local/photos/jenn.jpg
+    state_text: 0
     icon_style_active: "color: #ea4b82"
     icon_on: fa-female
     icon_off: fa-female
 kale_presence:
-    widget_type: device_tracker_short
+    widget_type: presence_short
     title: Kale
-    entity: device_tracker.phone_kale
+    entity: sensor.presence_kale_status
     state_text: 0
     icon_on: fa-male
     icon_off: fa-male
     icon_style_active: "color: #4bcdea"
 jalynne_presence:
-    widget_type: device_tracker_short
+    widget_type: presence_short
     title: Jalynne
-    entity: device_tracker.phone_jalynne
+    entity: sensor.presence_jalynne_status
     state_text: 0
     icon_style_active: "color: #ea4b82"
     icon_on: fa-female
-    icon_off: fa-female
+    icon_off: fa-female    
+
+ecobee_temperature_target:
+    widget_type: sensor
+    entity: sensor.ecobee_temperature_target
+    title: Target Temperature
+    units: "&deg;C"
+    precision: 1
+    value_style: "color: red;"
+    unit_style: "color: red;"
+bilger_home_temperature_avg:
+    widget_type: sensor
+    entity: sensor.bilger_home_temperature_avg
+    title: House Temperature
+    units: "&deg;C"
+    precision: 1
+    value_style: "color: orange;"
+    unit_style: "color: orange;"
+ecobee_temperature_avg:
+    widget_type: sensor
+    entity: sensor.ecobee_temperature_avg
+    title: Ecobee Average
+    units: "&deg;C"
+    precision: 1
+    value_style: "color: lightblue;"
+    unit_style: "color: lightblue;"
+ecobee_temperature:
+    widget_type: sensor
+    entity: sensor.ecobee_temperature
+    title: Ecobee
+    units: "&deg;C"
+    precision: 1
+    value_style: "font-size: 180%;"
+    unit_style: "font-size: 75%;"
+ecobee_temperature_kitchen:
+    widget_type: sensor
+    entity: sensor.kitchen_temperature
+    title: Kitchen
+    units: "&deg;C"
+    precision: 1
+    value_style: "font-size: 180%;"
+    unit_style: "font-size: 75%;"
+ecobee_temperature_bedroom:
+    widget_type: sensor
+    entity: sensor.bedroom_temperature
+    title: Bedroom
+    units: "&deg;C"
+    precision: 1
+    value_style: "font-size: 180%;"
+    unit_style: "font-size: 75%;"
+broadlink_temperature_family_room:
+    widget_type: sensor
+    entity: sensor.family_room_temperature
+    title: Family Room
+    units: "&deg;C"
+    precision: 1
+    value_style: "font-size: 180%;"
+    unit_style: "font-size: 75%;"
+ecobee_humidity:
+    widget_type: sensor
+    entity: sensor.ecobee_humidity
+    title: Humidity
+    units: "%"
+    value_style: "font-size: 180%; color: gray;"
+    unit_style: "font-size: 75%; color: gray;"
+
+ecobee_mode_home:
+    widget_type: iconsensor
+    entity: sensor.ecobee_mode_home
+    title: Mode
+    state_icons:
+      Home: mdi-home
+      Away: mdi-home-outline
+      Sleep: mdi-sleep
+ecobee_occupancy_kitchen:
+    widget_type: binary_sensor
+    entity: binary_sensor.kitchen_occupancy
+    title: Kitchen
+ecobee_occupancy_bedroom:
+    widget_type: binary_sensor
+    entity: binary_sensor.bedroom_occupancy
+    title: Bedroom
+ecobee_mode_operation:
+    widget_type: sensor
+    entity: sensor.ecobee_mode_operation
+    title: Operation Mode
+ecobee_operation:
+    widget_type: sensor
+    entity: sensor.ecobee_operation
+    title: Operation
+ecobee_fan:
+    widget_type: sensor
+    entity: sensor.ecobee_fan
+    title: Fan
+ecobee_mode_hold:
+    widget_type: sensor
+    entity: sensor.ecobee_mode_hold
+    title: Hold    

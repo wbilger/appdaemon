@@ -316,36 +316,35 @@ input {
 	top: 23px;
 	width: 100%;
 }
-.widget-baseswitch_short-default-wayne-presence {
+.widget-baseswitch-default-wayne-presence {
 	position: relative;
 }
 
-.widget-baseswitch_short-default-wayne-presence .title {
+.widget-baseswitch-default-wayne-presence .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-wayne-presence .title2 {
+.widget-baseswitch-default-wayne-presence .title2 {
 	position: absolute;
-	top: 20px;
+	top: 23px;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-wayne-presence .state_text {
+.widget-baseswitch-default-wayne-presence .state_text {
 	position: absolute;
-	bottom: -6px;
-	font-size: 90%;
+	bottom: -3px;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-wayne-presence .icon {
+.widget-baseswitch-default-wayne-presence .icon {
 	position: absolute;
-	bottom: 5px;
+	top: 43px;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-wayne-presence .toggle-area {
+.widget-baseswitch-default-wayne-presence .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -354,36 +353,35 @@ input {
 	height: 100%;
 }
 
-.widget-baseswitch_short-default-jenn-presence {
+.widget-baseswitch-default-jenn-presence {
 	position: relative;
 }
 
-.widget-baseswitch_short-default-jenn-presence .title {
+.widget-baseswitch-default-jenn-presence .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-jenn-presence .title2 {
+.widget-baseswitch-default-jenn-presence .title2 {
 	position: absolute;
-	top: 20px;
+	top: 23px;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-jenn-presence .state_text {
+.widget-baseswitch-default-jenn-presence .state_text {
 	position: absolute;
-	bottom: -6px;
-	font-size: 90%;
+	bottom: -3px;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-jenn-presence .icon {
+.widget-baseswitch-default-jenn-presence .icon {
 	position: absolute;
-	bottom: 5px;
+	top: 43px;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-jenn-presence .toggle-area {
+.widget-baseswitch-default-jenn-presence .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -392,36 +390,35 @@ input {
 	height: 100%;
 }
 
-.widget-baseswitch_short-default-kale-presence {
+.widget-baseswitch-default-kale-presence {
 	position: relative;
 }
 
-.widget-baseswitch_short-default-kale-presence .title {
+.widget-baseswitch-default-kale-presence .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-kale-presence .title2 {
+.widget-baseswitch-default-kale-presence .title2 {
 	position: absolute;
-	top: 20px;
+	top: 23px;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-kale-presence .state_text {
+.widget-baseswitch-default-kale-presence .state_text {
 	position: absolute;
-	bottom: -6px;
-	font-size: 90%;
+	bottom: -3px;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-kale-presence .icon {
+.widget-baseswitch-default-kale-presence .icon {
 	position: absolute;
-	bottom: 5px;
+	top: 43px;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-kale-presence .toggle-area {
+.widget-baseswitch-default-kale-presence .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -430,36 +427,35 @@ input {
 	height: 100%;
 }
 
-.widget-baseswitch_short-default-jalynne-presence {
+.widget-baseswitch-default-jalynne-presence {
 	position: relative;
 }
 
-.widget-baseswitch_short-default-jalynne-presence .title {
+.widget-baseswitch-default-jalynne-presence .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-jalynne-presence .title2 {
+.widget-baseswitch-default-jalynne-presence .title2 {
 	position: absolute;
-	top: 20px;
+	top: 23px;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-jalynne-presence .state_text {
+.widget-baseswitch-default-jalynne-presence .state_text {
 	position: absolute;
-	bottom: -6px;
-	font-size: 90%;
+	bottom: -3px;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-jalynne-presence .icon {
+.widget-baseswitch-default-jalynne-presence .icon {
 	position: absolute;
-	bottom: 5px;
+	top: 43px;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-jalynne-presence .toggle-area {
+.widget-baseswitch-default-jalynne-presence .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;

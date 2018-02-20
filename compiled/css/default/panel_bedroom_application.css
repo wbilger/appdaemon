@@ -464,45 +464,15 @@ input {
 	height: 100%;
 }
 
-.widget-baseiframe-default-weather-frame .title {
+
+.widget-baseerror-default-jenn-bedroom .error {
 	position: absolute;
-	bottom: 0px;
-    margin: 0px 0px 0px 0px;
+	top: 5px;
 	width: 100%;
 }
 
-.widget-baseiframe-default-weather-frame .outer-frame {
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    z-index: 1;
-    border: none;
-}
 
-.widget-baseiframe-default-weather-frame .outer-image {
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    z-index: 0;
-    border: none;
-}
-
-.widget-baseiframe-default-weather-frame .scaled-frame {
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-
-.widget-baseiframe-default-weather-frame .img-frame {
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-.widget-basedisplay-default-sensor-dark-sky-summary .unit {
+.widget-basedisplay-default-label-2 .unit {
 	font-size: 225%;
 	font-weight: 400;
 	display: inline-block;
@@ -511,36 +481,44 @@ input {
 	margin-top: 5px;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-summary .value {
+.widget-basedisplay-default-label-2 .value {
 	display: inline-block;
 	vertical-align: middle;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-summary .valueunit {
+.widget-basedisplay-default-label-2 .valueunit {
 	position: absolute;
 	top: 43px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-summary .title {
+.widget-basedisplay-default-label-2 .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-summary .title2 {
+.widget-basedisplay-default-label-2 .title2 {
 	position: absolute;
 	top: 23px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-summary .state_text {
+.widget-basedisplay-default-label-2 .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-hourly-summary .unit {
+
+.widget-baseerror-default-bedtime .error {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+
+.widget-basedisplay-default-label-3 .unit {
 	font-size: 225%;
 	font-weight: 400;
 	display: inline-block;
@@ -549,36 +527,36 @@ input {
 	margin-top: 5px;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-hourly-summary .value {
+.widget-basedisplay-default-label-3 .value {
 	display: inline-block;
 	vertical-align: middle;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-hourly-summary .valueunit {
+.widget-basedisplay-default-label-3 .valueunit {
 	position: absolute;
 	top: 43px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-hourly-summary .title {
+.widget-basedisplay-default-label-3 .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-hourly-summary .title2 {
+.widget-basedisplay-default-label-3 .title2 {
 	position: absolute;
 	top: 23px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-hourly-summary .state_text {
+.widget-basedisplay-default-label-3 .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-minutely-summary .unit {
+.widget-basedisplay-default-label-4 .unit {
 	font-size: 225%;
 	font-weight: 400;
 	display: inline-block;
@@ -587,36 +565,44 @@ input {
 	margin-top: 5px;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-minutely-summary .value {
+.widget-basedisplay-default-label-4 .value {
 	display: inline-block;
 	vertical-align: middle;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-minutely-summary .valueunit {
+.widget-basedisplay-default-label-4 .valueunit {
 	position: absolute;
 	top: 43px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-minutely-summary .title {
+.widget-basedisplay-default-label-4 .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-minutely-summary .title2 {
+.widget-basedisplay-default-label-4 .title2 {
 	position: absolute;
 	top: 23px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-minutely-summary .state_text {
+.widget-basedisplay-default-label-4 .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-daily-summary .unit {
+
+.widget-baseerror-default-kitchen-bedroom-speaker-group .error {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+
+.widget-basedisplay-default-label-5 .unit {
 	font-size: 225%;
 	font-weight: 400;
 	display: inline-block;
@@ -625,36 +611,68 @@ input {
 	margin-top: 5px;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-daily-summary .value {
+.widget-basedisplay-default-label-5 .value {
 	display: inline-block;
 	vertical-align: middle;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-daily-summary .valueunit {
+.widget-basedisplay-default-label-5 .valueunit {
 	position: absolute;
 	top: 43px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-daily-summary .title {
+.widget-basedisplay-default-label-5 .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-daily-summary .title2 {
+.widget-basedisplay-default-label-5 .title2 {
 	position: absolute;
 	top: 23px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-daily-summary .state_text {
+.widget-basedisplay-default-label-5 .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-visibility .unit {
+
+.widget-baseerror-default-bedroom-radio-station-p1 .error {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+
+
+.widget-baseerror-default-bedroom-radio-station .error {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+
+
+.widget-baseerror-default-bedroom-radio-station-p2 .error {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+
+
+.widget-baseerror-default-bedroom-plex .error {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+
+.widget-basedisplay-default-label-6 .unit {
 	font-size: 225%;
 	font-weight: 400;
 	display: inline-block;
@@ -663,36 +681,44 @@ input {
 	margin-top: 5px;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-visibility .value {
+.widget-basedisplay-default-label-6 .value {
 	display: inline-block;
 	vertical-align: middle;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-visibility .valueunit {
+.widget-basedisplay-default-label-6 .valueunit {
 	position: absolute;
 	top: 43px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-visibility .title {
+.widget-basedisplay-default-label-6 .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-visibility .title2 {
+.widget-basedisplay-default-label-6 .title2 {
 	position: absolute;
 	top: 23px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-visibility .state_text {
+.widget-basedisplay-default-label-6 .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-nearest-storm-distance .unit {
+
+.widget-baseerror-default-bedroom-chromecast .error {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+
+.widget-basedisplay-default-label-7 .unit {
 	font-size: 225%;
 	font-weight: 400;
 	display: inline-block;
@@ -701,186 +727,58 @@ input {
 	margin-top: 5px;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-nearest-storm-distance .value {
+.widget-basedisplay-default-label-7 .value {
 	display: inline-block;
 	vertical-align: middle;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-nearest-storm-distance .valueunit {
+.widget-basedisplay-default-label-7 .valueunit {
 	position: absolute;
 	top: 43px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-nearest-storm-distance .title {
+.widget-basedisplay-default-label-7 .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-nearest-storm-distance .title2 {
+.widget-basedisplay-default-label-7 .title2 {
 	position: absolute;
 	top: 23px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-nearest-storm-distance .state_text {
+.widget-basedisplay-default-label-7 .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-nearest-storm-bearing .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
 
-.widget-basedisplay-default-sensor-dark-sky-nearest-storm-bearing .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-sensor-dark-sky-nearest-storm-bearing .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-sensor-dark-sky-nearest-storm-bearing .title {
+.widget-baseerror-default-bedroom-speaker .error {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-nearest-storm-bearing .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
 
-.widget-basedisplay-default-sensor-dark-sky-nearest-storm-bearing .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
 
-.widget-basedisplay-default-sensor-dark-sky-wind-speed-kmh .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-sensor-dark-sky-wind-speed-kmh .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-sensor-dark-sky-wind-speed-kmh .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-sensor-dark-sky-wind-speed-kmh .title {
+.widget-baseerror-default-bedroom-radio-station-p3 .error {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-wind-speed-kmh .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
 
-.widget-basedisplay-default-sensor-dark-sky-wind-speed-kmh .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
 
-.widget-basedisplay-default-sensor-dark-sky-wind-bearing .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-sensor-dark-sky-wind-bearing .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-sensor-dark-sky-wind-bearing .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-sensor-dark-sky-wind-bearing .title {
+.widget-baseerror-default-bedroom-radio-station-p4 .error {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-sensor-dark-sky-wind-bearing .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-sensor-dark-sky-wind-bearing .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-sensor-dark-sky-humidity .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-sensor-dark-sky-humidity .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-sensor-dark-sky-humidity .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-sensor-dark-sky-humidity .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-sensor-dark-sky-humidity .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-sensor-dark-sky-humidity .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
 
 .widget-basenavigate-default-load-main-panel .icon {
 	position: absolute;

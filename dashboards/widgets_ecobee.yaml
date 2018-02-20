@@ -1,0 +1,99 @@
+ecobee_temperature_target:
+    widget_type: sensor
+    entity: sensor.ecobee_temperature_target
+    title: Target Temperature
+    units: "&deg;C"
+    precision: 1
+    value_style: "color: red;"
+    unit_style: "color: red;"
+bilger_home_temperature_avg:
+    widget_type: sensor
+    entity: sensor.bilger_home_temperature_avg
+    title: House Temperature
+    units: "&deg;C"
+    precision: 1
+    value_style: "color: orange;"
+    unit_style: "color: orange;"
+ecobee_temperature_avg:
+    widget_type: sensor
+    entity: sensor.ecobee_temperature_avg
+    title: Ecobee Average
+    units: "&deg;C"
+    precision: 1
+    value_style: "font-size: 215%; color: lightblue;"
+    unit_style: "font-size: 95%; color: lightblue;"
+ecobee_temperature:
+    widget_type: sensor
+    entity: sensor.ecobee_temperature
+    title: Ecobee
+    units: "&deg;C"
+    precision: 1
+    value_style: "font-size: 215%;"
+    unit_style: "font-size: 95%;"
+ecobee_temperature_kitchen:
+    widget_type: sensor
+    entity: sensor.kitchen_temperature
+    title: Kitchen
+    units: "&deg;C"
+    precision: 1
+    value_style: "font-size: 215%;"
+    unit_style: "font-size: 95%;"
+ecobee_temperature_bedroom:
+    widget_type: sensor
+    entity: sensor.bedroom_temperature
+    title: Bedroom
+    units: "&deg;C"
+    precision: 1
+    value_style: "font-size: 215%;"
+    unit_style: "font-size: 95%;"
+broadlink_temperature_family_room:
+    widget_type: sensor
+    entity: sensor.family_room_temperature
+    title: Family Room
+    units: "&deg;C"
+    precision: 1
+    value_style: "font-size: 215%;"
+    unit_style: "font-size: 95%;"
+ecobee_humidity:
+    widget_type: sensor
+    entity: sensor.ecobee_humidity
+    title: Humidity
+    units: "%"
+    value_style: "color: gray;"
+    unit_style: "color: gray;"
+ecobee_mode_home:
+    widget_type: iconsensor
+    entity: sensor.ecobee_mode_home
+    title: Mode
+    state_icons:
+      Home: mdi-home
+      Away: mdi-home-outline
+      Sleep: mdi-sleep
+      Morning: mdi-weather-sunset
+      Evening: mdi-weather-night
+ecobee_occupancy_kitchen:
+    widget_type: binary_sensor
+    entity: binary_sensor.kitchen_occupancy
+    title: Kitchen
+ecobee_occupancy_bedroom:
+    widget_type: binary_sensor
+    entity: binary_sensor.bedroom_occupancy
+    title: Bedroom
+    
+
+ecobee_mode_operation:
+    widget_type: sensor
+    entity: sensor.ecobee_mode_operation
+    title: Operation Mode
+ecobee_operation:
+    widget_type: sensor
+    entity: sensor.ecobee_operation
+    title: Operation
+ecobee_fan:
+    widget_type: sensor
+    entity: sensor.ecobee_fan
+    title: Fan
+ecobee_mode_hold:
+    widget_type: sensor
+    entity: sensor.ecobee_mode_hold
+    title: Hold

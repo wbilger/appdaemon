@@ -15,6 +15,7 @@ columns: 32
 
 layout:
     - include: widgets_weather
+    - include: widgets_ecobee
     - include: widgets_lights
     - include: widgets_google_home
     - include: widgets_scripts
@@ -25,7 +26,11 @@ layout:
     -
     - include: row_news
     -
-    - 
+    - label_bilger_home(32x1)
+    - ecobee_temperature_target(4x3),bilger_home_temperature_avg(4x3),ecobee_temperature_avg(3x3),ecobee_temperature(3x3),ecobee_temperature_kitchen(3x3),broadlink_temperature_family_room(3x3),ecobee_temperature_bedroom(3x3),ecobee_humidity(3x3),ecobee_mode_home(2x3),ecobee_occupancy_kitchen(2x3),ecobee_occupancy_bedroom(2x3)
+    -
+    -
+    - label_bilger_home_bottom(32x1)
     - front_porch(2x4),front_entrance_way,front_entrance(2x4),front_window,kitchen_island_night(2x4),kitchen_island,kitchen_island_max(2x4),jenn_bedroom(2x4),kitchen_outside_speakers_group(4x2),kitchen_bedroom_speaker_group(4x2),kitchen_radio_station_p1(2x3)
     -
     - kitchen_radio_station(8x2)
@@ -41,6 +46,13 @@ layout:
     -
     - include: row_bottom
     
+label_bilger_home:
+    title: Bilger Home
+    widget_type: label
+    widget_style: "background: gray"
+label_bilger_home_bottom:
+    widget_type: label
+    widget_style: "background: gray"
 label_scenes_top:
     widget_type: label
     widget_style: "background: gray"

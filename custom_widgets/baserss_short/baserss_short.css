@@ -1,0 +1,17 @@
+.widget-baserss_short-{{id}} .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baserss_short-{{id}} .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baserss_short-{{id}} .text {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}

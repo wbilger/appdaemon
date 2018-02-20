@@ -1,0 +1,1108 @@
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #222;
+  font-size: 15px;
+  color: #fff;
+  padding: 0;
+  line-height: 1;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Open Sans', 'Arial'
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+img, object {
+  max-width: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;}
+
+iframe {
+  max-width: 100%;
+}
+  
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+td {
+  vertical-align: middle;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, p {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  margin-bottom: 6px;
+  text-align: center;
+  font-size: 100%;
+  font-weight: 200;
+}
+h2 {
+  font-size: 300%;
+  font-weight: 400;
+  color: #fff;
+}
+h3 {
+  font-size: 125%;
+  font-weight: 300;
+  color: #fff;
+}
+
+input {
+  background-color: #444;
+  border: none;
+}
+
+.dashboard_main {
+	margin: 0px auto;
+}
+
+.gridster {
+  margin: 0px auto;
+}
+
+.icon-background {
+  pointer-events: none;
+  width: 100%!important;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.1;
+  font-size: 1375%;
+  text-align: center;
+  margin-top: 82px;
+}
+
+.list-nostyle {
+  list-style: none;
+}
+
+.gridster ul {
+  list-style: none;
+}
+
+.gs-w {
+  width: 100%;
+  display: table;
+  cursor: pointer;
+  z-index: auto !important;
+}
+
+.iframe {
+  position: relative;
+  overflow: hidden;  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;}
+
+.widget {
+  padding: 0px 0px;
+  text-align: center;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #444444;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;}
+
+.title {
+  color: #fff;
+}
+
+.icon-inactive {
+  color: #888;
+}
+
+.icon-active {
+  color: #aaff00;
+}
+
+
+#container {
+  padding-top: 0px;
+}
+
+.modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 9999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialogOpen {
+	opacity:0.95;
+	pointer-events: auto;
+}
+
+.modalDialogClose {
+	opacity:0;
+	pointer-events: none;
+}
+
+.modalDialog > div {
+	width: 275px;
+	position: relative;
+	margin: 3% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+}
+
+.modalDialogCloseButton {
+	line-height: 50px;
+	position: absolute;
+	right: -25px;
+	text-align: center;
+	top: -20px;
+	width: 50px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+}
+
+.modalDialogCloseButton:hover { background: #444; }
+
+.widget-baserss-default-rss-weather .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-baserss-default-rss-weather .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-baserss-default-rss-weather .valueunit {
+	position: absolute;
+	top: 43px;
+	width: 100%;
+}
+
+.widget-baserss-default-rss-weather .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baserss-default-rss-weather .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+.widget-baseweather-default-weather {
+	color: white;
+}
+
+.widget-baseweather-default-weather h1 {
+	margin-bottom: 0px;
+}
+
+.widget-baseweather-default-weather [class^="primary"] {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.widget-baseweather-default-weather [class^="secondary"] {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.widget-baseweather-default-weather .primary-climacon {
+	font-family: "Climacons-Font";
+	font-size: 55px;
+}
+
+.widget-baseweather-default-weather .primary-info {
+	font-size: 300%;
+	font-weight: 400;
+}
+
+.widget-baseweather-default-weather .primary-unit {
+	font-size: 300%;
+	font-weight: 400;
+	margin-left: 0;
+	margin-top: 10px;
+	vertical-align: top;
+}
+
+.widget-baseweather-default-weather .secondary-icon {
+	font-family: "Climacons-Font";
+	font-size: 40px;
+	margin-left: 10px;
+	margin-right: 0px;
+}
+
+.widget-baseweather-default-weather .secondary-climacon {
+	font-family: "Climacons-Font";
+	font-size: 55px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.widget-baseweather-default-weather .secondary-info {
+	font-size: 120%;
+	font-weight: 200;
+}
+
+.widget-baseweather-default-weather hr {
+	width: 90%;
+	border: 0;
+	height: 1px;
+	background: rgba(255, 255, 255, 0.25);
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.widget-base_light_with_brightness-default-jenn-bedroom {
+	position: relative;
+}
+.widget-base_light_with_brightness-default-jenn-bedroom .title {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+.widget-base_light_with_brightness-default-jenn-bedroom .title2 {
+    position: absolute;
+    top: 23px;
+    width: 100%;
+}
+.widget-base_light_with_brightness-default-jenn-bedroom .iconcontainer {
+	position: absolute;
+	bottom: 25%;
+	width: 100%;
+}
+
+.widget-base_light_with_brightness-default-jenn-bedroom .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 75%;
+}
+
+.widget-base_light_with_brightness-default-jenn-bedroom .slidercontainer {
+   position: absolute;
+   bottom: 5px;
+   height: 25%;
+   overflow: hidden;
+   width: 100%;
+   horizontal-align: center;
+   margin:auto;
+}
+
+.widget-base_light_with_brightness-default-jenn-bedroom input[type=range] {
+  -webkit-appearance: slider-horizontal;
+  border: 1px solid white;
+  height: 90%;
+  width: 90%;
+}
+.widget-baseswitch_short-default-bedtime {
+	position: relative;
+}
+
+.widget-baseswitch_short-default-bedtime .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-bedtime .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-bedtime .state_text {
+	position: absolute;
+	bottom: -6px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-bedtime .icon {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-bedtime .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseselect_thin-default-bedroom-radio-station {
+    position: relative;
+}
+.widget-baseselect_thin-default-bedroom-radio-station .title {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+
+.widget-baseselect_thin-default-bedroom-radio-station .styled-select {
+   position: absolute;
+   top: 25px;
+   height: 30px;
+   overflow: hidden;
+   width: 100%;
+   horizontal-align: center;
+   margin:auto;
+}
+
+.widget-baseselect_thin-default-bedroom-radio-station .styled-select>select {
+   background-color: #333;
+   border: none;
+   outline: none;
+   font-size: 16px;
+   height: 29px;
+   padding: 5px;
+   width: 90%;
+   color: white;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+
+
+
+
+.widget-basemedia-default-bedroom-speaker {
+	position: relative;
+}
+
+.widget-basemedia-default-bedroom-speaker .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-speaker .artist {
+	position: absolute;
+	top: 30px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-speaker .album {
+	position: absolute;
+	top: 55px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-speaker .media_title {
+	position: absolute;
+	top: 80px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-speaker .state_text {
+	position: absolute;
+	top: 38px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-speaker .previous {
+    position: absolute;
+	top: 130px;
+    left: 25px;
+    z-index: 10;
+}
+
+.widget-basemedia-default-bedroom-speaker .play {
+    position: absolute;
+	top: 130px;
+    width: 100%;
+}
+
+.widget-basemedia-default-bedroom-speaker .next {
+    position: absolute;
+	top: 130px;
+	right: 25px;
+    z-index: 10;
+}
+
+
+.widget-basemedia-default-bedroom-speaker .level {
+	display: inline-block;
+}
+
+.widget-basemedia-default-bedroom-speaker .unit {
+	display: inline-block;
+}
+
+.widget-basemedia-default-bedroom-speaker .levelunit {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-speaker .secondary-icon {
+	position: absolute;
+	bottom: 0px;
+	font-size: 20px;
+	width: 32px;
+	color: white;
+}
+
+.widget-basemedia-default-bedroom-speaker .secondary-icon.plus {
+	right: 24px;
+}
+
+.widget-basemedia-default-bedroom-speaker .secondary-icon.plus i {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.widget-basemedia-default-bedroom-speaker .secondary-icon.minus {
+	left: 28px;
+}
+
+.widget-basemedia-default-bedroom-speaker .secondary-icon.minus i {
+	padding-top: 10px;
+	padding-right: 30px;
+}
+.widget-basebutton-default-bedroom-radio-station-p1 {
+	position: relative;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p1 .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p1 .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p1 .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p1 .icon {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+	font-size: 210%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p1 .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p2 {
+	position: relative;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p2 .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p2 .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p2 .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p2 .icon {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+	font-size: 210%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p2 .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p3 {
+	position: relative;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p3 .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p3 .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p3 .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p3 .icon {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+	font-size: 210%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p3 .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p4 {
+	position: relative;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p4 .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p4 .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p4 .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p4 .icon {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+	font-size: 210%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p4 .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group {
+	position: relative;
+}
+
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .title {
+	position: absolute;
+	right: 3px;
+	top: 5px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .state_text {
+	position: absolute;
+	right 3px;
+	bottom: -3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .icon {
+	position: absolute;
+	top: 8px;
+	width: 50%;
+}
+
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basemedia-default-bedroom-plex {
+	position: relative;
+}
+
+.widget-basemedia-default-bedroom-plex .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-plex .artist {
+	position: absolute;
+	top: 30px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-plex .album {
+	position: absolute;
+	top: 55px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-plex .media_title {
+	position: absolute;
+	top: 80px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-plex .state_text {
+	position: absolute;
+	top: 38px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-plex .previous {
+    position: absolute;
+	top: 130px;
+    left: 25px;
+    z-index: 10;
+}
+
+.widget-basemedia-default-bedroom-plex .play {
+    position: absolute;
+	top: 130px;
+    width: 100%;
+}
+
+.widget-basemedia-default-bedroom-plex .next {
+    position: absolute;
+	top: 130px;
+	right: 25px;
+    z-index: 10;
+}
+
+
+.widget-basemedia-default-bedroom-plex .level {
+	display: inline-block;
+}
+
+.widget-basemedia-default-bedroom-plex .unit {
+	display: inline-block;
+}
+
+.widget-basemedia-default-bedroom-plex .levelunit {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-plex .secondary-icon {
+	position: absolute;
+	bottom: 0px;
+	font-size: 20px;
+	width: 32px;
+	color: white;
+}
+
+.widget-basemedia-default-bedroom-plex .secondary-icon.plus {
+	right: 24px;
+}
+
+.widget-basemedia-default-bedroom-plex .secondary-icon.plus i {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.widget-basemedia-default-bedroom-plex .secondary-icon.minus {
+	left: 28px;
+}
+
+.widget-basemedia-default-bedroom-plex .secondary-icon.minus i {
+	padding-top: 10px;
+	padding-right: 30px;
+}
+.widget-basemedia-default-bedroom-chromecast {
+	position: relative;
+}
+
+.widget-basemedia-default-bedroom-chromecast .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-chromecast .artist {
+	position: absolute;
+	top: 30px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-chromecast .album {
+	position: absolute;
+	top: 55px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-chromecast .media_title {
+	position: absolute;
+	top: 80px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-chromecast .state_text {
+	position: absolute;
+	top: 38px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-chromecast .previous {
+    position: absolute;
+	top: 130px;
+    left: 25px;
+    z-index: 10;
+}
+
+.widget-basemedia-default-bedroom-chromecast .play {
+    position: absolute;
+	top: 130px;
+    width: 100%;
+}
+
+.widget-basemedia-default-bedroom-chromecast .next {
+    position: absolute;
+	top: 130px;
+	right: 25px;
+    z-index: 10;
+}
+
+
+.widget-basemedia-default-bedroom-chromecast .level {
+	display: inline-block;
+}
+
+.widget-basemedia-default-bedroom-chromecast .unit {
+	display: inline-block;
+}
+
+.widget-basemedia-default-bedroom-chromecast .levelunit {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-chromecast .secondary-icon {
+	position: absolute;
+	bottom: 0px;
+	font-size: 20px;
+	width: 32px;
+	color: white;
+}
+
+.widget-basemedia-default-bedroom-chromecast .secondary-icon.plus {
+	right: 24px;
+}
+
+.widget-basemedia-default-bedroom-chromecast .secondary-icon.plus i {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.widget-basemedia-default-bedroom-chromecast .secondary-icon.minus {
+	left: 28px;
+}
+
+.widget-basemedia-default-bedroom-chromecast .secondary-icon.minus i {
+	padding-top: 10px;
+	padding-right: 30px;
+}
+.widget-basenavigate-default-load-main-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-main-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-main-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-main-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-familyroom-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-familyroom-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-familyroom-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-familyroom-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-theatre-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-theatre-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-theatre-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-theatre-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-bedroom-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-bedroom-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-bedroom-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-bedroom-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-sensors-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-sensors-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-sensors-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-sensors-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-weather .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-weather .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-weather .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-weather .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-settings .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-settings .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-settings .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-settings .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-reload .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-reload .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-reload .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-reload .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

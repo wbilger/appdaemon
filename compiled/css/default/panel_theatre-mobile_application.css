@@ -202,14 +202,35 @@ input {
 
 .modalDialogCloseButton:hover { background: #444; }
 
-.widget-baseclock-default-date-time.date {
+.widget-baserss-default-rss-weather .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-baserss-default-rss-weather .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-baserss-default-rss-weather .valueunit {
+	position: absolute;
+	top: 43px;
+	width: 100%;
+}
+
+.widget-baserss-default-rss-weather .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
-.widget-baseclock-default-date-time.time {
- 	position: absolute;
-	top: 45px;
+
+.widget-baserss-default-rss-weather .title2 {
+	position: absolute;
+	top: 23px;
 	width: 100%;
 }
 .widget-baseweather-default-weather {
@@ -285,223 +306,6 @@ input {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-.widget-baserss-default-rss-weather .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-baserss-default-rss-weather .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-baserss-default-rss-weather .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baserss-default-rss-weather .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baserss-default-rss-weather .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-.widget-baseswitch-default-wayne-presence {
-	position: relative;
-}
-
-.widget-baseswitch-default-wayne-presence .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-wayne-presence .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-wayne-presence .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-wayne-presence .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-wayne-presence .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-baseswitch-default-jenn-presence {
-	position: relative;
-}
-
-.widget-baseswitch-default-jenn-presence .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jenn-presence .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jenn-presence .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jenn-presence .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jenn-presence .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-baseswitch-default-kale-presence {
-	position: relative;
-}
-
-.widget-baseswitch-default-kale-presence .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-kale-presence .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-kale-presence .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-kale-presence .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-kale-presence .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-baseswitch-default-jalynne-presence {
-	position: relative;
-}
-
-.widget-baseswitch-default-jalynne-presence .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jalynne-presence .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jalynne-presence .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jalynne-presence .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jalynne-presence .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-basedisplay-default-label-1 .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-label-1 .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-label-1 .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-1 .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-1 .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-1 .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
 .widget-baseswitch-default-theatre-dim {
 	position: relative;
 }
@@ -656,35 +460,35 @@ input {
 	height: 100%;
 }
 
-.widget-baseswitch-default-theatre-projector {
+.widget-baseswitch-default-theatre-bar {
 	position: relative;
 }
 
-.widget-baseswitch-default-theatre-projector .title {
+.widget-baseswitch-default-theatre-bar .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-theatre-projector .title2 {
+.widget-baseswitch-default-theatre-bar .title2 {
 	position: absolute;
 	top: 23px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-theatre-projector .state_text {
+.widget-baseswitch-default-theatre-bar .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-theatre-projector .icon {
+.widget-baseswitch-default-theatre-bar .icon {
 	position: absolute;
 	top: 43px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-theatre-projector .toggle-area {
+.widget-baseswitch-default-theatre-bar .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -693,35 +497,36 @@ input {
 	height: 100%;
 }
 
-.widget-baseswitch-default-theatre-surround-sound {
+.widget-baseswitch_short-default-theatre-projector {
 	position: relative;
 }
 
-.widget-baseswitch-default-theatre-surround-sound .title {
+.widget-baseswitch_short-default-theatre-projector .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-theatre-surround-sound .title2 {
+.widget-baseswitch_short-default-theatre-projector .title2 {
 	position: absolute;
-	top: 23px;
+	top: 20px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-theatre-surround-sound .state_text {
+.widget-baseswitch_short-default-theatre-projector .state_text {
 	position: absolute;
-	bottom: -3px;
+	bottom: -6px;
+	font-size: 90%;
 	width: 100%;
 }
 
-.widget-baseswitch-default-theatre-surround-sound .icon {
+.widget-baseswitch_short-default-theatre-projector .icon {
 	position: absolute;
-	top: 43px;
+	bottom: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-theatre-surround-sound .toggle-area {
+.widget-baseswitch_short-default-theatre-projector .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -730,35 +535,36 @@ input {
 	height: 100%;
 }
 
-.widget-baseswitch-default-theatre-butt-kickers {
+.widget-baseswitch_short-default-theatre-surround-sound {
 	position: relative;
 }
 
-.widget-baseswitch-default-theatre-butt-kickers .title {
+.widget-baseswitch_short-default-theatre-surround-sound .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-theatre-butt-kickers .title2 {
+.widget-baseswitch_short-default-theatre-surround-sound .title2 {
 	position: absolute;
-	top: 23px;
+	top: 20px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-theatre-butt-kickers .state_text {
+.widget-baseswitch_short-default-theatre-surround-sound .state_text {
 	position: absolute;
-	bottom: -3px;
+	bottom: -6px;
+	font-size: 90%;
 	width: 100%;
 }
 
-.widget-baseswitch-default-theatre-butt-kickers .icon {
+.widget-baseswitch_short-default-theatre-surround-sound .icon {
 	position: absolute;
-	top: 43px;
+	bottom: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-theatre-butt-kickers .toggle-area {
+.widget-baseswitch_short-default-theatre-surround-sound .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -767,80 +573,42 @@ input {
 	height: 100%;
 }
 
-.widget-basedisplay-default-label-2 .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
+.widget-baseswitch_short-default-theatre-butt-kickers {
+	position: relative;
 }
 
-.widget-basedisplay-default-label-2 .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-label-2 .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-2 .title {
+.widget-baseswitch_short-default-theatre-butt-kickers .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-label-2 .title2 {
+.widget-baseswitch_short-default-theatre-butt-kickers .title2 {
 	position: absolute;
-	top: 23px;
+	top: 20px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-label-2 .state_text {
+.widget-baseswitch_short-default-theatre-butt-kickers .state_text {
 	position: absolute;
-	bottom: -3px;
+	bottom: -6px;
+	font-size: 90%;
 	width: 100%;
 }
 
-.widget-basedisplay-default-label-3 .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-label-3 .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-label-3 .valueunit {
+.widget-baseswitch_short-default-theatre-butt-kickers .icon {
 	position: absolute;
-	top: 43px;
+	bottom: 5px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-label-3 .title {
+.widget-baseswitch_short-default-theatre-butt-kickers .toggle-area {
+	z-index: 10;
 	position: absolute;
-	top: 5px;
+	top: 0;
+	left: 0;
 	width: 100%;
-}
-
-.widget-basedisplay-default-label-3 .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-3 .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
+	height: 100%;
 }
 
 .widget-basemedia-default-theatre-plex {
@@ -937,42 +705,118 @@ input {
 	padding-top: 10px;
 	padding-right: 30px;
 }
-.widget-basedisplay-default-label-scenes-top .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
+.widget-baseswitch_short-default-theatre-movie-time {
+	position: relative;
 }
 
-.widget-basedisplay-default-label-scenes-top .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-label-scenes-top .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-scenes-top .title {
+.widget-baseswitch_short-default-theatre-movie-time .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-label-scenes-top .title2 {
+.widget-baseswitch_short-default-theatre-movie-time .title2 {
 	position: absolute;
-	top: 23px;
+	top: 20px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-label-scenes-top .state_text {
+.widget-baseswitch_short-default-theatre-movie-time .state_text {
 	position: absolute;
-	bottom: -3px;
+	bottom: -6px;
+	font-size: 90%;
 	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-movie-time .icon {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-movie-time .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-netflix-time {
+	position: relative;
+}
+
+.widget-baseswitch_short-default-theatre-netflix-time .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-netflix-time .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-netflix-time .state_text {
+	position: absolute;
+	bottom: -6px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-netflix-time .icon {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-netflix-time .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-off {
+	position: relative;
+}
+
+.widget-baseswitch_short-default-theatre-off .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-off .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-off .state_text {
+	position: absolute;
+	bottom: -6px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-off .icon {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-off .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .widget-basemedia-default-theatre-roku {
@@ -1163,193 +1007,6 @@ input {
 	padding-top: 10px;
 	padding-right: 30px;
 }
-.widget-baseswitch-default-theatre-movie-time {
-	position: relative;
-}
-
-.widget-baseswitch-default-theatre-movie-time .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-theatre-movie-time .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-theatre-movie-time .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-theatre-movie-time .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-theatre-movie-time .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-baseswitch-default-theatre-netflix-time {
-	position: relative;
-}
-
-.widget-baseswitch-default-theatre-netflix-time .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-theatre-netflix-time .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-theatre-netflix-time .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-theatre-netflix-time .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-theatre-netflix-time .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-baseswitch-default-theatre-off {
-	position: relative;
-}
-
-.widget-baseswitch-default-theatre-off .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-theatre-off .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-theatre-off .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-theatre-off .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-theatre-off .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-basedisplay-default-label-scenes-bottom .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-label-scenes-bottom .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-label-scenes-bottom .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-scenes-bottom .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-scenes-bottom .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-scenes-bottom .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-4 .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-label-4 .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-label-4 .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-4 .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-4 .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-4 .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
 .widget-basenavigate-default-load-main-panel .icon {
 	position: absolute;
 	top: 28px;
@@ -1454,32 +1111,6 @@ input {
 	width: 100%;
 	height: 100%;
 }
-.widget-basenavigate-default-load-weather .icon {
-	position: absolute;
-	top: 28px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-load-weather .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-load-weather .title2 {
-	position: absolute;
-	bottom: -2px;
-	width: 100%;
-}
-
-.widget-basenavigate-default-load-weather .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
 .widget-basenavigate-default-load-sensors-panel .icon {
 	position: absolute;
 	top: 28px;
@@ -1499,6 +1130,32 @@ input {
 }
 
 .widget-basenavigate-default-load-sensors-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-weather .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-weather .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-weather .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-weather .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;

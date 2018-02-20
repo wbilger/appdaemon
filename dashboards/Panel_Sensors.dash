@@ -8,29 +8,35 @@ widget_margins: [1, 1]
 columns: 32
 
 layout:
+    - include: widgets_ecobee
     - include: widgets_sensors
-
     - include: row_top
     -
     -
     -
-    - label_ikea(12x1), label_1(20x1)
-    - ikea_dimmer_kitchen_island(4x3),ikea_dimmer_jenn(4x3),ikea_dimmer_theatre(4x3),label_2(20x3)
+    - label_ecobee(32x1)
+    - ecobee_temperature_target(4x3),bilger_home_temperature_avg(4x3),ecobee_temperature_avg(3x3),ecobee_temperature(3x3),ecobee_temperature_kitchen(3x3),broadlink_temperature_family_room(3x3),ecobee_temperature_bedroom(3x3),ecobee_humidity(3x3),ecobee_mode_home(2x3),ecobee_occupancy_kitchen(2x3),ecobee_occupancy_bedroom(2x3)
+    - 
+    -
+    - label_ikea(12x1), label_1(4x4), label_ecobee_2(16x1)
+    - ikea_dimmer_kitchen_island(4x3),ikea_dimmer_jenn(4x3),ikea_dimmer_theatre(4x3),ecobee_mode_operation(4x3),ecobee_operation(4x3),ecobee_fan(4x3),ecobee_mode_hold(4x3)
     - 
     - 
     - label_wallpanel_kitchen(32x1)
     - wallpanel_kitchen_motion(4x3),wallpanel_kitchen_battery(4x3),wallpanel_kitchen_screen_on(4x3),wallpanel_kitchen_url(4x3),wallpanel_kitchen_reload(4x3),wallpanel_kitchen_relaunch(4x3),wallpanel_kitchen_clear_cache(4x3),wallpanel_kitchen_home(4x3)
     - 
     -
-    - label_bottom(32x6)
-    -
-    -
-    -
-    -
+    - label_bottom(32x2)
     -
     -
     - include: row_bottom
 
+label_ecobee:
+    widget_type: label
+    title: Ecobee Thermostat
+label_ecobee_2:
+    widget_type: label
+    title: Ecobee Thermostat Operation
 label_ikea:
     widget_type: label
     title: Ikea Dimmer Battery Levels

@@ -15,38 +15,47 @@ rss_weather:
     title: Weather Alerts
     interval: 30
     
+    
+# wayne_presence:
+#     widget_type: sensor
+#     title: Wayne
+#     text_style: "text-transform: uppercase;font-size: 300%"
+#     entity: sensor.presence_wayne_status
+#     sub_entity: sensor.presence_wayne_status
+#     sub_entity_map:
+#       0: ""
+#       1: "dark"
+      
 wayne_presence:
-    widget_type: device_tracker_short
+    widget_type: presence #_short
     title: Wayne
-    entity: device_tracker.phone_wayne
-    state_text: 0
+    entity: sensor.presence_wayne_status
+    state_text: 1
     icon_on: fa-male
     icon_off: fa-male
     icon_style_active: "color: #4bcdea"
-    #enable: 1               #1 to allow to toggle device_tracker state
-#    device: dedb5e711a24415baaae5cf8e880d852
 jenn_presence:
-    widget_type: device_tracker_short
+    widget_type: presence #_short
     title: Jenn
-    entity: device_tracker.phone_jenn
+    entity: sensor.presence_jenn_status
     picture: /local/photos/jenn.jpg
-    state_text: 0
+    state_text: 1
     icon_style_active: "color: #ea4b82"
     icon_on: fa-female
     icon_off: fa-female
 kale_presence:
-    widget_type: device_tracker_short
+    widget_type: presence #_short
     title: Kale
-    entity: device_tracker.phone_kale
-    state_text: 0
+    entity: sensor.presence_kale_status
+    state_text: 1
     icon_on: fa-male
     icon_off: fa-male
     icon_style_active: "color: #4bcdea"
 jalynne_presence:
-    widget_type: device_tracker_short
+    widget_type: presence #_short
     title: Jalynne
-    entity: device_tracker.phone_jalynne
-    state_text: 0
+    entity: sensor.presence_jalynne_status
+    state_text: 1
     icon_style_active: "color: #ea4b82"
     icon_on: fa-female
     icon_off: fa-female
