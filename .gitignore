@@ -1,5 +1,5 @@
 *.
-appdaemon.log
-appdaemonerr.log
+*.log
+*.log.*
 secrets.yaml
 examples/*
