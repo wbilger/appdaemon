@@ -1,6 +1,6 @@
 .widget-baseclock-{{id}}.date {
 	position: absolute;
-	top: 5px;
+	top: 15px;
 	width: 100%;
 }
 .widget-baseclock-{{id}}.time {

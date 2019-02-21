@@ -1,0 +1,16 @@
+#
+# Main arguments, all optional
+#
+title: Bilger Home Assistant
+widget_dimensions: [1280, 802]
+widget_size: [1, 1]
+columns: 1
+
+ha_frame:
+    widget_type: iframe
+    title: Bilger Home Assistant
+    url_list: 
+      - https://bilger-ha.duckdns.org/lovelace/home
+
+layout:
+    - ha_frame

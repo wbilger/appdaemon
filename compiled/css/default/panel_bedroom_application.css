@@ -204,7 +204,7 @@ input {
 
 .widget-baseclock-default-date-time.date {
 	position: absolute;
-	top: 5px;
+	top: 15px;
 	width: 100%;
 }
 .widget-baseclock-default-date-time.time {
@@ -285,7 +285,443 @@ input {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-.widget-baserss-default-rss-weather .unit {
+.widget-basecalendar-default-calendar-events {
+	position: relative;
+}
+
+.widget-basecalendar-default-calendar-events .title {
+	position: absolute;
+	font-size: 75%;
+	top: 3px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-calendar-events .title2 {
+	position: absolute;
+	top: 15px;
+	width: 100%;
+}
+
+.widget-basecalendar-default-calendar-events .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basecalendar-default-calendar-events .value1 {
+	position: absolute;
+	top: 17px;
+	width: 100%;
+}
+
+.widget-basecalendar-default-calendar-events .value2 {
+	position: absolute;
+	top: 34px;
+	left: 5px;
+	width: 100%;
+}
+
+.widget-basecalendar-default-calendar-events .value3 {
+	position: absolute;
+	top: 51px;
+	left: 5px;
+	width: 100%;
+}
+
+.widget-basecalendar-default-calendar-events .value4 {
+	position: absolute;
+	top: 68px;
+	left: 5px;
+	width: 100%;
+}
+
+.widget-basecalendar-default-calendar-events .value5 {
+	position: absolute;
+	top: 85px;
+	width: 100%;
+}
+.widget-basepresence-default-wayne-presence {
+	position: relative;
+}
+
+.widget-basepresence-default-wayne-presence .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .state_text {
+	position: absolute;
+	bottom: -3px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .icon {
+	position: absolute;
+	bottom: 18px;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basepresence-default-jenn-presence {
+	position: relative;
+}
+
+.widget-basepresence-default-jenn-presence .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basepresence-default-jenn-presence .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-basepresence-default-jenn-presence .state_text {
+	position: absolute;
+	bottom: -3px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-basepresence-default-jenn-presence .icon {
+	position: absolute;
+	bottom: 18px;
+	width: 100%;
+}
+
+.widget-basepresence-default-jenn-presence .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basepresence-default-kale-presence {
+	position: relative;
+}
+
+.widget-basepresence-default-kale-presence .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basepresence-default-kale-presence .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-basepresence-default-kale-presence .state_text {
+	position: absolute;
+	bottom: -3px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-basepresence-default-kale-presence .icon {
+	position: absolute;
+	bottom: 18px;
+	width: 100%;
+}
+
+.widget-basepresence-default-kale-presence .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basepresence-default-jalynne-presence {
+	position: relative;
+}
+
+.widget-basepresence-default-jalynne-presence .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basepresence-default-jalynne-presence .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-basepresence-default-jalynne-presence .state_text {
+	position: absolute;
+	bottom: -3px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-basepresence-default-jalynne-presence .icon {
+	position: absolute;
+	bottom: 18px;
+	width: 100%;
+}
+
+.widget-basepresence-default-jalynne-presence .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-base_light_with_brightness-default-jenn-bedroom {
+	position: relative;
+}
+.widget-base_light_with_brightness-default-jenn-bedroom .title {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+.widget-base_light_with_brightness-default-jenn-bedroom .title2 {
+    position: absolute;
+    top: 23px;
+    width: 100%;
+}
+.widget-base_light_with_brightness-default-jenn-bedroom .iconcontainer {
+	position: absolute;
+	bottom: 30%;
+	width: 100%;
+}
+
+.widget-base_light_with_brightness-default-jenn-bedroom .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 75%;
+}
+
+.widget-base_light_with_brightness-default-jenn-bedroom .slidercontainer {
+   position: absolute;
+   bottom: 5px;
+   height: 25%;
+   overflow: hidden;
+   width: 100%;
+   horizontal-align: center;
+   margin:auto;
+}
+
+.widget-base_light_with_brightness-default-jenn-bedroom input[type=range] {
+  -webkit-appearance: slider-horizontal;
+  border: 1px solid white;
+  height: 90%;
+  width: 90%;
+}
+.widget-baseswitch-default-bedroom-fan {
+	position: relative;
+}
+
+.widget-baseswitch-default-bedroom-fan .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-bedroom-fan .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-bedroom-fan .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-bedroom-fan .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-bedroom-fan .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-bedroom-tv {
+	position: relative;
+}
+
+.widget-baseswitch-default-bedroom-tv .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-bedroom-tv .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-bedroom-tv .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-bedroom-tv .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-bedroom-tv .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-bedtime {
+	position: relative;
+}
+
+.widget-baseswitch-default-bedtime .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-bedtime .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-bedtime .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-bedtime .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-bedtime .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-jalynne-bedroom-light {
+	position: relative;
+}
+
+.widget-baseswitch-default-jalynne-bedroom-light .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-jalynne-bedroom-light .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-jalynne-bedroom-light .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-jalynne-bedroom-light .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-jalynne-bedroom-light .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-jalynne-bedroom-fan {
+	position: relative;
+}
+
+.widget-baseswitch-default-jalynne-bedroom-fan .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-jalynne-bedroom-fan .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-jalynne-bedroom-fan .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-jalynne-bedroom-fan .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-jalynne-bedroom-fan .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basedisplay-default-label-1 .unit {
 	font-size: 225%;
 	font-weight: 400;
 	display: inline-block;
@@ -294,230 +730,280 @@ input {
 	margin-top: 5px;
 }
 
-.widget-baserss-default-rss-weather .value {
+.widget-basedisplay-default-label-1 .value {
 	display: inline-block;
 	vertical-align: middle;
 }
 
-.widget-baserss-default-rss-weather .valueunit {
-	position: absolute;
-	top: 43px;
+.widget-basedisplay-default-label-1 .valueunit {
 	width: 100%;
-}
-
-.widget-baserss-default-rss-weather .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baserss-default-rss-weather .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-.widget-baseswitch-default-wayne-presence {
-	position: relative;
-}
-
-.widget-baseswitch-default-wayne-presence .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-wayne-presence .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-wayne-presence .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-wayne-presence .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-wayne-presence .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-baseswitch-default-jenn-presence {
-	position: relative;
-}
-
-.widget-baseswitch-default-jenn-presence .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jenn-presence .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jenn-presence .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jenn-presence .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jenn-presence .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-baseswitch-default-kale-presence {
-	position: relative;
-}
-
-.widget-baseswitch-default-kale-presence .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-kale-presence .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-kale-presence .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-kale-presence .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-kale-presence .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-baseswitch-default-jalynne-presence {
-	position: relative;
-}
-
-.widget-baseswitch-default-jalynne-presence .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jalynne-presence .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jalynne-presence .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jalynne-presence .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-jalynne-presence .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-
-.widget-baseerror-default-jenn-bedroom .error {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-
-.widget-basedisplay-default-label-2 .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-label-2 .value {
-	display: inline-block;
 	vertical-align: middle;
 }
 
-.widget-basedisplay-default-label-2 .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-2 .title {
+.widget-basedisplay-default-label-1 .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-label-2 .title2 {
+.widget-basedisplay-default-label-1 .title2 {
 	position: absolute;
 	top: 23px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-label-2 .state_text {
+.widget-basedisplay-default-label-1 .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group {
+	position: relative;
+}
 
-.widget-baseerror-default-bedtime .error {
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .title {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .state_text {
+	position: absolute;
+	right 3px;
+	bottom: -3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .icon {
+	position: absolute;
+	top: 5px;
+	left: 8px;
+}
+
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p1 {
+	position: relative;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p1 .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
+.widget-basebutton-default-bedroom-radio-station-p1 .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
 
+.widget-basebutton-default-bedroom-radio-station-p1 .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p1 .icon {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+	font-size: 210%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p1 .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseselect_thin-default-bedroom-radio-station {
+    position: relative;
+}
+.widget-baseselect_thin-default-bedroom-radio-station .title {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+
+.widget-baseselect_thin-default-bedroom-radio-station .styled-select {
+   position: absolute;
+   top: 25px;
+   height: 30px;
+   overflow: hidden;
+   width: 100%;
+   horizontal-align: center;
+   margin:auto;
+}
+
+.widget-baseselect_thin-default-bedroom-radio-station .styled-select>select {
+   background-color: #333;
+   border: none;
+   outline: none;
+   font-size: 16px;
+   height: 29px;
+   padding: 5px;
+   width: 90%;
+   color: white;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+
+
+
+
+.widget-basebutton-default-bedroom-radio-station-p2 {
+	position: relative;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p2 .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p2 .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p2 .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p2 .icon {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+	font-size: 210%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p2 .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basemedia-default-bedroom-plex {
+	position: relative;
+}
+
+.widget-basemedia-default-bedroom-plex .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-plex .artist {
+	position: absolute;
+	top: 30px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-plex .album {
+	position: absolute;
+	top: 55px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-plex .media_title {
+	position: absolute;
+	top: 80px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-plex .state_text {
+	position: absolute;
+	top: 38px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-plex .previous {
+    position: absolute;
+	top: 130px;
+    left: 25px;
+    z-index: 10;
+}
+
+.widget-basemedia-default-bedroom-plex .play {
+    position: absolute;
+	top: 130px;
+    width: 100%;
+}
+
+.widget-basemedia-default-bedroom-plex .next {
+    position: absolute;
+	top: 130px;
+	right: 25px;
+    z-index: 10;
+}
+
+
+.widget-basemedia-default-bedroom-plex .level {
+	display: inline-block;
+}
+
+.widget-basemedia-default-bedroom-plex .unit {
+	display: inline-block;
+}
+
+.widget-basemedia-default-bedroom-plex .levelunit {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-plex .secondary-icon {
+	position: absolute;
+	bottom: 0px;
+	font-size: 20px;
+	width: 32px;
+	color: white;
+}
+
+.widget-basemedia-default-bedroom-plex .secondary-icon.plus {
+	right: 24px;
+}
+
+.widget-basemedia-default-bedroom-plex .secondary-icon.plus i {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.widget-basemedia-default-bedroom-plex .secondary-icon.minus {
+	left: 28px;
+}
+
+.widget-basemedia-default-bedroom-plex .secondary-icon.minus i {
+	padding-top: 10px;
+	padding-right: 30px;
+}
 .widget-basedisplay-default-label-3 .unit {
 	font-size: 225%;
 	font-weight: 400;
@@ -533,9 +1019,8 @@ input {
 }
 
 .widget-basedisplay-default-label-3 .valueunit {
-	position: absolute;
-	top: 43px;
 	width: 100%;
+	vertical-align: middle;
 }
 
 .widget-basedisplay-default-label-3 .title {
@@ -556,6 +1041,100 @@ input {
 	width: 100%;
 }
 
+.widget-basemedia-default-bedroom-chromecast {
+	position: relative;
+}
+
+.widget-basemedia-default-bedroom-chromecast .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-chromecast .artist {
+	position: absolute;
+	top: 30px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-chromecast .album {
+	position: absolute;
+	top: 55px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-chromecast .media_title {
+	position: absolute;
+	top: 80px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-chromecast .state_text {
+	position: absolute;
+	top: 38px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-chromecast .previous {
+    position: absolute;
+	top: 130px;
+    left: 25px;
+    z-index: 10;
+}
+
+.widget-basemedia-default-bedroom-chromecast .play {
+    position: absolute;
+	top: 130px;
+    width: 100%;
+}
+
+.widget-basemedia-default-bedroom-chromecast .next {
+    position: absolute;
+	top: 130px;
+	right: 25px;
+    z-index: 10;
+}
+
+
+.widget-basemedia-default-bedroom-chromecast .level {
+	display: inline-block;
+}
+
+.widget-basemedia-default-bedroom-chromecast .unit {
+	display: inline-block;
+}
+
+.widget-basemedia-default-bedroom-chromecast .levelunit {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-basemedia-default-bedroom-chromecast .secondary-icon {
+	position: absolute;
+	bottom: 0px;
+	font-size: 20px;
+	width: 32px;
+	color: white;
+}
+
+.widget-basemedia-default-bedroom-chromecast .secondary-icon.plus {
+	right: 24px;
+}
+
+.widget-basemedia-default-bedroom-chromecast .secondary-icon.plus i {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.widget-basemedia-default-bedroom-chromecast .secondary-icon.minus {
+	left: 28px;
+}
+
+.widget-basemedia-default-bedroom-chromecast .secondary-icon.minus i {
+	padding-top: 10px;
+	padding-right: 30px;
+}
 .widget-basedisplay-default-label-4 .unit {
 	font-size: 225%;
 	font-weight: 400;
@@ -571,9 +1150,8 @@ input {
 }
 
 .widget-basedisplay-default-label-4 .valueunit {
-	position: absolute;
-	top: 43px;
 	width: 100%;
+	vertical-align: middle;
 }
 
 .widget-basedisplay-default-label-4 .title {
@@ -594,191 +1172,177 @@ input {
 	width: 100%;
 }
 
+.widget-basemedia_speaker-default-bedroom-speaker {
+	position: relative;
+}
 
-.widget-baseerror-default-kitchen-bedroom-speaker-group .error {
+.widget-basemedia_speaker-default-bedroom-speaker .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-
-.widget-basedisplay-default-label-5 .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-label-5 .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-label-5 .valueunit {
+.widget-basemedia_speaker-default-bedroom-speaker .artist {
 	position: absolute;
-	top: 43px;
+	top: 30px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-label-5 .title {
+.widget-basemedia_speaker-default-bedroom-speaker .album {
+	position: absolute;
+	top: 55px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-default-bedroom-speaker .media_title {
+	position: absolute;
+	top: 80px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-default-bedroom-speaker .state_text {
+	position: absolute;
+	top: 38px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-default-bedroom-speaker .previous {
+  position: absolute;
+	bottom: 50px;
+  left: 65px;
+	font-size: 20px;
+  z-index: 10;
+}
+
+.widget-basemedia_speaker-default-bedroom-speaker .play {
+  position: absolute;
+	bottom: 30px;
+  width: 100%;
+}
+
+.widget-basemedia_speaker-default-bedroom-speaker .next {
+  position: absolute;
+	bottom: 50px;
+	right: 65px;
+	font-size: 20px;
+  z-index: 10;
+}
+
+
+.widget-basemedia_speaker-default-bedroom-speaker .level {
+	display: inline-block;
+}
+
+.widget-basemedia_speaker-default-bedroom-speaker .unit {
+	display: inline-block;
+}
+
+.widget-basemedia_speaker-default-bedroom-speaker .levelunit {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-default-bedroom-speaker .secondary-icon {
+	position: absolute;
+	bottom: 5px;
+	font-size: 50px;
+	width: 32px;
+	color: white;
+}
+
+.widget-basemedia_speaker-default-bedroom-speaker .secondary-icon.plus {
+	right: 25px;
+}
+
+.widget-basemedia_speaker-default-bedroom-speaker .secondary-icon.plus i {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.widget-basemedia_speaker-default-bedroom-speaker .secondary-icon.minus {
+	left: 10px;
+}
+
+.widget-basemedia_speaker-default-bedroom-speaker .secondary-icon.minus i {
+	padding-top: 10px;
+	padding-right: 30px;
+}
+.widget-basebutton-default-bedroom-radio-station-p3 {
+	position: relative;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p3 .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-label-5 .title2 {
+.widget-basebutton-default-bedroom-radio-station-p3 .title2 {
 	position: absolute;
 	top: 23px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-label-5 .state_text {
+.widget-basebutton-default-bedroom-radio-station-p3 .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
+.widget-basebutton-default-bedroom-radio-station-p3 .icon {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+	font-size: 210%;
+}
 
-.widget-baseerror-default-bedroom-radio-station-p1 .error {
+.widget-basebutton-default-bedroom-radio-station-p3 .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p4 {
+	position: relative;
+}
+
+.widget-basebutton-default-bedroom-radio-station-p4 .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-
-
-.widget-baseerror-default-bedroom-radio-station .error {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-
-
-.widget-baseerror-default-bedroom-radio-station-p2 .error {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-
-
-.widget-baseerror-default-bedroom-plex .error {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-
-.widget-basedisplay-default-label-6 .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-label-6 .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-label-6 .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-6 .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-6 .title2 {
+.widget-basebutton-default-bedroom-radio-station-p4 .title2 {
 	position: absolute;
 	top: 23px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-label-6 .state_text {
+.widget-basebutton-default-bedroom-radio-station-p4 .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-
-.widget-baseerror-default-bedroom-chromecast .error {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-
-.widget-basedisplay-default-label-7 .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-label-7 .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-label-7 .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-7 .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-7 .title2 {
+.widget-basebutton-default-bedroom-radio-station-p4 .icon {
 	position: absolute;
 	top: 23px;
 	width: 100%;
+	font-size: 210%;
 }
 
-.widget-basedisplay-default-label-7 .state_text {
+.widget-basebutton-default-bedroom-radio-station-p4 .toggle-area {
+	z-index: 10;
 	position: absolute;
-	bottom: -3px;
+	top: 0;
+	left: 0;
 	width: 100%;
+	height: 100%;
 }
-
-
-.widget-baseerror-default-bedroom-speaker .error {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-
-
-.widget-baseerror-default-bedroom-radio-station-p3 .error {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-
-
-.widget-baseerror-default-bedroom-radio-station-p4 .error {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
 
 .widget-basenavigate-default-load-main-panel .icon {
 	position: absolute;

@@ -1,0 +1,45 @@
+#
+# Main arguments, all optional
+#
+title: Bedroom plex_ Remote
+widget_dimensions: [28, 28]
+widget_size: [4, 4]
+widget_margins: [1, 1]
+columns: 12
+
+layout:
+    - include: widgets_lights-mobile
+    - include: widgets_scenes-mobile
+    - include: widgets_remote-br
+    - include: widgets_lights
+    - include: widgets_scripts-mobile
+
+    - jenn_bedroom(6x4),jalynne_bedroom_light(3x4),jalynne_bedroom_fan(3x4)
+    -
+    -
+    -
+    - label_top(12x1)
+    - plex_skip_back,plex_direction_up,plex_skip_fwd
+    - 
+    - 
+    - 
+    - plex_direction_left,plex_select,plex_direction_right
+    -
+    - 
+    - 
+    - plex_skip_back2,plex_direction_down,plex_back
+    -
+    - 
+    -
+    - plex_rewind2(3x2),plex_rewind(3x2),plex_fastforward(3x2),plex_fastforward2(3x2)
+    -
+    - plex_stop(3x2),plex_playpause(3x2),ir_tv_volume_down(3x2),ir_tv_volume_up(3x2)
+    -
+    -
+    - include: row_remote-br
+    - include: row_bottom-mobile
+    
+label_top:
+    widget_type: label
+    title: Bedroom Plex Remote
+    widget_style: "background: orange"

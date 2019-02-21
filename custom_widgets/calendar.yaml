@@ -1,0 +1,22 @@
+widget_type: basecalendar
+entity: {{entity}}
+fields:
+  title: {{title}}
+  title2: {{title2}}
+  value1: ""
+  value2: ""
+  value3: ""
+  value4: ""
+  value5: ""
+  state_text: ""
+static_css:
+  title_style: $calendar_title_style
+  title2_style: $calendar_title2_style
+  row1_style: $calendar_row1_style
+  row2_style: $calendar_row2_style
+  state_text_style: $calendar_state_text_style
+  widget_style: $calendar_widget_style
+css:
+  text_style: $calendar_text_style
+icons: []
+static_icons: []

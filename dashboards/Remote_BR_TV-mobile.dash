@@ -1,0 +1,46 @@
+#
+# Main arguments, all optional
+#
+title: Bedroom TV Remote
+widget_dimensions: [28, 28]
+widget_size: [4, 4]
+widget_margins: [1, 1]
+columns: 12
+
+layout:
+    - include: widgets_lights-mobile
+    - include: widgets_scenes-mobile
+    - include: widgets_remote-br
+    - include: widgets_lights
+    - include: widgets_scripts-mobile
+
+    - jenn_bedroom(6x4),jalynne_bedroom_light(3x4),jalynne_bedroom_fan(3x4)
+    -
+    -
+    -
+    - label_1(12x1)
+    - ir_tv_input(4x2),ir_tv_up,ir_tv_menu(2x2),ir_tv_home(2x2)
+    - 
+    - ir_tv_hdmi(4x2),ir_tv_exit(2x2),ir_tv_info(2x2)
+    -
+    - ir_tv_left,ir_tv_ok,ir_tv_right
+    -
+    - 
+    - 
+    - ir_tv_channel_down,ir_tv_down,ir_tv_channel_up
+    -
+    - 
+    -
+    - ir_tv_rewind(3x2),ir_tv_fastforward(3x2),ir_tv_skipback(3x2),ir_tv_skipforward(3x2)
+    -
+    - ir_tv_play(2x2),ir_tv_pause(2x2),ir_tv_stop(2x2),ir_tv_volume_down(3x2),ir_tv_volume_up(3x2)
+    -
+    -
+    - include: row_remote-br
+    - include: row_bottom-mobile
+
+    
+label_1:
+    widget_type: label
+    title: Bedroom TV Remote
+    widget_style: "background: black"    

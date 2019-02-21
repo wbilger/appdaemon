@@ -1,21 +1,21 @@
 ecobee_temperature_target:
-    widget_type: sensor
+    widget_type: sensor_short
     entity: sensor.ecobee_temperature_target
     title: Target Temperature
     units: "&deg;C"
     precision: 1
-    value_style: "color: red;"
-    unit_style: "color: red;"
+    value_style: "font-size: 225%; color: red;"
+    unit_style: "font-size: 100%; color: red;"
 bilger_home_temperature_avg:
-    widget_type: sensor
+    widget_type: sensor_short
     entity: sensor.bilger_home_temperature_avg
     title: House Temperature
     units: "&deg;C"
     precision: 1
-    value_style: "color: orange;"
-    unit_style: "color: orange;"
+    value_style: "font-size: 225%; color: orange;"
+    unit_style: "font-size: 100%; color: orange;"
 ecobee_temperature_avg:
-    widget_type: sensor
+    widget_type: sensor_short
     entity: sensor.ecobee_temperature_avg
     title: Ecobee Average
     units: "&deg;C"
@@ -23,7 +23,7 @@ ecobee_temperature_avg:
     value_style: "font-size: 215%; color: lightblue;"
     unit_style: "font-size: 95%; color: lightblue;"
 ecobee_temperature:
-    widget_type: sensor
+    widget_type: sensor_short
     entity: sensor.ecobee_temperature
     title: Ecobee
     units: "&deg;C"
@@ -31,36 +31,44 @@ ecobee_temperature:
     value_style: "font-size: 215%;"
     unit_style: "font-size: 95%;"
 ecobee_temperature_kitchen:
-    widget_type: sensor
+    widget_type: sensor_short
     entity: sensor.kitchen_temperature
     title: Kitchen
     units: "&deg;C"
     precision: 1
     value_style: "font-size: 215%;"
     unit_style: "font-size: 95%;"
-ecobee_temperature_bedroom:
-    widget_type: sensor
-    entity: sensor.bedroom_temperature
-    title: Bedroom
-    units: "&deg;C"
-    precision: 1
-    value_style: "font-size: 215%;"
-    unit_style: "font-size: 95%;"
-broadlink_temperature_family_room:
-    widget_type: sensor
-    entity: sensor.family_room_temperature
+ecobee_temperature_family_room:
+    widget_type: sensor_short
+    entity: sensor.family_room_temperature  
     title: Family Room
     units: "&deg;C"
     precision: 1
     value_style: "font-size: 215%;"
     unit_style: "font-size: 95%;"
+broadlink_temperature_bedroom:
+    widget_type: sensor_short
+    entity: sensor.bedroom_temperature
+    title: Master Bedroom
+    units: ""#"&deg;C"
+    precision: 1
+    value_style: "font-size: 185%;"
+    #unit_style: "font-size: 50%;"
+broadlink_temperature_bedroom_kale:
+    widget_type: sensor_short
+    entity: sensor.bedroom_kale_temperature
+    title: Kale Bedroom
+    units: ""#"&deg;C"
+    precision: 1
+    value_style: "font-size: 185%;"
+    #unit_style: "font-size: 50%;"
 ecobee_humidity:
-    widget_type: sensor
+    widget_type: sensor_short
     entity: sensor.ecobee_humidity
     title: Humidity
     units: "%"
-    value_style: "color: gray;"
-    unit_style: "color: gray;"
+    value_style: "color: gray; font-size: 200%"
+    unit_style: "color: gray; font-size: 90%"
 ecobee_mode_home:
     widget_type: iconsensor
     entity: sensor.ecobee_mode_home
@@ -75,25 +83,33 @@ ecobee_occupancy_kitchen:
     widget_type: binary_sensor
     entity: binary_sensor.kitchen_occupancy
     title: Kitchen
-ecobee_occupancy_bedroom:
+ecobee_occupancy_family_room:
     widget_type: binary_sensor
-    entity: binary_sensor.bedroom_occupancy
-    title: Bedroom
+    entity: binary_sensor.family_room_occupancy
+    title: Family Room
     
 
-ecobee_mode_operation:
-    widget_type: sensor
-    entity: sensor.ecobee_mode_operation
-    title: Operation Mode
 ecobee_operation:
-    widget_type: sensor
+    widget_type: iconsensor
     entity: sensor.ecobee_operation
-    title: Operation
+    title: Furnace
+    state_icons:
+      Heat: fa-fire
+      Cool: mdi-snowflake
+      Fan: mdi-fan
+      Idle: mdi-minus
+ecobee_mode_operation:
+    widget_type: sensor_short
+    entity: sensor.ecobee_mode_operation
+    title: Furnace Setting
+    text_style: "font-size: 125%; color: gray;"
 ecobee_fan:
-    widget_type: sensor
+    widget_type: sensor_short
     entity: sensor.ecobee_fan
     title: Fan
+    text_style: "font-size: 125%; color: gray;"
 ecobee_mode_hold:
-    widget_type: sensor
+    widget_type: sensor_short
     entity: sensor.ecobee_mode_hold
     title: Hold
+    text_style: "font-size: 125%; color: gray;"

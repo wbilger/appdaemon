@@ -1,0 +1,234 @@
+# tv
+ir_tv:
+    widget_type: switch_short
+    entity: switch.ir_tv
+    icon_off: mdi-tv
+    icon_on: mdi-tv
+ir_tv_input:
+    widget_type: button_remote_short
+    entity: switch.ir_bedroom_tv_input
+    title2: Input
+    icon_off: ''
+    icon_on: ''
+ir_tv_hdmi:
+    widget_type: button_remote_short
+    entity: switch.ir_bedroom_tv_hdmi
+    title2: HDMI
+    icon_off: ''
+    icon_on: ''
+ir_tv_channel_up:
+    widget_type: button_remote
+    entity: switch.ir_bedroom_tv_channel_up
+    title: CH
+    title_style: "color: darkgray"
+    icon_off: mdi-menu-up
+    icon_on: mdi-menu-up
+ir_tv_channel_down:
+    widget_type: button_remote
+    entity: switch.ir_bedroom_tv_channel_down
+    title: CH
+    title_style: "color: darkgray"
+    icon_off: mdi-menu-down
+    icon_on: mdi-menu-down
+ir_tv_volume_up:
+    widget_type: button_remote_small
+    entity: switch.ir_bedroom_tv_volume_up
+    icon_off: mdi-volume-plus
+    icon_on: mdi-volume-plus
+ir_tv_volume_down:
+    widget_type: button_remote_small
+    entity: switch.ir_bedroom_tv_volume_down
+    icon_off: mdi-volume-minus
+    icon_on: mdi-volume-minus
+ir_tv_menu:
+    widget_type: button_remote_small
+    entity: switch.ir_bedroom_tv_menu
+    icon_off: mdi-menu
+    icon_on: mdi-menu
+ir_tv_exit:
+    widget_type: button_remote_small
+    entity: switch.ir_bedroom_tv_exit
+    icon_off: mdi-keyboard-backspace
+    icon_on: mdi-keyboard-backspace
+ir_tv_home:
+    widget_type: button_remote_small
+    entity: switch.ir_bedroom_tv_home
+    icon_off: mdi-home
+    icon_on: mdi-home
+ir_tv_info:
+    widget_type: button_remote_small
+    entity: switch.ir_bedroom_tv_info
+    icon_off: mdi-information-variant
+    icon_on: mdi-information-variant
+ir_tv_up:
+    widget_type: button_remote
+    entity: switch.ir_bedroom_tv_up
+    icon_off: fa-arrow-up
+    icon_on: fa-arrow-up
+ir_tv_down:
+    widget_type: button_remote
+    entity: switch.ir_bedroom_tv_down
+    icon_off: fa-arrow-down
+    icon_on: fa-arrow-down
+ir_tv_left:
+    widget_type: button_remote
+    entity: switch.ir_bedroom_tv_left
+    icon_off: fa-arrow-left
+    icon_on: fa-arrow-left
+ir_tv_right:
+    widget_type: button_remote
+    entity: switch.ir_bedroom_tv_right
+    icon_off: fa-arrow-right
+    icon_on: fa-arrow-right
+ir_tv_ok:
+    widget_type: button_remote
+    entity: switch.ir_bedroom_tv_ok
+    icon_off: fa-circle
+    icon_on: fa-circle
+ir_tv_play:
+    widget_type: button_remote_small
+    entity: switch.ir_bedroom_tv_play
+    icon_off: fa-play
+    icon_on: fa-play
+ir_tv_pause:
+    widget_type: button_remote_small
+    entity: switch.ir_bedroom_tv_pause
+    icon_off: fa-pause
+    icon_on: fa-pause
+ir_tv_stop:
+    widget_type: button_remote_small
+    entity: switch.ir_bedroom_tv_stop
+    icon_off: fa-stop
+    icon_on: fa-stop
+ir_tv_fastforward:
+    widget_type: button_remote_small
+    entity: switch.ir_bedroom_tv_fastforward
+    icon_off: mdi-fast-forward
+    icon_on: mdi-fast-forward
+ir_tv_rewind:
+    widget_type: button_remote_small
+    entity: switch.ir_bedroom_tv_rewind
+    icon_off: mdi-rewind
+    icon_on: mdi-rewind
+ir_tv_skipforward:
+    widget_type: button_remote_small
+    entity: switch.ir_bedroom_tv_skipforward
+    icon_off: mdi-skip-forward
+    icon_on: mdi-skip-forward
+ir_tv_skipback:
+    widget_type: button_remote_small
+    entity: switch.ir_bedroom_tv_skipback
+    icon_off: mdi-skip-backward
+    icon_on: mdi-skip-backward
+
+
+## Remote Plex keypresses
+plex_home:
+    widget_type: button_remote
+    entity: switch.bedroom_plex_home
+    icon_off: mdi-home
+    icon_on: mdi-home
+plex_plex:
+    widget_type: button_remote_small
+    entity: switch.bedroom_plex_plex
+    icon_off: mdi-plex
+    icon_on: mdi-plex
+plex_netflix:
+    widget_type: button_remote_small
+    entity: switch.bedroom_plex_netflix
+    icon_off: mdi-netflix
+    icon_on: mdi-netflix
+plex_youtube:
+    widget_type: button_remote_small
+    entity: switch.bedroom_plex_youtube
+    icon_off: mdi-youtube-play
+    icon_on: mdi-youtube-play
+plex_mlb:
+    widget_type: button_remote_small
+    entity: switch.bedroom_plex_mlb
+    title2: MLB
+plex_direction_up:
+    widget_type: button_remote
+    entity: switch.bedroom_plex_up
+    icon_off: fa-arrow-up
+    icon_on: fa-arrow-up
+plex_direction_down:
+    widget_type: button_remote
+    entity: switch.bedroom_plex_down
+    icon_off: fa-arrow-down
+    icon_on: fa-arrow-down
+plex_direction_left:
+    widget_type: button_remote
+    entity: switch.bedroom_plex_left
+    icon_off: fa-arrow-left
+    icon_on: fa-arrow-left
+plex_direction_right:
+    widget_type: button_remote
+    entity: switch.bedroom_plex_right
+    icon_off: fa-arrow-right
+    icon_on: fa-arrow-right
+plex_select:
+    widget_type: button_remote
+    entity: switch.bedroom_plex_select
+    icon_off: fa-circle
+    icon_on: fa-circle
+plex_back:
+    widget_type: button_remote
+    entity: switch.bedroom_plex_back
+    icon_off: mdi-keyboard-backspace
+    icon_on: mdi-keyboard-backspace
+plex_playpause:
+    widget_type: button_remote_small
+    entity: switch.bedroom_plex_playpause
+    icon_off: mdi-play-pause
+    icon_on: mdi-play-pause
+plex_play:
+    widget_type: button_remote_small
+    entity: switch.bedroom_plex_play
+    icon_off: fa-play
+    icon_on: fa-play
+plex_pause:
+    widget_type: button_remote_small
+    entity: switch.bedroom_plex_pause
+    icon_off: fa-pause
+    icon_on: fa-pause
+plex_stop:
+    widget_type: button_remote_small
+    entity: switch.bedroom_plex_stop
+    icon_off: fa-stop
+    icon_on: fa-stop
+plex_skip_fwd:
+    widget_type: button_remote
+    entity: switch.bedroom_plex_skip_fwd
+    icon_off: mdi-fast-forward
+    icon_on: mdi-fast-forward
+plex_skip_back:
+    widget_type: button_remote
+    entity: switch.bedroom_plex_skip_back
+    icon_off: mdi-rewind
+    icon_on: mdi-rewind
+plex_skip_back2:
+    widget_type: button_remote
+    entity: switch.bedroom_plex_skip_back
+    icon_off: mdi-rewind
+    icon_on: mdi-rewind
+plex_fastforward:
+    widget_type: button_remote_small
+    entity: switch.bedroom_plex_fwd
+    icon_off: mdi-step-forward
+    icon_on: mdi-step-forward
+plex_fastforward2:
+    widget_type: button_remote_small
+    entity: switch.bedroom_plex_fwd2
+    icon_off: mdi-step-forward-2
+    icon_on: mdi-step-forward-2
+plex_rewind:
+    widget_type: button_remote_small
+    entity: switch.bedroom_plex_rew
+    icon_off: mdi-step-backward
+    icon_on: mdi-step-backward
+plex_rewind2:
+    widget_type: button_remote_small
+    entity: switch.bedroom_plex_rew2
+    icon_off: mdi-step-backward-2
+    icon_on: mdi-step-backward-2

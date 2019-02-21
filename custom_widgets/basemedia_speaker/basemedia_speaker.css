@@ -1,0 +1,96 @@
+.widget-basemedia_speaker-{{id}} {
+	position: relative;
+}
+
+.widget-basemedia_speaker-{{id}} .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-{{id}} .artist {
+	position: absolute;
+	top: 30px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-{{id}} .album {
+	position: absolute;
+	top: 55px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-{{id}} .media_title {
+	position: absolute;
+	top: 80px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-{{id}} .state_text {
+	position: absolute;
+	top: 38px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-{{id}} .previous {
+  position: absolute;
+	bottom: 50px;
+  left: 65px;
+	font-size: 20px;
+  z-index: 10;
+}
+
+.widget-basemedia_speaker-{{id}} .play {
+  position: absolute;
+	bottom: 30px;
+  width: 100%;
+}
+
+.widget-basemedia_speaker-{{id}} .next {
+  position: absolute;
+	bottom: 50px;
+	right: 65px;
+	font-size: 20px;
+  z-index: 10;
+}
+
+
+.widget-basemedia_speaker-{{id}} .level {
+	display: inline-block;
+}
+
+.widget-basemedia_speaker-{{id}} .unit {
+	display: inline-block;
+}
+
+.widget-basemedia_speaker-{{id}} .levelunit {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-{{id}} .secondary-icon {
+	position: absolute;
+	bottom: 5px;
+	font-size: 50px;
+	width: 32px;
+	color: white;
+}
+
+.widget-basemedia_speaker-{{id}} .secondary-icon.plus {
+	right: 25px;
+}
+
+.widget-basemedia_speaker-{{id}} .secondary-icon.plus i {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.widget-basemedia_speaker-{{id}} .secondary-icon.minus {
+	left: 10px;
+}
+
+.widget-basemedia_speaker-{{id}} .secondary-icon.minus i {
+	padding-top: 10px;
+	padding-right: 30px;
+}

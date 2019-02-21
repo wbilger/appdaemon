@@ -204,7 +204,7 @@ input {
 
 .widget-baseclock-default-date-time.date {
 	position: absolute;
-	top: 5px;
+	top: 15px;
 	width: 100%;
 }
 .widget-baseclock-default-date-time.time {
@@ -285,66 +285,91 @@ input {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-.widget-baserss-default-rss-weather .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-baserss-default-rss-weather .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-baserss-default-rss-weather .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baserss-default-rss-weather .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baserss-default-rss-weather .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-.widget-baseswitch-default-wayne-presence {
+.widget-basecalendar-default-calendar-events {
 	position: relative;
 }
 
-.widget-baseswitch-default-wayne-presence .title {
+.widget-basecalendar-default-calendar-events .title {
 	position: absolute;
-	top: 5px;
+	font-size: 75%;
+	top: 3px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-wayne-presence .title2 {
+.widget-basedisplay-default-calendar-events .title2 {
 	position: absolute;
-	top: 23px;
+	top: 15px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-wayne-presence .state_text {
+.widget-basecalendar-default-calendar-events .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-wayne-presence .icon {
+.widget-basecalendar-default-calendar-events .value1 {
 	position: absolute;
-	top: 43px;
+	top: 17px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-wayne-presence .toggle-area {
+.widget-basecalendar-default-calendar-events .value2 {
+	position: absolute;
+	top: 34px;
+	left: 5px;
+	width: 100%;
+}
+
+.widget-basecalendar-default-calendar-events .value3 {
+	position: absolute;
+	top: 51px;
+	left: 5px;
+	width: 100%;
+}
+
+.widget-basecalendar-default-calendar-events .value4 {
+	position: absolute;
+	top: 68px;
+	left: 5px;
+	width: 100%;
+}
+
+.widget-basecalendar-default-calendar-events .value5 {
+	position: absolute;
+	top: 85px;
+	width: 100%;
+}
+.widget-basepresence-default-wayne-presence {
+	position: relative;
+}
+
+.widget-basepresence-default-wayne-presence .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .state_text {
+	position: absolute;
+	bottom: -3px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .icon {
+	position: absolute;
+	bottom: 18px;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -353,35 +378,36 @@ input {
 	height: 100%;
 }
 
-.widget-baseswitch-default-jenn-presence {
+.widget-basepresence-default-jenn-presence {
 	position: relative;
 }
 
-.widget-baseswitch-default-jenn-presence .title {
+.widget-basepresence-default-jenn-presence .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jenn-presence .title2 {
+.widget-basepresence-default-jenn-presence .title2 {
 	position: absolute;
-	top: 23px;
+	top: 20px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jenn-presence .state_text {
+.widget-basepresence-default-jenn-presence .state_text {
 	position: absolute;
 	bottom: -3px;
+	font-size: 90%;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jenn-presence .icon {
+.widget-basepresence-default-jenn-presence .icon {
 	position: absolute;
-	top: 43px;
+	bottom: 18px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jenn-presence .toggle-area {
+.widget-basepresence-default-jenn-presence .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -390,35 +416,36 @@ input {
 	height: 100%;
 }
 
-.widget-baseswitch-default-kale-presence {
+.widget-basepresence-default-kale-presence {
 	position: relative;
 }
 
-.widget-baseswitch-default-kale-presence .title {
+.widget-basepresence-default-kale-presence .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-kale-presence .title2 {
+.widget-basepresence-default-kale-presence .title2 {
 	position: absolute;
-	top: 23px;
+	top: 20px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-kale-presence .state_text {
+.widget-basepresence-default-kale-presence .state_text {
 	position: absolute;
 	bottom: -3px;
+	font-size: 90%;
 	width: 100%;
 }
 
-.widget-baseswitch-default-kale-presence .icon {
+.widget-basepresence-default-kale-presence .icon {
 	position: absolute;
-	top: 43px;
+	bottom: 18px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-kale-presence .toggle-area {
+.widget-basepresence-default-kale-presence .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -427,35 +454,36 @@ input {
 	height: 100%;
 }
 
-.widget-baseswitch-default-jalynne-presence {
+.widget-basepresence-default-jalynne-presence {
 	position: relative;
 }
 
-.widget-baseswitch-default-jalynne-presence .title {
+.widget-basepresence-default-jalynne-presence .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jalynne-presence .title2 {
+.widget-basepresence-default-jalynne-presence .title2 {
 	position: absolute;
-	top: 23px;
+	top: 20px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jalynne-presence .state_text {
+.widget-basepresence-default-jalynne-presence .state_text {
 	position: absolute;
 	bottom: -3px;
+	font-size: 90%;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jalynne-presence .icon {
+.widget-basepresence-default-jalynne-presence .icon {
 	position: absolute;
-	top: 43px;
+	bottom: 18px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jalynne-presence .toggle-area {
+.widget-basepresence-default-jalynne-presence .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -464,41 +492,7 @@ input {
 	height: 100%;
 }
 
-.widget-baserss_short-default-rss-news .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baserss_short-default-rss-news .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baserss_short-default-rss-news .text {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-.widget-baserss_short-default-rss-sports .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baserss_short-default-rss-sports .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baserss_short-default-rss-sports .text {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-.widget-basedisplay-default-label-bilger-home .unit {
+.widget-basedisplay-default-weather-summary .unit {
 	font-size: 225%;
 	font-weight: 400;
 	display: inline-block;
@@ -507,339 +501,47 @@ input {
 	margin-top: 5px;
 }
 
-.widget-basedisplay-default-label-bilger-home .value {
+.widget-basedisplay-default-weather-summary .value {
 	display: inline-block;
 	vertical-align: middle;
 }
 
-.widget-basedisplay-default-label-bilger-home .valueunit {
-	position: absolute;
-	top: 43px;
+.widget-basedisplay-default-weather-summary .valueunit {
 	width: 100%;
+	vertical-align: middle;
 }
 
-.widget-basedisplay-default-label-bilger-home .title {
+.widget-basedisplay-default-weather-summary .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-label-bilger-home .title2 {
+.widget-basedisplay-default-weather-summary .title2 {
 	position: absolute;
 	top: 23px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-label-bilger-home .state_text {
+.widget-basedisplay-default-weather-summary .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-ecobee-temperature-target .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-ecobee-temperature-target .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-ecobee-temperature-target .valueunit {
+.widget-baserss_alerts-default-rss-weather-alerts .title {
 	position: absolute;
-	top: 43px;
+	top: 7px;
+	font-size: 125%;
 	width: 100%;
 }
 
-.widget-basedisplay-default-ecobee-temperature-target .title {
+.widget-baserss_alerts-default-rss-weather-alerts .text {
 	position: absolute;
-	top: 5px;
+	top: 6px;
+	font-size: 140%;
 	width: 100%;
 }
-
-.widget-basedisplay-default-ecobee-temperature-target .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-temperature-target .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-bilger-home-temperature-avg .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-bilger-home-temperature-avg .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-bilger-home-temperature-avg .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-bilger-home-temperature-avg .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-bilger-home-temperature-avg .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-bilger-home-temperature-avg .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-temperature-avg .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-ecobee-temperature-avg .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-ecobee-temperature-avg .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-temperature-avg .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-temperature-avg .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-temperature-avg .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-temperature .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-ecobee-temperature .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-ecobee-temperature .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-temperature .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-temperature .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-temperature .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-temperature-kitchen .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-ecobee-temperature-kitchen .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-ecobee-temperature-kitchen .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-temperature-kitchen .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-temperature-kitchen .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-temperature-kitchen .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-broadlink-temperature-family-room .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-broadlink-temperature-family-room .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-broadlink-temperature-family-room .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-broadlink-temperature-family-room .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-broadlink-temperature-family-room .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-broadlink-temperature-family-room .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-temperature-bedroom .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-ecobee-temperature-bedroom .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-ecobee-temperature-bedroom .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-temperature-bedroom .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-temperature-bedroom .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-temperature-bedroom .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-humidity .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-ecobee-humidity .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-ecobee-humidity .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-humidity .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-humidity .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-ecobee-humidity .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
 .widget-baseiconsensor-default-ecobee-mode-home {
 	position: relative;
 }
@@ -868,6 +570,376 @@ input {
 	width: 100%;
 }
 
+.widget-baseiconsensor-default-ecobee-operation {
+	position: relative;
+}
+
+.widget-baseiconsensor-default-ecobee-operation .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseiconsensor-default-ecobee-operation .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseiconsensor-default-ecobee-operation .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseiconsensor-default-ecobee-operation .icon {
+	position: absolute;
+	top: 33px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-target .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-target .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-target .valueunit {
+	position: absolute;
+	top: 45px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-target .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-ecobee-temperature-target .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-target .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-bilger-home-temperature-avg .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay_short-default-bilger-home-temperature-avg .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay_short-default-bilger-home-temperature-avg .valueunit {
+	position: absolute;
+	top: 45px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-bilger-home-temperature-avg .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-bilger-home-temperature-avg .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-bilger-home-temperature-avg .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-avg .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-avg .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-avg .valueunit {
+	position: absolute;
+	top: 45px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-avg .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-ecobee-temperature-avg .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-avg .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature .valueunit {
+	position: absolute;
+	top: 45px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-ecobee-temperature .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-kitchen .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-kitchen .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-kitchen .valueunit {
+	position: absolute;
+	top: 45px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-kitchen .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-ecobee-temperature-kitchen .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-kitchen .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-family-room .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-family-room .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-family-room .valueunit {
+	position: absolute;
+	top: 45px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-family-room .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-ecobee-temperature-family-room .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-family-room .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-broadlink-temperature-bedroom .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay_short-default-broadlink-temperature-bedroom .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay_short-default-broadlink-temperature-bedroom .valueunit {
+	position: absolute;
+	top: 45px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-broadlink-temperature-bedroom .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-broadlink-temperature-bedroom .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-broadlink-temperature-bedroom .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-broadlink-temperature-bedroom-kale .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay_short-default-broadlink-temperature-bedroom-kale .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay_short-default-broadlink-temperature-bedroom-kale .valueunit {
+	position: absolute;
+	top: 45px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-broadlink-temperature-bedroom-kale .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-broadlink-temperature-bedroom-kale .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-broadlink-temperature-bedroom-kale .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-humidity .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay_short-default-ecobee-humidity .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay_short-default-ecobee-humidity .valueunit {
+	position: absolute;
+	top: 45px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-humidity .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-ecobee-humidity .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-humidity .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
 .widget-baseswitch-default-ecobee-occupancy-kitchen {
 	position: relative;
 }
@@ -892,7 +964,7 @@ input {
 
 .widget-baseswitch-default-ecobee-occupancy-kitchen .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -905,35 +977,35 @@ input {
 	height: 100%;
 }
 
-.widget-baseswitch-default-ecobee-occupancy-bedroom {
+.widget-baseswitch-default-ecobee-occupancy-family-room {
 	position: relative;
 }
 
-.widget-baseswitch-default-ecobee-occupancy-bedroom .title {
+.widget-baseswitch-default-ecobee-occupancy-family-room .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-ecobee-occupancy-bedroom .title2 {
+.widget-baseswitch-default-ecobee-occupancy-family-room .title2 {
 	position: absolute;
 	top: 23px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-ecobee-occupancy-bedroom .state_text {
+.widget-baseswitch-default-ecobee-occupancy-family-room .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-ecobee-occupancy-bedroom .icon {
+.widget-baseswitch-default-ecobee-occupancy-family-room .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-ecobee-occupancy-bedroom .toggle-area {
+.widget-baseswitch-default-ecobee-occupancy-family-room .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -942,44 +1014,18 @@ input {
 	height: 100%;
 }
 
-.widget-basedisplay-default-label-bilger-home-bottom .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-label-bilger-home-bottom .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-label-bilger-home-bottom .valueunit {
+.widget-baserss_combo-default-rss-news .title {
 	position: absolute;
-	top: 43px;
+	bottom: 23px;
 	width: 100%;
 }
 
-.widget-basedisplay-default-label-bilger-home-bottom .title {
+.widget-baserss_combo-default-rss-news .text {
 	position: absolute;
-	top: 5px;
+	top: 10px;
+	font-size: 90%;
 	width: 100%;
 }
-
-.widget-basedisplay-default-label-bilger-home-bottom .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-bilger-home-bottom .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
 .widget-baseswitch-default-front-porch {
 	position: relative;
 }
@@ -1004,7 +1050,7 @@ input {
 
 .widget-baseswitch-default-front-porch .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -1041,7 +1087,7 @@ input {
 
 .widget-baseswitch-default-front-entrance-way .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -1078,7 +1124,7 @@ input {
 
 .widget-baseswitch-default-front-entrance .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -1091,50 +1137,6 @@ input {
 	height: 100%;
 }
 
-.widget-base_light_with_brightness-default-front-window {
-	position: relative;
-}
-.widget-base_light_with_brightness-default-front-window .title {
-    position: absolute;
-    top: 5px;
-    width: 100%;
-}
-.widget-base_light_with_brightness-default-front-window .title2 {
-    position: absolute;
-    top: 23px;
-    width: 100%;
-}
-.widget-base_light_with_brightness-default-front-window .iconcontainer {
-	position: absolute;
-	bottom: 25%;
-	width: 100%;
-}
-
-.widget-base_light_with_brightness-default-front-window .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 75%;
-}
-
-.widget-base_light_with_brightness-default-front-window .slidercontainer {
-   position: absolute;
-   bottom: 5px;
-   height: 25%;
-   overflow: hidden;
-   width: 100%;
-   horizontal-align: center;
-   margin:auto;
-}
-
-.widget-base_light_with_brightness-default-front-window input[type=range] {
-  -webkit-appearance: slider-horizontal;
-  border: 1px solid white;
-  height: 90%;
-  width: 90%;
-}
 .widget-baseswitch-default-kitchen-island-night {
 	position: relative;
 }
@@ -1159,7 +1161,7 @@ input {
 
 .widget-baseswitch-default-kitchen-island-night .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -1200,7 +1202,7 @@ input {
 
 .widget-baselight-default-kitchen-island .icon {
 	position: absolute;
-	top: 43px;
+	top: 47px;
 	width: 100%;
 }
 
@@ -1276,7 +1278,7 @@ input {
 
 .widget-baseswitch-default-kitchen-island-max .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -1289,50 +1291,80 @@ input {
 	height: 100%;
 }
 
-.widget-base_light_with_brightness-default-jenn-bedroom {
+.widget-baseswitch-default-front-window {
 	position: relative;
 }
-.widget-base_light_with_brightness-default-jenn-bedroom .title {
-    position: absolute;
-    top: 5px;
-    width: 100%;
-}
-.widget-base_light_with_brightness-default-jenn-bedroom .title2 {
-    position: absolute;
-    top: 23px;
-    width: 100%;
-}
-.widget-base_light_with_brightness-default-jenn-bedroom .iconcontainer {
+
+.widget-baseswitch-default-front-window .title {
 	position: absolute;
-	bottom: 25%;
+	top: 5px;
 	width: 100%;
 }
 
-.widget-base_light_with_brightness-default-jenn-bedroom .toggle-area {
+.widget-baseswitch-default-front-window .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-front-window .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-front-window .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-front-window .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 75%;
+	height: 100%;
 }
 
-.widget-base_light_with_brightness-default-jenn-bedroom .slidercontainer {
-   position: absolute;
-   bottom: 5px;
-   height: 25%;
-   overflow: hidden;
-   width: 100%;
-   horizontal-align: center;
-   margin:auto;
+.widget-baseswitch-default-dining-room-light {
+	position: relative;
 }
 
-.widget-base_light_with_brightness-default-jenn-bedroom input[type=range] {
-  -webkit-appearance: slider-horizontal;
-  border: 1px solid white;
-  height: 90%;
-  width: 90%;
+.widget-baseswitch-default-dining-room-light .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
 }
+
+.widget-baseswitch-default-dining-room-light .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-light .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-light .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-light .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 .widget-baseswitch_hor-default-kitchen-outside-speakers-group {
 	position: relative;
 }
@@ -1340,7 +1372,7 @@ input {
 .widget-baseswitch_hor-default-kitchen-outside-speakers-group .title {
 	position: absolute;
 	right: 3px;
-	top: 5px;
+	top: 3px;
 	width: 60%;
 }
 
@@ -1360,8 +1392,8 @@ input {
 
 .widget-baseswitch_hor-default-kitchen-outside-speakers-group .icon {
 	position: absolute;
-	top: 8px;
-	width: 50%;
+	top: 5px;
+	left: 8px;
 }
 
 .widget-baseswitch_hor-default-kitchen-outside-speakers-group .toggle-area {
@@ -1380,7 +1412,7 @@ input {
 .widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .title {
 	position: absolute;
 	right: 3px;
-	top: 5px;
+	top: 3px;
 	width: 60%;
 }
 
@@ -1400,49 +1432,11 @@ input {
 
 .widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .icon {
 	position: absolute;
-	top: 8px;
-	width: 50%;
+	top: 5px;
+	left: 8px;
 }
 
 .widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-basebutton-default-kitchen-radio-station-p1 {
-	position: relative;
-}
-
-.widget-basebutton-default-kitchen-radio-station-p1 .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basebutton-default-kitchen-radio-station-p1 .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basebutton-default-kitchen-radio-station-p1 .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-basebutton-default-kitchen-radio-station-p1 .icon {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-	font-size: 210%;
-}
-
-.widget-basebutton-default-kitchen-radio-station-p1 .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -1487,6 +1481,44 @@ input {
 
 
 
+.widget-basebutton-default-kitchen-radio-station-p1 {
+	position: relative;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p1 .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p1 .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p1 .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p1 .icon {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+	font-size: 210%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p1 .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 .widget-basebutton-default-kitchen-radio-station-p2 {
 	position: relative;
 }
@@ -1517,360 +1549,6 @@ input {
 }
 
 .widget-basebutton-default-kitchen-radio-station-p2 .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-baseswitch-default-desk-lamp {
-	position: relative;
-}
-
-.widget-baseswitch-default-desk-lamp .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-desk-lamp .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-desk-lamp .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-desk-lamp .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-desk-lamp .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-baseswitch-default-familyroom-lights {
-	position: relative;
-}
-
-.widget-baseswitch-default-familyroom-lights .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-familyroom-lights .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-familyroom-lights .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-familyroom-lights .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-familyroom-lights .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-baseswitch-default-couch-light {
-	position: relative;
-}
-
-.widget-baseswitch-default-couch-light .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-couch-light .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-couch-light .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-couch-light .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-couch-light .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-basedisplay-default-label-scenes-top .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-label-scenes-top .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-label-scenes-top .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-scenes-top .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-scenes-top .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-scenes-top .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-basemedia-default-kitchen-speaker {
-	position: relative;
-}
-
-.widget-basemedia-default-kitchen-speaker .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basemedia-default-kitchen-speaker .artist {
-	position: absolute;
-	top: 30px;
-	width: 100%;
-}
-
-.widget-basemedia-default-kitchen-speaker .album {
-	position: absolute;
-	top: 55px;
-	width: 100%;
-}
-
-.widget-basemedia-default-kitchen-speaker .media_title {
-	position: absolute;
-	top: 80px;
-	width: 100%;
-}
-
-.widget-basemedia-default-kitchen-speaker .state_text {
-	position: absolute;
-	top: 38px;
-	width: 100%;
-}
-
-.widget-basemedia-default-kitchen-speaker .previous {
-    position: absolute;
-	top: 130px;
-    left: 25px;
-    z-index: 10;
-}
-
-.widget-basemedia-default-kitchen-speaker .play {
-    position: absolute;
-	top: 130px;
-    width: 100%;
-}
-
-.widget-basemedia-default-kitchen-speaker .next {
-    position: absolute;
-	top: 130px;
-	right: 25px;
-    z-index: 10;
-}
-
-
-.widget-basemedia-default-kitchen-speaker .level {
-	display: inline-block;
-}
-
-.widget-basemedia-default-kitchen-speaker .unit {
-	display: inline-block;
-}
-
-.widget-basemedia-default-kitchen-speaker .levelunit {
-	position: absolute;
-	bottom: 5px;
-	width: 100%;
-}
-
-.widget-basemedia-default-kitchen-speaker .secondary-icon {
-	position: absolute;
-	bottom: 0px;
-	font-size: 20px;
-	width: 32px;
-	color: white;
-}
-
-.widget-basemedia-default-kitchen-speaker .secondary-icon.plus {
-	right: 24px;
-}
-
-.widget-basemedia-default-kitchen-speaker .secondary-icon.plus i {
-	padding-top: 10px;
-	padding-left: 10px;
-}
-
-.widget-basemedia-default-kitchen-speaker .secondary-icon.minus {
-	left: 28px;
-}
-
-.widget-basemedia-default-kitchen-speaker .secondary-icon.minus i {
-	padding-top: 10px;
-	padding-right: 30px;
-}
-.widget-baseswitch-default-familyroom-plex-time {
-	position: relative;
-}
-
-.widget-baseswitch-default-familyroom-plex-time .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-familyroom-plex-time .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-familyroom-plex-time .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-familyroom-plex-time .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-familyroom-plex-time .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-baseswitch-default-familyroom-bell-time {
-	position: relative;
-}
-
-.widget-baseswitch-default-familyroom-bell-time .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-familyroom-bell-time .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-familyroom-bell-time .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-familyroom-bell-time .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-familyroom-bell-time .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.widget-baseswitch-default-familyroom-off {
-	position: relative;
-}
-
-.widget-baseswitch-default-familyroom-off .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-familyroom-off .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-familyroom-off .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-familyroom-off .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baseswitch-default-familyroom-off .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -1917,6 +1595,480 @@ input {
 	height: 100%;
 }
 
+.widget-basebutton-default-kitchen-radio-station-p4 {
+	position: relative;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p4 .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p4 .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p4 .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p4 .icon {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+	font-size: 210%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p4 .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-desk-lamp {
+	position: relative;
+}
+
+.widget-baseswitch-default-desk-lamp .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-desk-lamp .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-desk-lamp .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-desk-lamp .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-desk-lamp .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-familyroom-lights {
+	position: relative;
+}
+
+.widget-baseswitch-default-familyroom-lights .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-lights .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-lights .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-lights .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-lights .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-base_light_with_brightness-default-couch-lamp {
+	position: relative;
+}
+.widget-base_light_with_brightness-default-couch-lamp .title {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+.widget-base_light_with_brightness-default-couch-lamp .title2 {
+    position: absolute;
+    top: 23px;
+    width: 100%;
+}
+.widget-base_light_with_brightness-default-couch-lamp .iconcontainer {
+	position: absolute;
+	bottom: 30%;
+	width: 100%;
+}
+
+.widget-base_light_with_brightness-default-couch-lamp .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 75%;
+}
+
+.widget-base_light_with_brightness-default-couch-lamp .slidercontainer {
+   position: absolute;
+   bottom: 5px;
+   height: 25%;
+   overflow: hidden;
+   width: 100%;
+   horizontal-align: center;
+   margin:auto;
+}
+
+.widget-base_light_with_brightness-default-couch-lamp input[type=range] {
+  -webkit-appearance: slider-horizontal;
+  border: 1px solid white;
+  height: 90%;
+  width: 90%;
+}
+.widget-basedisplay-default-label-scenes-top .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay-default-label-scenes-top .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay-default-label-scenes-top .valueunit {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.widget-basedisplay-default-label-scenes-top .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-label-scenes-top .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-label-scenes-top .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-fan {
+	position: relative;
+}
+
+.widget-baseswitch-default-dining-room-fan .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-fan .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-fan .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-fan .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-fan .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-dining-room-plug {
+	position: relative;
+}
+
+.widget-baseswitch-default-dining-room-plug .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-plug .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-plug .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-plug .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-plug .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-familyroom-plex-time {
+	position: relative;
+}
+
+.widget-baseswitch-default-familyroom-plex-time .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-plex-time .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-plex-time .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-plex-time .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-plex-time .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-familyroom-bell-time {
+	position: relative;
+}
+
+.widget-baseswitch-default-familyroom-bell-time .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-bell-time .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-bell-time .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-bell-time .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-bell-time .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-familyroom-off {
+	position: relative;
+}
+
+.widget-baseswitch-default-familyroom-off .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-off .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-off .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-off .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-off .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker {
+	position: relative;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .artist {
+	position: absolute;
+	top: 30px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .album {
+	position: absolute;
+	top: 55px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .media_title {
+	position: absolute;
+	top: 80px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .state_text {
+	position: absolute;
+	top: 38px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .previous {
+  position: absolute;
+	bottom: 50px;
+  left: 65px;
+	font-size: 20px;
+  z-index: 10;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .play {
+  position: absolute;
+	bottom: 30px;
+  width: 100%;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .next {
+  position: absolute;
+	bottom: 50px;
+	right: 65px;
+	font-size: 20px;
+  z-index: 10;
+}
+
+
+.widget-basemedia_speaker-default-kitchen-speaker .level {
+	display: inline-block;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .unit {
+	display: inline-block;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .levelunit {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .secondary-icon {
+	position: absolute;
+	bottom: 5px;
+	font-size: 50px;
+	width: 32px;
+	color: white;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .secondary-icon.plus {
+	right: 25px;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .secondary-icon.plus i {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .secondary-icon.minus {
+	left: 10px;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .secondary-icon.minus i {
+	padding-top: 10px;
+	padding-right: 30px;
+}
 .widget-baselight-default-theatre {
 	position: relative;
 }
@@ -1945,7 +2097,7 @@ input {
 
 .widget-baselight-default-theatre .icon {
 	position: absolute;
-	top: 43px;
+	top: 47px;
 	width: 100%;
 }
 
@@ -2021,7 +2173,7 @@ input {
 
 .widget-baseswitch-default-theatre-bar .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -2058,7 +2210,7 @@ input {
 
 .widget-baseswitch-default-theatre-movie-time .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -2095,7 +2247,7 @@ input {
 
 .widget-baseswitch-default-theatre-off .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -2132,7 +2284,7 @@ input {
 
 .widget-baseswitch-default-bedtime .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -2145,44 +2297,50 @@ input {
 	height: 100%;
 }
 
-.widget-basebutton-default-kitchen-radio-station-p4 {
+.widget-base_light_with_brightness-default-jenn-bedroom {
 	position: relative;
 }
-
-.widget-basebutton-default-kitchen-radio-station-p4 .title {
+.widget-base_light_with_brightness-default-jenn-bedroom .title {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+.widget-base_light_with_brightness-default-jenn-bedroom .title2 {
+    position: absolute;
+    top: 23px;
+    width: 100%;
+}
+.widget-base_light_with_brightness-default-jenn-bedroom .iconcontainer {
 	position: absolute;
-	top: 5px;
+	bottom: 30%;
 	width: 100%;
 }
 
-.widget-basebutton-default-kitchen-radio-station-p4 .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basebutton-default-kitchen-radio-station-p4 .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-basebutton-default-kitchen-radio-station-p4 .icon {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-	font-size: 210%;
-}
-
-.widget-basebutton-default-kitchen-radio-station-p4 .toggle-area {
+.widget-base_light_with_brightness-default-jenn-bedroom .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 75%;
 }
 
+.widget-base_light_with_brightness-default-jenn-bedroom .slidercontainer {
+   position: absolute;
+   bottom: 5px;
+   height: 25%;
+   overflow: hidden;
+   width: 100%;
+   horizontal-align: center;
+   margin:auto;
+}
+
+.widget-base_light_with_brightness-default-jenn-bedroom input[type=range] {
+  -webkit-appearance: slider-horizontal;
+  border: 1px solid white;
+  height: 90%;
+  width: 90%;
+}
 .widget-basedisplay-default-label-scenes-bottom .unit {
 	font-size: 225%;
 	font-weight: 400;
@@ -2198,9 +2356,8 @@ input {
 }
 
 .widget-basedisplay-default-label-scenes-bottom .valueunit {
-	position: absolute;
-	top: 43px;
 	width: 100%;
+	vertical-align: middle;
 }
 
 .widget-basedisplay-default-label-scenes-bottom .title {
@@ -2216,6 +2373,43 @@ input {
 }
 
 .widget-basedisplay-default-label-scenes-bottom .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-label-bottom .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay-default-label-bottom .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay-default-label-bottom .valueunit {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.widget-basedisplay-default-label-bottom .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-label-bottom .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-label-bottom .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;

@@ -1,0 +1,1651 @@
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #222;
+  font-size: 15px;
+  color: #fff;
+  padding: 0;
+  line-height: 1;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Open Sans', 'Arial'
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+img, object {
+  max-width: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;}
+
+iframe {
+  max-width: 100%;
+}
+  
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+td {
+  vertical-align: middle;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, p {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  margin-bottom: 6px;
+  text-align: center;
+  font-size: 100%;
+  font-weight: 200;
+}
+h2 {
+  font-size: 300%;
+  font-weight: 400;
+  color: #fff;
+}
+h3 {
+  font-size: 125%;
+  font-weight: 300;
+  color: #fff;
+}
+
+input {
+  background-color: #444;
+  border: none;
+}
+
+.dashboard_main {
+	margin: 0px auto;
+}
+
+.gridster {
+  margin: 0px auto;
+}
+
+.icon-background {
+  pointer-events: none;
+  width: 100%!important;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.1;
+  font-size: 1375%;
+  text-align: center;
+  margin-top: 82px;
+}
+
+.list-nostyle {
+  list-style: none;
+}
+
+.gridster ul {
+  list-style: none;
+}
+
+.gs-w {
+  width: 100%;
+  display: table;
+  cursor: pointer;
+  z-index: auto !important;
+}
+
+.iframe {
+  position: relative;
+  overflow: hidden;  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;}
+
+.widget {
+  padding: 0px 0px;
+  text-align: center;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #444444;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;}
+
+.title {
+  color: #fff;
+}
+
+.icon-inactive {
+  color: #888;
+}
+
+.icon-active {
+  color: #aaff00;
+}
+
+
+#container {
+  padding-top: 0px;
+}
+
+.modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 9999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialogOpen {
+	opacity:0.95;
+	pointer-events: auto;
+}
+
+.modalDialogClose {
+	opacity:0;
+	pointer-events: none;
+}
+
+.modalDialog > div {
+	width: 275px;
+	position: relative;
+	margin: 3% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+}
+
+.modalDialogCloseButton {
+	line-height: 50px;
+	position: absolute;
+	right: -25px;
+	text-align: center;
+	top: -20px;
+	width: 50px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+}
+
+.modalDialogCloseButton:hover { background: #444; }
+
+.widget-baseswitch_short-default-theatre-dim {
+	position: relative;
+}
+
+.widget-baseswitch_short-default-theatre-dim .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-dim .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-dim .state_text {
+	position: absolute;
+	bottom: -6px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-dim .icon {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-dim .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baselight_short-default-theatre {
+	position: relative;
+}
+
+.widget-baselight_short-default-theatre .state_text {
+	font-size: 85%;
+}
+
+.widget-baselight_short-default-theatre .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baselight_short-default-theatre .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baselight_short-default-theatre .state_text {
+	position: absolute;
+	top: 38px;
+	width: 100%;
+}
+
+.widget-baselight_short-default-theatre .icon {
+	position: absolute;
+	top: 22px;
+	width: 100%;
+}
+
+.widget-baselight_short-default-theatre .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 75%;
+}
+
+.widget-baselight_short-default-theatre .level {
+	display: inline-block;
+}
+
+.widget-baselight_short-default-theatre .unit {
+	display: inline-block;
+}
+
+.widget-baselight_short-default-theatre .levelunit {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-baselight_short-default-theatre .secondary-icon {
+	position: absolute;
+	bottom: 0px;
+	font-size: 20px;
+	width: 32px;
+	color: white;
+}
+
+.widget-baselight_short-default-theatre .secondary-icon.plus {
+	right: 24px;
+}
+
+.widget-baselight_short-default-theatre .secondary-icon.plus i {
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+.widget-baselight_short-default-theatre .secondary-icon.minus {
+	left: 8px;
+}
+
+.widget-baselight_short-default-theatre .secondary-icon.minus i {
+	padding-top: 10px;
+	padding-right: 30px;
+}
+.widget-baseswitch_short-default-theatre-max {
+	position: relative;
+}
+
+.widget-baseswitch_short-default-theatre-max .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-max .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-max .state_text {
+	position: absolute;
+	bottom: -6px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-max .icon {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-max .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-bar {
+	position: relative;
+}
+
+.widget-baseswitch_short-default-theatre-bar .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-bar .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-bar .state_text {
+	position: absolute;
+	bottom: -6px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-bar .icon {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-bar .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_hor-default-theatre-watch-roku {
+	position: relative;
+}
+
+.widget-baseswitch_hor-default-theatre-watch-roku .title {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-theatre-watch-roku .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-theatre-watch-roku .state_text {
+	position: absolute;
+	right 3px;
+	bottom: -3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-theatre-watch-roku .icon {
+	position: absolute;
+	top: 5px;
+	left: 8px;
+}
+
+.widget-baseswitch_hor-default-theatre-watch-roku .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_hor-default-theatre-watch-chromecast {
+	position: relative;
+}
+
+.widget-baseswitch_hor-default-theatre-watch-chromecast .title {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-theatre-watch-chromecast .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-theatre-watch-chromecast .state_text {
+	position: absolute;
+	right 3px;
+	bottom: -3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-theatre-watch-chromecast .icon {
+	position: absolute;
+	top: 5px;
+	left: 8px;
+}
+
+.widget-baseswitch_hor-default-theatre-watch-chromecast .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_hor-default-theatre-butt-kickers {
+	position: relative;
+}
+
+.widget-baseswitch_hor-default-theatre-butt-kickers .title {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-theatre-butt-kickers .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-theatre-butt-kickers .state_text {
+	position: absolute;
+	right 3px;
+	bottom: -3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-theatre-butt-kickers .icon {
+	position: absolute;
+	top: 5px;
+	left: 8px;
+}
+
+.widget-baseswitch_hor-default-theatre-butt-kickers .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basedisplay-default-label-top .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay-default-label-top .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay-default-label-top .valueunit {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.widget-basedisplay-default-label-top .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-label-top .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-label-top .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-home {
+	position: relative;
+}
+
+.widget-basebutton_remote-default-roku-home .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-home .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-home .icon {
+	position: absolute;
+	top: 27px;
+	font-size: 400%;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-home .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote-default-roku-direction-up {
+	position: relative;
+}
+
+.widget-basebutton_remote-default-roku-direction-up .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-direction-up .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-direction-up .icon {
+	position: absolute;
+	top: 27px;
+	font-size: 400%;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-direction-up .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-youtube {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-roku-youtube .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-youtube .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-youtube .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-youtube .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-youtube .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-mlb {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-roku-mlb .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-mlb .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-mlb .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-mlb .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-mlb .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-plex {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-roku-plex .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-plex .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-plex .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-plex .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-plex .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-netflix {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-roku-netflix .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-netflix .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-netflix .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-netflix .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-netflix .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote-default-roku-direction-left {
+	position: relative;
+}
+
+.widget-basebutton_remote-default-roku-direction-left .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-direction-left .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-direction-left .icon {
+	position: absolute;
+	top: 27px;
+	font-size: 400%;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-direction-left .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote-default-roku-select {
+	position: relative;
+}
+
+.widget-basebutton_remote-default-roku-select .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-select .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-select .icon {
+	position: absolute;
+	top: 27px;
+	font-size: 400%;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-select .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote-default-roku-direction-right {
+	position: relative;
+}
+
+.widget-basebutton_remote-default-roku-direction-right .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-direction-right .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-direction-right .icon {
+	position: absolute;
+	top: 27px;
+	font-size: 400%;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-direction-right .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote-default-roku-info {
+	position: relative;
+}
+
+.widget-basebutton_remote-default-roku-info .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-info .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-info .icon {
+	position: absolute;
+	top: 27px;
+	font-size: 400%;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-info .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote-default-roku-direction-down {
+	position: relative;
+}
+
+.widget-basebutton_remote-default-roku-direction-down .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-direction-down .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-direction-down .icon {
+	position: absolute;
+	top: 27px;
+	font-size: 400%;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-direction-down .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote-default-roku-back {
+	position: relative;
+}
+
+.widget-basebutton_remote-default-roku-back .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-back .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-back .icon {
+	position: absolute;
+	top: 27px;
+	font-size: 400%;
+	width: 100%;
+}
+
+.widget-basebutton_remote-default-roku-back .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-rewind {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-roku-rewind .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-rewind .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-rewind .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-rewind .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-rewind .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-play {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-roku-play .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-play .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-play .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-play .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-play .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-fastforward {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-roku-fastforward .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-fastforward .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-fastforward .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-fastforward .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-fastforward .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-replay {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-roku-replay .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-replay .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-replay .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-replay .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-roku-replay .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-down {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-volume-down .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-down .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-down .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-down .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-down .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-up {
+	position: relative;
+}
+
+.widget-basebutton_remote_small-default-volume-up .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-up .title2 {
+	position: absolute;
+	bottom: -5px;
+	height: 60%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-up .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-up .icon {
+	position: absolute;
+	top: 12px;
+	font-size: 200%;
+	width: 100%;
+}
+
+.widget-basebutton_remote_small-default-volume-up .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_hor-default-theatre-projector-16x9 {
+	position: relative;
+}
+
+.widget-baseswitch_hor-default-theatre-projector-16x9 .title {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-theatre-projector-16x9 .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-theatre-projector-16x9 .state_text {
+	position: absolute;
+	right 3px;
+	bottom: -3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-theatre-projector-16x9 .icon {
+	position: absolute;
+	top: 5px;
+	left: 8px;
+}
+
+.widget-baseswitch_hor-default-theatre-projector-16x9 .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_hor-default-theatre-projector-21x9 {
+	position: relative;
+}
+
+.widget-baseswitch_hor-default-theatre-projector-21x9 .title {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-theatre-projector-21x9 .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-theatre-projector-21x9 .state_text {
+	position: absolute;
+	right 3px;
+	bottom: -3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-theatre-projector-21x9 .icon {
+	position: absolute;
+	top: 5px;
+	left: 8px;
+}
+
+.widget-baseswitch_hor-default-theatre-projector-21x9 .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton_remote_hor-default-theatre-surround-sound-input-tv {
+	position: relative;
+}
+
+.widget-basebutton_remote_hor-default-theatre-surround-sound-input-tv .title {
+	position: absolute;
+	right: 3px;
+	top: 5px;
+	width: 60%;
+}
+
+.widget-basebutton_remote_hor-default-theatre-surround-sound-input-tv .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-basebutton_remote_hor-default-theatre-surround-sound-input-tv .state_text {
+	position: absolute;
+	right 3px;
+	bottom: -3px;
+	width: 60%;
+}
+
+.widget-basebutton_remote_hor-default-theatre-surround-sound-input-tv .icon {
+	position: absolute;
+	top: 8px;
+	width: 50%;
+}
+
+.widget-basebutton_remote_hor-default-theatre-surround-sound-input-tv .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basenavigate_hor-default-remote-roku .icon {
+	position: absolute;
+	top: 8px;
+	width: 50%;
+}
+
+.widget-basenavigate_hor-default-remote-roku .title {
+	position: absolute;
+	right: 3px;
+	top: 5px;
+	width: 60%;
+}
+
+.widget-basenavigate_hor-default-remote-roku .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-basenavigate_hor-default-remote-roku .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate_hor-default-remote-surround-sound .icon {
+	position: absolute;
+	top: 8px;
+	width: 50%;
+}
+
+.widget-basenavigate_hor-default-remote-surround-sound .title {
+	position: absolute;
+	right: 3px;
+	top: 5px;
+	width: 60%;
+}
+
+.widget-basenavigate_hor-default-remote-surround-sound .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-basenavigate_hor-default-remote-surround-sound .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate_hor-default-remote-projector .icon {
+	position: absolute;
+	top: 8px;
+	width: 50%;
+}
+
+.widget-basenavigate_hor-default-remote-projector .title {
+	position: absolute;
+	right: 3px;
+	top: 5px;
+	width: 60%;
+}
+
+.widget-basenavigate_hor-default-remote-projector .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-basenavigate_hor-default-remote-projector .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-baseswitch_short-default-theatre-off {
+	position: relative;
+}
+
+.widget-baseswitch_short-default-theatre-off .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-off .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-off .state_text {
+	position: absolute;
+	bottom: -6px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-off .icon {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch_short-default-theatre-off .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basenavigate-default-load-main-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-main-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-main-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-main-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-familyroom-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-familyroom-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-familyroom-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-familyroom-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-theatre-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-theatre-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-theatre-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-theatre-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-bedroom-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-bedroom-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-bedroom-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-bedroom-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-sensors-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-sensors-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-sensors-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-sensors-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-weather .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-weather .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-weather .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-weather .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-settings .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-settings .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-settings .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-settings .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-reload .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-reload .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-reload .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-reload .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

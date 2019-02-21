@@ -1,0 +1,53 @@
+#
+# Main arguments, all optional
+#
+title: Theatre Projector Remote
+widget_dimensions: [28, 28]
+widget_size: [4, 4]
+widget_margins: [1, 1]
+columns: 12
+
+layout:
+    - include: widgets_lights-mobile
+    - include: widgets_scripts-mobile
+    - include: widgets_remote-th
+    
+    - theatre_dim(2x3),theatre(5x3),theatre_max(2x3),theatre_bar(3x3)
+    -
+    -
+    - theatre_projector_16x9(4x2),theatre_projector_21x9(4x2),theatre_butt_kickers(4x2)
+    -
+    - label_top(12x1)
+    - label_1,theatre_projector_direction_up,label_2
+    - 
+    - 
+    - 
+    - theatre_projector_direction_left,theatre_projector_ok,theatre_projector_direction_right
+    -
+    - 
+    - 
+    - theatre_projector_menu,theatre_projector_direction_down,theatre_projector_hdmi1
+    -
+    - 
+    -
+    - label_bottom(12x2)
+    -
+    -
+    - include: row_remote-th
+    -
+    - include: row_bottom-mobile
+    
+label_top:
+    widget_type: label
+    title: Theatre Projector Remote
+    widget_style: "background: lightgray"
+    
+label_bottom:
+    widget_type: label
+    
+label_1:
+    widget_type: label
+    
+label_2:
+    widget_type: label
+    

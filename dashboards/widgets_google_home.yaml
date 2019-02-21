@@ -1,13 +1,22 @@
 kitchen_speaker:
-    widget_type: media_player
+    widget_type: media_player_speaker
     entity: media_player.kitchen_speaker
     title: Kitchen Google Home
+    title_style: "color: black"
     widget_style: "background: lightgray"
+    level_style: "color: black"
+    units_style: "color: black"
+    artist_style: "color: orange"
+    album_style: "color: orange"
+    media_title_style: "color: orange"
+    state_text_style: "color: orange"
+
     
 kitchen_radio_station:
     widget_type: input_select_thin
     entity: input_select.kitchen_radio_station
     title: Station Select
+    title_style: "color: black"
     widget_style: "background: darkgray"
 
 kitchen_bedroom_speaker_group:
@@ -15,6 +24,20 @@ kitchen_bedroom_speaker_group:
     entity: input_boolean.kitchen_bedroom_speakers_group
     title: Kitchen & Bedroom
     widget_style: "background: darkgray"
+    title_style: "color: black"
+    icon_style_inactive: "font-size: 200%"
+    icon_style_active: "font-size: 200%"
+    icon_off: mdi-google-chrome
+    icon_on: mdi-google-chrome
+
+kitchen_bedroom_speaker_group_mobile:
+    widget_type: switch_hor
+    entity: input_boolean.kitchen_bedroom_speakers_group
+    title: Kitchen & Bedroom
+    widget_style: "background: darkgray"
+    title_style: "font-size: 80%"
+    icon_style_inactive: "font-size: 150%"
+    icon_style_active: "font-size: 150%"
     icon_off: mdi-google-chrome
     icon_on: mdi-google-chrome
 
@@ -23,6 +46,20 @@ kitchen_outside_speakers_group:
     entity: input_boolean.kitchen_outside_speakers_group
     title: Kitchen & Outside
     widget_style: "background: darkgray"
+    title_style: "color: black"
+    icon_style_inactive: "font-size: 200%"
+    icon_style_active: "font-size: 200%"
+    icon_off: mdi-google-chrome
+    icon_on: mdi-google-chrome
+
+kitchen_outside_speakers_group_mobile:
+    widget_type: switch_hor
+    entity: input_boolean.kitchen_outside_speakers_group
+    title: Kitchen & Outside
+    widget_style: "background: darkgray"
+    title_style: "font-size: 80%"
+    icon_style_inactive: "font-size: 150%"
+    icon_style_active: "font-size: 150%"
     icon_off: mdi-google-chrome
     icon_on: mdi-google-chrome
     
@@ -34,6 +71,7 @@ kitchen_radio_station_p1:
     icon_on: mdi-numeric-1-box
     widget_style: "background: darkgray"
     title_style: $style_inactive
+    state_text_style: "color: $black"
     button_icon_style_inactive: $style_inactive
     script: script.kitchen_radio_station_p1   
     state_text: 1
@@ -46,6 +84,7 @@ kitchen_radio_station_p2:
     icon_on: mdi-numeric-2-box
     widget_style: "background: darkgray"
     title_style: $style_inactive
+    state_text_style: "color: $black"
     button_icon_style_inactive: $style_inactive
     script: script.kitchen_radio_station_p2
     state_text: 1
@@ -58,6 +97,7 @@ kitchen_radio_station_p3:
     icon_on: mdi-numeric-3-box
     widget_style: "background: darkgray"
     title_style: $style_inactive
+    state_text_style: "color: $black"
     button_icon_style_inactive: $style_inactive
     script: script.kitchen_radio_station_p3
     state_text: 1
@@ -70,20 +110,29 @@ kitchen_radio_station_p4:
     icon_on: mdi-numeric-4-box
     widget_style: "background: darkgray"
     title_style: $style_inactive
+    state_text_style: "color: $black"
     button_icon_style_inactive: $style_inactive
     script: script.kitchen_radio_station_p4
     state_text: 1
 
 bedroom_speaker:
-    widget_type: media_player
+    widget_type: media_player_speaker
     entity: media_player.bedroom_speaker
     title: Bedroom Google Home Mini
+    title_style: "color: black"
     widget_style: "background: lightgray"
+    level_style: "color: black"
+    units_style: "color: black"
+    artist_style: "color: orange"
+    album_style: "color: orange"
+    media_title_style: "color: orange"
+    state_text_style: "color: orange"
 
 bedroom_radio_station:
     widget_type: input_select_thin
     entity: input_select.bedroom_radio_station
     title: Station Select
+    title_style: "color: black"
     widget_style: "background: darkgray"
 
 bedroom_radio_station_p1:
@@ -94,6 +143,7 @@ bedroom_radio_station_p1:
     icon_on: mdi-numeric-1-box
     widget_style: "background: darkgray"
     title_style: $style_inactive
+    state_text_style: "color: $black"
     button_icon_style_inactive: $style_inactive
     script: script.bedroom_radio_station_p1   
     state_text: 1
@@ -106,6 +156,7 @@ bedroom_radio_station_p2:
     icon_on: mdi-numeric-2-box
     widget_style: "background: darkgray"
     title_style: $style_inactive
+    state_text_style: "color: $black"
     button_icon_style_inactive: $style_inactive
     script: script.bedroom_radio_station_p2
     state_text: 1
@@ -118,6 +169,7 @@ bedroom_radio_station_p3:
     icon_on: mdi-numeric-3-box
     widget_style: "background: darkgray"
     title_style: $style_inactive
+    state_text_style: "color: $black"
     button_icon_style_inactive: $style_inactive
     script: script.bedroom_radio_station_p3
     state_text: 1
@@ -130,6 +182,7 @@ bedroom_radio_station_p4:
     icon_on: mdi-numeric-4-box
     widget_style: "background: darkgray"
     title_style: $style_inactive
+    state_text_style: "color: $black"
     button_icon_style_inactive: $style_inactive
     script: script.bedroom_radio_station_p4
     state_text: 1

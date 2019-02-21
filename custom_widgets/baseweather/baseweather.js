@@ -42,11 +42,11 @@ function baseweather(widget_id, url, skin, parameters)
     [
         {"entity": "sensor.dark_sky_icon", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
         {"entity": "sensor.dark_sky_temperature", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
-        {"entity": "sensor.dark_sky_daily_low_temperature", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
-        {"entity": "sensor.dark_sky_daily_high_temperature", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
+        {"entity": "sensor.dark_sky_overnight_low_temperature", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
+        {"entity": "sensor.dark_sky_daytime_high_temperature", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
         {"entity": "sensor.dark_sky_apparent_temperature", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
-        {"entity": "sensor.dark_sky_daily_low_apparent_temperature", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
-        {"entity": "sensor.dark_sky_daily_high_apparent_temperature", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
+        {"entity": "sensor.dark_sky_daytime_high_apparent_temperature", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
+        {"entity": "sensor.dark_sky_overnight_low_apparent_temperature", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
         {"entity": "sensor.dark_sky_precip_probability", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
         {"entity": "sensor.dark_sky_precip_intensity", "initial": self.OnStateAvailable, "update": self.OnStateUpdate}
     ];

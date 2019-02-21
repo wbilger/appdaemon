@@ -11,7 +11,7 @@ columns: 32
 layout:
     - include: widgets_remote-fr
 
-    - label_left(10x24),desk_lamp(3x3),familyroom_lights(3x3),couch_light(3x3),kitchen_island_night(3x3),label_right(10x24)
+    - label_left(10x24),desk_lamp(3x3),familyroom_lights(3x3),couch_lamp(3x3),kitchen_island_night(3x3),label_right(10x24)
     -
     -
     - input_plex(4x2),input_chromecast(4x2),input_tv(4x2)
@@ -89,9 +89,9 @@ desk_lamp:
     title: Desk Lamp
     icon_off: mdi-lamp
     icon_on: mdi-lamp
-couch_light:
+couch_lamp:
     widget_type: switch_short
-    entity: light.couch_light
+    entity: light.couch_lamp
     title: Couch Light
     icon_off: mdi-lightbulb-outline
     icon_on: mdi-lightbulb-on-outline

@@ -53,6 +53,21 @@ theatre_netflix_time:
     icon_off: mdi-netflix
     icon_on: mdi-netflix
     
+theatre_watch_roku: 
+    widget_type: script_hor
+    entity: script.theatre_watch_roku
+    title: Watch Roku
+    icon_off: fa-television
+    icon_on: fa-television
+    dashboard: Remote_TH_Roku-mobile
+
+theatre_watch_chromecast: 
+    widget_type: script_hor
+    entity: script.theatre_watch_chromecast
+    title: Chrome Cast
+    icon_off: mdi-google-chrome
+    icon_on: mdi-google-chrome
+    
 theatre_off: 
     widget_type: script_short
     entity: script.theatre_off
@@ -61,3 +76,16 @@ theatre_off:
     icon_off: mdi-power
     icon_on: mdi-power
     
+theatre_projector_16x9: 
+    widget_type: script_hor
+    entity: script.theatre_projector_16x9
+    title2: 16x9
+    icon_off: mdi-projector-screen
+    icon_on: mdi-projector-screen
+
+theatre_projector_21x9: 
+    widget_type: script_hor
+    entity: script.theatre_projector_21x9
+    title2: 21x9
+    icon_off: mdi-projector-screen
+    icon_on: mdi-projector-screen

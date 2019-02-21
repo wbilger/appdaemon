@@ -80,14 +80,20 @@ function basebutton_remote_hor(widget_id, url, skin, parameters)
     
     function OnButtonClick(self)
     {
-        self.call_service(self, self.parameters.post_service_active)
+        if (self.state == self.parameters.state_active)
+        {
+            args = self.parameters.post_service_inactive
+        }
+        else
+        {
+            args = self.parameters.post_service_active
+        }
+        self.call_service(self, args)
         toggle(self)
         if ("momentary" in self.parameters)
         {
             setTimeout(function() { self.toggle(self) }, self.parameters["momentary"])
         }
-        self.call_service(self, self.parameters.post_service_inactive)  //turn switch back off after "momentary time"
-        toggle(self)
     }
     
     function toggle(self)

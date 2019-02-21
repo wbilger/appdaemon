@@ -1,7 +1,7 @@
 #
 # Main arguments, all optional
 #
-title: Family Room Plex Remote
+title: Family Room Plex/Kodi Remote
 widget_dimensions: [28, 28]
 widget_size: [4, 4]
 widget_margins: [1, 1]
@@ -11,27 +11,27 @@ layout:
     - include: widgets_lights-mobile
     - include: widgets_remote-fr
 
-    - desk_lamp(3x3),familyroom_lights(3x3),couch_light(3x3),kitchen_island_night(3x3)
+    - couch_lamp(3x3),familyroom_lights(3x3),desk_lamp(3x3),kitchen_island_night(3x3)
     -
     -
     - familyroom_plex_time(6x2),familyroom_chromecast_time(3x2),monitor_on_off(3x2)
     -
     - label_top(12x1)
-    - plex_active(2x2),plex_context_menu(2x2),direction_up,top(2x2),page_up(2x2)
+    - kodi_hgtv(2x2),kodi_sports(2x2),direction_up,top(2x2),page_up(2x2)
     - 
-    - plex_home(2x2),plex_home_back(2x2),bottom(2x2),page_down(2x2)
+    - plex_start(2x2),plex_active(2x2),bottom(2x2),page_down(2x2)
     - 
     - direction_left,enter,direction_right
     -
     - 
     - 
-    - plex_info,direction_down,escape
+    - plex_infocodec,direction_down,escape
     -
     - 
     -
     - plex_stop(2x2),plex_play(2x2),plex_pause(2x2),plex_rewind(3x2),plex_fastforward(3x2)
     -
-    - plex_menu(2x2),plex_subtitles(2x2),plex_subtitles_next(2x2),volume_down(3x2),volume_up(3x2)
+    - kodi_home(2x2),kodi_settings(2x2),kodi_plex_subtitles(2x2),volume_down(3x2),volume_up(3x2)
     -
     -
     - include: row_remote-fr
@@ -39,5 +39,5 @@ layout:
     
 label_top:
     widget_type: label
-    title: Family Room Plex Remote
+    title: Family Room Plex/Kodi Remote
     widget_style: "background: orange"

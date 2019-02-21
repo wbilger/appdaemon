@@ -37,24 +37,3 @@ monitor_on_off:
     title: Monitor On/Off
     icon_off: fa-desktop
     icon_on: fa-desktop
-    
-theatre_projector:
-    widget_type: switch_short
-    entity: switch.projector
-    title: Theatre Projector
-    icon_off: mdi-projector
-    icon_on: mdi-projector
-    
-theatre_surround_sound:
-    widget_type: switch_short
-    entity: switch.surround_sound_theatre
-    title: Theatre Surround Sound
-    icon_off: mdi-speaker
-    icon_on: mdi-speaker
-    
-theatre_butt_kickers:
-    widget_type: switch_short
-    entity: switch.butt_kickers
-    title: Butt Kickers
-    icon_off: mdi-speaker-wireless
-    icon_on: mdi-speaker-wireless

@@ -202,26 +202,6 @@ input {
 
 .modalDialogCloseButton:hover { background: #444; }
 
-.widget-baserss-default-rss-weather .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-baserss-default-rss-weather .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-baserss-default-rss-weather .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
 .widget-baserss-default-rss-weather .title {
 	position: absolute;
 	top: 5px;
@@ -330,7 +310,7 @@ input {
 
 .widget-baseswitch-default-front-porch .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -367,7 +347,7 @@ input {
 
 .widget-baseswitch-default-front-entrance-way .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -404,7 +384,7 @@ input {
 
 .widget-baseswitch-default-front-entrance .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -417,50 +397,80 @@ input {
 	height: 100%;
 }
 
-.widget-base_light_with_brightness-default-front-window {
+.widget-baseswitch-default-front-window {
 	position: relative;
 }
-.widget-base_light_with_brightness-default-front-window .title {
-    position: absolute;
-    top: 5px;
-    width: 100%;
-}
-.widget-base_light_with_brightness-default-front-window .title2 {
-    position: absolute;
-    top: 23px;
-    width: 100%;
-}
-.widget-base_light_with_brightness-default-front-window .iconcontainer {
+
+.widget-baseswitch-default-front-window .title {
 	position: absolute;
-	bottom: 25%;
+	top: 5px;
 	width: 100%;
 }
 
-.widget-base_light_with_brightness-default-front-window .toggle-area {
+.widget-baseswitch-default-front-window .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-front-window .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-front-window .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-front-window .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 75%;
+	height: 100%;
 }
 
-.widget-base_light_with_brightness-default-front-window .slidercontainer {
-   position: absolute;
-   bottom: 5px;
-   height: 25%;
-   overflow: hidden;
-   width: 100%;
-   horizontal-align: center;
-   margin:auto;
+.widget-baseswitch-default-dining-room-light {
+	position: relative;
 }
 
-.widget-base_light_with_brightness-default-front-window input[type=range] {
-  -webkit-appearance: slider-horizontal;
-  border: 1px solid white;
-  height: 90%;
-  width: 90%;
+.widget-baseswitch-default-dining-room-light .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
 }
+
+.widget-baseswitch-default-dining-room-light .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-light .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-light .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-light .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 .widget-baseswitch-default-kitchen-island-night {
 	position: relative;
 }
@@ -485,7 +495,7 @@ input {
 
 .widget-baseswitch-default-kitchen-island-night .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -526,7 +536,7 @@ input {
 
 .widget-baselight-default-kitchen-island .icon {
 	position: absolute;
-	top: 43px;
+	top: 47px;
 	width: 100%;
 }
 
@@ -602,7 +612,7 @@ input {
 
 .widget-baseswitch-default-kitchen-island-max .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -615,50 +625,200 @@ input {
 	height: 100%;
 }
 
-.widget-base_light_with_brightness-default-jenn-bedroom {
+.widget-baseswitch-default-dining-room-fan {
 	position: relative;
 }
-.widget-base_light_with_brightness-default-jenn-bedroom .title {
-    position: absolute;
-    top: 5px;
-    width: 100%;
-}
-.widget-base_light_with_brightness-default-jenn-bedroom .title2 {
-    position: absolute;
-    top: 23px;
-    width: 100%;
-}
-.widget-base_light_with_brightness-default-jenn-bedroom .iconcontainer {
+
+.widget-baseswitch-default-dining-room-fan .title {
 	position: absolute;
-	bottom: 25%;
+	top: 5px;
 	width: 100%;
 }
 
-.widget-base_light_with_brightness-default-jenn-bedroom .toggle-area {
+.widget-baseswitch-default-dining-room-fan .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-fan .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-fan .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-fan .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 75%;
+	height: 100%;
 }
 
-.widget-base_light_with_brightness-default-jenn-bedroom .slidercontainer {
-   position: absolute;
-   bottom: 5px;
-   height: 25%;
-   overflow: hidden;
-   width: 100%;
-   horizontal-align: center;
-   margin:auto;
+.widget-baseswitch-default-dining-room-plug {
+	position: relative;
 }
 
-.widget-base_light_with_brightness-default-jenn-bedroom input[type=range] {
-  -webkit-appearance: slider-horizontal;
-  border: 1px solid white;
-  height: 90%;
-  width: 90%;
+.widget-baseswitch-default-dining-room-plug .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
 }
+
+.widget-baseswitch-default-dining-room-plug .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-plug .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-plug .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-plug .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_hor-default-desk-lamp-hor {
+	position: relative;
+}
+
+.widget-baseswitch_hor-default-desk-lamp-hor .title {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-desk-lamp-hor .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-desk-lamp-hor .state_text {
+	position: absolute;
+	right 3px;
+	bottom: -3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-desk-lamp-hor .icon {
+	position: absolute;
+	top: 5px;
+	left: 8px;
+}
+
+.widget-baseswitch_hor-default-desk-lamp-hor .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_hor-default-familyroom-lights-hor {
+	position: relative;
+}
+
+.widget-baseswitch_hor-default-familyroom-lights-hor .title {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-familyroom-lights-hor .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-familyroom-lights-hor .state_text {
+	position: absolute;
+	right 3px;
+	bottom: -3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-familyroom-lights-hor .icon {
+	position: absolute;
+	top: 5px;
+	left: 8px;
+}
+
+.widget-baseswitch_hor-default-familyroom-lights-hor .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_hor-default-couch-lamp-hor {
+	position: relative;
+}
+
+.widget-baseswitch_hor-default-couch-lamp-hor .title {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-couch-lamp-hor .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-couch-lamp-hor .state_text {
+	position: absolute;
+	right 3px;
+	bottom: -3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-couch-lamp-hor .icon {
+	position: absolute;
+	top: 5px;
+	left: 8px;
+}
+
+.widget-baseswitch_hor-default-couch-lamp-hor .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 .widget-baseselect_thin-default-kitchen-radio-station {
     position: relative;
 }
@@ -771,97 +931,99 @@ input {
 	height: 100%;
 }
 
-.widget-basemedia-default-kitchen-speaker {
+.widget-basemedia_speaker-default-kitchen-speaker {
 	position: relative;
 }
 
-.widget-basemedia-default-kitchen-speaker .title {
+.widget-basemedia_speaker-default-kitchen-speaker .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basemedia-default-kitchen-speaker .artist {
+.widget-basemedia_speaker-default-kitchen-speaker .artist {
 	position: absolute;
 	top: 30px;
 	width: 100%;
 }
 
-.widget-basemedia-default-kitchen-speaker .album {
+.widget-basemedia_speaker-default-kitchen-speaker .album {
 	position: absolute;
 	top: 55px;
 	width: 100%;
 }
 
-.widget-basemedia-default-kitchen-speaker .media_title {
+.widget-basemedia_speaker-default-kitchen-speaker .media_title {
 	position: absolute;
 	top: 80px;
 	width: 100%;
 }
 
-.widget-basemedia-default-kitchen-speaker .state_text {
+.widget-basemedia_speaker-default-kitchen-speaker .state_text {
 	position: absolute;
 	top: 38px;
 	width: 100%;
 }
 
-.widget-basemedia-default-kitchen-speaker .previous {
-    position: absolute;
-	top: 130px;
-    left: 25px;
-    z-index: 10;
+.widget-basemedia_speaker-default-kitchen-speaker .previous {
+  position: absolute;
+	bottom: 50px;
+  left: 65px;
+	font-size: 20px;
+  z-index: 10;
 }
 
-.widget-basemedia-default-kitchen-speaker .play {
-    position: absolute;
-	top: 130px;
-    width: 100%;
+.widget-basemedia_speaker-default-kitchen-speaker .play {
+  position: absolute;
+	bottom: 30px;
+  width: 100%;
 }
 
-.widget-basemedia-default-kitchen-speaker .next {
-    position: absolute;
-	top: 130px;
-	right: 25px;
-    z-index: 10;
+.widget-basemedia_speaker-default-kitchen-speaker .next {
+  position: absolute;
+	bottom: 50px;
+	right: 65px;
+	font-size: 20px;
+  z-index: 10;
 }
 
 
-.widget-basemedia-default-kitchen-speaker .level {
+.widget-basemedia_speaker-default-kitchen-speaker .level {
 	display: inline-block;
 }
 
-.widget-basemedia-default-kitchen-speaker .unit {
+.widget-basemedia_speaker-default-kitchen-speaker .unit {
 	display: inline-block;
 }
 
-.widget-basemedia-default-kitchen-speaker .levelunit {
+.widget-basemedia_speaker-default-kitchen-speaker .levelunit {
 	position: absolute;
 	bottom: 5px;
 	width: 100%;
 }
 
-.widget-basemedia-default-kitchen-speaker .secondary-icon {
+.widget-basemedia_speaker-default-kitchen-speaker .secondary-icon {
 	position: absolute;
-	bottom: 0px;
-	font-size: 20px;
+	bottom: 5px;
+	font-size: 50px;
 	width: 32px;
 	color: white;
 }
 
-.widget-basemedia-default-kitchen-speaker .secondary-icon.plus {
-	right: 24px;
+.widget-basemedia_speaker-default-kitchen-speaker .secondary-icon.plus {
+	right: 25px;
 }
 
-.widget-basemedia-default-kitchen-speaker .secondary-icon.plus i {
+.widget-basemedia_speaker-default-kitchen-speaker .secondary-icon.plus i {
 	padding-top: 10px;
 	padding-left: 10px;
 }
 
-.widget-basemedia-default-kitchen-speaker .secondary-icon.minus {
-	left: 28px;
+.widget-basemedia_speaker-default-kitchen-speaker .secondary-icon.minus {
+	left: 10px;
 }
 
-.widget-basemedia-default-kitchen-speaker .secondary-icon.minus i {
+.widget-basemedia_speaker-default-kitchen-speaker .secondary-icon.minus i {
 	padding-top: 10px;
 	padding-right: 30px;
 }
@@ -941,38 +1103,38 @@ input {
 	height: 100%;
 }
 
-.widget-baseswitch_hor-default-kitchen-outside-speakers-group {
+.widget-baseswitch_hor-default-kitchen-outside-speakers-group-mobile {
 	position: relative;
 }
 
-.widget-baseswitch_hor-default-kitchen-outside-speakers-group .title {
+.widget-baseswitch_hor-default-kitchen-outside-speakers-group-mobile .title {
 	position: absolute;
 	right: 3px;
-	top: 5px;
+	top: 3px;
 	width: 60%;
 }
 
-.widget-baseswitch_hor-default-kitchen-outside-speakers-group .title2 {
+.widget-baseswitch_hor-default-kitchen-outside-speakers-group-mobile .title2 {
 	position: absolute;
 	right: 3px;
 	top: 21px;
 	width: 60%;
 }
 
-.widget-baseswitch_hor-default-kitchen-outside-speakers-group .state_text {
+.widget-baseswitch_hor-default-kitchen-outside-speakers-group-mobile .state_text {
 	position: absolute;
 	right 3px;
 	bottom: -3px;
 	width: 60%;
 }
 
-.widget-baseswitch_hor-default-kitchen-outside-speakers-group .icon {
+.widget-baseswitch_hor-default-kitchen-outside-speakers-group-mobile .icon {
 	position: absolute;
-	top: 8px;
-	width: 50%;
+	top: 5px;
+	left: 8px;
 }
 
-.widget-baseswitch_hor-default-kitchen-outside-speakers-group .toggle-area {
+.widget-baseswitch_hor-default-kitchen-outside-speakers-group-mobile .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -981,38 +1143,38 @@ input {
 	height: 100%;
 }
 
-.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group {
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group-mobile {
 	position: relative;
 }
 
-.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .title {
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group-mobile .title {
 	position: absolute;
 	right: 3px;
-	top: 5px;
+	top: 3px;
 	width: 60%;
 }
 
-.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .title2 {
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group-mobile .title2 {
 	position: absolute;
 	right: 3px;
 	top: 21px;
 	width: 60%;
 }
 
-.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .state_text {
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group-mobile .state_text {
 	position: absolute;
 	right 3px;
 	bottom: -3px;
 	width: 60%;
 }
 
-.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .icon {
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group-mobile .icon {
 	position: absolute;
-	top: 8px;
-	width: 50%;
+	top: 5px;
+	left: 8px;
 }
 
-.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .toggle-area {
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group-mobile .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;

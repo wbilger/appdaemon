@@ -9,22 +9,22 @@ widget_margins: [1, 1]
 columns: 32
 
 layout:
-#    - include: widgets_lights
-#    - include: widgets_media
-#    - include: widgets_scripts
-#    - include: widgets_google_home
+    - include: widgets_lights
+    - include: widgets_media
+    - include: widgets_scripts
+    - include: widgets_google_home
     
     - include: row_top
     - 
     -
     -
     - 
-    - jenn_bedroom(8x4),label_2(3x4),bedtime (8x4),label_3(3x4),label_4(10x1)
-    - kitchen_bedroom_speaker_group(4x2), label_5(4x2),bedroom_radio_station_p1(2x3)
+    - jenn_bedroom(5x4),bedroom_fan(3x4),bedroom_tv,bedtime,jalynne_bedroom_light(3x4),jalynne_bedroom_fan(3x4),label_1(10x1)
+    - kitchen_bedroom_speaker_group(4x2), label_1(4x2),bedroom_radio_station_p1(2x3)
     -
     - bedroom_radio_station(8x2)
     - spacer(22x1), bedroom_radio_station_p2(2x3)
-    - bedroom_plex(8x8), label_6(3x8), bedroom_chromecast(8x8), label_7(3x8),  bedroom_speaker(8x8)
+    - bedroom_plex(8x8), label_3(3x8), bedroom_chromecast(8x8), label_4(3x8),  bedroom_speaker(8x8)
     -
     - bedroom_radio_station_p3(2x3)
     - 
@@ -39,7 +39,12 @@ layout:
     
 
 
-
+bedroom_tv:
+    widget_type: switch
+    entity: input_boolean.bedroom_tv
+    title: Bedroom TV
+    icon_off: fa-television
+    icon_on: fa-television
 
 label_1:
     widget_type: label
@@ -49,10 +54,3 @@ label_3:
     widget_type: label
 label_4:
     widget_type: label
-label_5:
-    widget_type: label
-label_6:
-    widget_type: label
-label_7:
-    widget_type: label
-

@@ -24,38 +24,60 @@ layout:
     - include: row_top
     -
     -
-    - include: row_news
+    - weather_summary(32x1)
+    - rss_weather_alerts(32x1)
+    - ecobee_mode_home(2x3),ecobee_operation(2x3),ecobee_temperature_target(3x3),bilger_home_temperature_avg(3x3),ecobee_temperature_avg(3x3),ecobee_temperature(3x3),ecobee_temperature_kitchen(3x3),ecobee_temperature_family_room(3x3),broadlink_temperature_bedroom(2x3),broadlink_temperature_bedroom_kale(2x3),ecobee_humidity(2x3),ecobee_occupancy_kitchen(2x3),ecobee_occupancy_family_room(2x3)
     -
-    - label_bilger_home(32x1)
-    - ecobee_temperature_target(4x3),bilger_home_temperature_avg(4x3),ecobee_temperature_avg(3x3),ecobee_temperature(3x3),ecobee_temperature_kitchen(3x3),broadlink_temperature_family_room(3x3),ecobee_temperature_bedroom(3x3),ecobee_humidity(3x3),ecobee_mode_home(2x3),ecobee_occupancy_kitchen(2x3),ecobee_occupancy_bedroom(2x3)
     -
-    -
-    - label_bilger_home_bottom(32x1)
-    - front_porch(2x4),front_entrance_way,front_entrance(2x4),front_window,kitchen_island_night(2x4),kitchen_island,kitchen_island_max(2x4),jenn_bedroom(2x4),kitchen_outside_speakers_group(4x2),kitchen_bedroom_speaker_group(4x2),kitchen_radio_station_p1(2x3)
-    -
+    - rss_news(32x1)
+    - front_porch(2x4),front_entrance_way,front_entrance(2x4),kitchen_island_night(2x4),kitchen_island,kitchen_island_max(2x4),front_window,dining_room_light,kitchen_outside_speakers_group(4x1),kitchen_bedroom_speaker_group(4x1)
     - kitchen_radio_station(8x2)
-    - kitchen_radio_station_p2(2x3)
-    - desk_lamp(2x4),familyroom_lights,couch_light(2x4),spacer(1x8),label_scenes_top(12x1),spacer(1x8),kitchen_speaker(8x8)
-    - familyroom_plex_time(4x3),familyroom_bell_time(4x3),familyroom_off(4x3),spacer(1x6)
-    - kitchen_radio_station_p3(2x3)
-    -
-    - theatre,theatre_bar,theatre_movie_time(4x3),theatre_off(4x3),bedtime(4x3)
-    - kitchen_radio_station_p4(2x3)
     - 
-    - label_scenes_bottom(12x1)
+    - kitchen_radio_station_p1(2x3),kitchen_radio_station_p2(2x3),kitchen_radio_station_p3(2x3),kitchen_radio_station_p4(2x3)
+    - desk_lamp(2x4),familyroom_lights,couch_lamp(2x4),label_scenes_top(12x1),dining_room_fan(2x4),dining_room_plug(2x4)
+    - spacer(1x6),familyroom_plex_time(3x3),familyroom_bell_time(3x3),familyroom_off(4x3),spacer(1x6)
+    - kitchen_speaker(8x6)
+    - 
+    - theatre,theatre_bar,theatre_movie_time(3x3),theatre_off(3x3),bedtime(4x3),jenn_bedroom
+    - 
     -
-    - include: row_bottom
+    - label_scenes_bottom(12x1)
+    - label_bottom(32x1)
+    - include: row_bottom    
     
-label_bilger_home:
+weather_summary:
+    widget_type: sensor
+    entity: sensor.dark_sky_hourly_summary
+    widget_style: "background: #222"
+    text_style: "color: gray"
+
+rss_news:
+    widget_type: rss_combo
+    entity: rss_news
+    sub_entity: rss_sports
+    interval: 12
+    widget_style: "background: gray"
+    text_style: "color: black"
+
+rss_weather_alerts:
     title: Bilger Home
-    widget_type: label
+    title2: No watches or warnings in effect, London 
+    widget_type: rss_alerts
+    entity: rss_weather_alerts
     widget_style: "background: gray"
-label_bilger_home_bottom:
-    widget_type: label
-    widget_style: "background: gray"
+    title_style: "color: black"
+    text_style: "color: red"
+    
 label_scenes_top:
     widget_type: label
     widget_style: "background: gray"
+    
 label_scenes_bottom:
     widget_type: label
-    widget_style: "background: gray"
+    widget_style: "background: gray"    
+    
+label_bottom:
+    widget_type: label
+    title: All Systems OK.
+    widget_style: "background: #222"
+    

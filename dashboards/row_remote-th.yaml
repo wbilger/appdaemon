@@ -1,0 +1,25 @@
+layout: 
+    - remote_roku(3x2),remote_surround_sound(3x2),remote_projector(3x2),theatre_off(3x2)
+    -
+
+# Remote Navigation
+remote_roku:
+    widget_type: navigate_hor
+    title2: Roku
+    icon_inactive: mdi-remote
+    dashboard: Remote_TH_Roku-mobile
+remote_surround_sound:
+    widget_type: navigate_hor
+    title2: Denon
+    icon_inactive: mdi-remote
+    dashboard: Remote_TH_Radio-mobile
+remote_projector:
+    widget_type: navigate_hor
+    title2: Pro jector
+    icon_inactive: mdi-remote
+    dashboard: Remote_TH_Projector-mobile
+theatre_off: 
+    widget_type: script_short
+    entity: script.theatre_off
+    icon_off: mdi-power
+    icon_on: mdi-power

@@ -202,44 +202,50 @@ input {
 
 .modalDialogCloseButton:hover { background: #444; }
 
-.widget-baseswitch_short-default-desk-lamp {
+.widget-base_light_with_brightness-default-couch-lamp {
 	position: relative;
 }
-
-.widget-baseswitch_short-default-desk-lamp .title {
+.widget-base_light_with_brightness-default-couch-lamp .title {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+.widget-base_light_with_brightness-default-couch-lamp .title2 {
+    position: absolute;
+    top: 23px;
+    width: 100%;
+}
+.widget-base_light_with_brightness-default-couch-lamp .iconcontainer {
 	position: absolute;
-	top: 5px;
+	bottom: 30%;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-desk-lamp .title2 {
-	position: absolute;
-	top: 20px;
-	width: 100%;
-}
-
-.widget-baseswitch_short-default-desk-lamp .state_text {
-	position: absolute;
-	bottom: -6px;
-	font-size: 90%;
-	width: 100%;
-}
-
-.widget-baseswitch_short-default-desk-lamp .icon {
-	position: absolute;
-	bottom: 5px;
-	width: 100%;
-}
-
-.widget-baseswitch_short-default-desk-lamp .toggle-area {
+.widget-base_light_with_brightness-default-couch-lamp .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 75%;
 }
 
+.widget-base_light_with_brightness-default-couch-lamp .slidercontainer {
+   position: absolute;
+   bottom: 5px;
+   height: 25%;
+   overflow: hidden;
+   width: 100%;
+   horizontal-align: center;
+   margin:auto;
+}
+
+.widget-base_light_with_brightness-default-couch-lamp input[type=range] {
+  -webkit-appearance: slider-horizontal;
+  border: 1px solid white;
+  height: 90%;
+  width: 90%;
+}
 .widget-baseswitch_short-default-familyroom-lights {
 	position: relative;
 }
@@ -278,36 +284,36 @@ input {
 	height: 100%;
 }
 
-.widget-baseswitch_short-default-couch-light {
+.widget-baseswitch_short-default-desk-lamp {
 	position: relative;
 }
 
-.widget-baseswitch_short-default-couch-light .title {
+.widget-baseswitch_short-default-desk-lamp .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-couch-light .title2 {
+.widget-baseswitch_short-default-desk-lamp .title2 {
 	position: absolute;
 	top: 20px;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-couch-light .state_text {
+.widget-baseswitch_short-default-desk-lamp .state_text {
 	position: absolute;
 	bottom: -6px;
 	font-size: 90%;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-couch-light .icon {
+.widget-baseswitch_short-default-desk-lamp .icon {
 	position: absolute;
 	bottom: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch_short-default-couch-light .toggle-area {
+.widget-baseswitch_short-default-desk-lamp .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -361,7 +367,7 @@ input {
 .widget-baseswitch_hor-default-familyroom-plex-time .title {
 	position: absolute;
 	right: 3px;
-	top: 5px;
+	top: 3px;
 	width: 60%;
 }
 
@@ -381,8 +387,8 @@ input {
 
 .widget-baseswitch_hor-default-familyroom-plex-time .icon {
 	position: absolute;
-	top: 8px;
-	width: 50%;
+	top: 5px;
+	left: 8px;
 }
 
 .widget-baseswitch_hor-default-familyroom-plex-time .toggle-area {
@@ -486,9 +492,8 @@ input {
 }
 
 .widget-basedisplay-default-label-top .valueunit {
-	position: absolute;
-	top: 43px;
 	width: 100%;
+	vertical-align: middle;
 }
 
 .widget-basedisplay-default-label-top .title {
@@ -509,37 +514,37 @@ input {
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-active {
+.widget-basebutton_remote_small-default-kodi-hgtv {
 	position: relative;
 }
 
-.widget-basebutton_remote_small-default-plex-active .title {
+.widget-basebutton_remote_small-default-kodi-hgtv .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-active .title2 {
+.widget-basebutton_remote_small-default-kodi-hgtv .title2 {
 	position: absolute;
 	bottom: -5px;
 	height: 60%;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-active .state_text {
+.widget-basebutton_remote_small-default-kodi-hgtv .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-active .icon {
+.widget-basebutton_remote_small-default-kodi-hgtv .icon {
 	position: absolute;
 	top: 12px;
 	font-size: 200%;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-active .toggle-area {
+.widget-basebutton_remote_small-default-kodi-hgtv .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -548,37 +553,37 @@ input {
 	height: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-context-menu {
+.widget-basebutton_remote_small-default-kodi-sports {
 	position: relative;
 }
 
-.widget-basebutton_remote_small-default-plex-context-menu .title {
+.widget-basebutton_remote_small-default-kodi-sports .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-context-menu .title2 {
+.widget-basebutton_remote_small-default-kodi-sports .title2 {
 	position: absolute;
 	bottom: -5px;
 	height: 60%;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-context-menu .state_text {
+.widget-basebutton_remote_small-default-kodi-sports .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-context-menu .icon {
+.widget-basebutton_remote_small-default-kodi-sports .icon {
 	position: absolute;
 	top: 12px;
 	font-size: 200%;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-context-menu .toggle-area {
+.widget-basebutton_remote_small-default-kodi-sports .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -697,37 +702,37 @@ input {
 	height: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-home {
+.widget-basebutton_remote_small-default-plex-start {
 	position: relative;
 }
 
-.widget-basebutton_remote_small-default-plex-home .title {
+.widget-basebutton_remote_small-default-plex-start .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-home .title2 {
+.widget-basebutton_remote_small-default-plex-start .title2 {
 	position: absolute;
 	bottom: -5px;
 	height: 60%;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-home .state_text {
+.widget-basebutton_remote_small-default-plex-start .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-home .icon {
+.widget-basebutton_remote_small-default-plex-start .icon {
 	position: absolute;
 	top: 12px;
 	font-size: 200%;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-home .toggle-area {
+.widget-basebutton_remote_small-default-plex-start .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -736,37 +741,37 @@ input {
 	height: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-home-back {
+.widget-basebutton_remote_small-default-plex-active {
 	position: relative;
 }
 
-.widget-basebutton_remote_small-default-plex-home-back .title {
+.widget-basebutton_remote_small-default-plex-active .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-home-back .title2 {
+.widget-basebutton_remote_small-default-plex-active .title2 {
 	position: absolute;
 	bottom: -5px;
 	height: 60%;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-home-back .state_text {
+.widget-basebutton_remote_small-default-plex-active .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-home-back .icon {
+.widget-basebutton_remote_small-default-plex-active .icon {
 	position: absolute;
 	top: 12px;
 	font-size: 200%;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-home-back .toggle-area {
+.widget-basebutton_remote_small-default-plex-active .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -949,30 +954,30 @@ input {
 	height: 100%;
 }
 
-.widget-basebutton_remote-default-plex-info {
+.widget-basebutton_remote-default-plex-infocodec {
 	position: relative;
 }
 
-.widget-basebutton_remote-default-plex-info .title {
+.widget-basebutton_remote-default-plex-infocodec .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basebutton_remote-default-plex-info .state_text {
+.widget-basebutton_remote-default-plex-infocodec .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-basebutton_remote-default-plex-info .icon {
+.widget-basebutton_remote-default-plex-infocodec .icon {
 	position: absolute;
 	top: 27px;
 	font-size: 400%;
 	width: 100%;
 }
 
-.widget-basebutton_remote-default-plex-info .toggle-area {
+.widget-basebutton_remote-default-plex-infocodec .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -1240,37 +1245,37 @@ input {
 	height: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-menu {
+.widget-basebutton_remote_small-default-kodi-home {
 	position: relative;
 }
 
-.widget-basebutton_remote_small-default-plex-menu .title {
+.widget-basebutton_remote_small-default-kodi-home .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-menu .title2 {
+.widget-basebutton_remote_small-default-kodi-home .title2 {
 	position: absolute;
 	bottom: -5px;
 	height: 60%;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-menu .state_text {
+.widget-basebutton_remote_small-default-kodi-home .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-menu .icon {
+.widget-basebutton_remote_small-default-kodi-home .icon {
 	position: absolute;
 	top: 12px;
 	font-size: 200%;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-menu .toggle-area {
+.widget-basebutton_remote_small-default-kodi-home .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -1279,37 +1284,37 @@ input {
 	height: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-subtitles {
+.widget-basebutton_remote_small-default-kodi-settings {
 	position: relative;
 }
 
-.widget-basebutton_remote_small-default-plex-subtitles .title {
+.widget-basebutton_remote_small-default-kodi-settings .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-subtitles .title2 {
+.widget-basebutton_remote_small-default-kodi-settings .title2 {
 	position: absolute;
 	bottom: -5px;
 	height: 60%;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-subtitles .state_text {
+.widget-basebutton_remote_small-default-kodi-settings .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-subtitles .icon {
+.widget-basebutton_remote_small-default-kodi-settings .icon {
 	position: absolute;
 	top: 12px;
 	font-size: 200%;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-subtitles .toggle-area {
+.widget-basebutton_remote_small-default-kodi-settings .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -1318,37 +1323,37 @@ input {
 	height: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-subtitles-next {
+.widget-basebutton_remote_small-default-kodi-plex-subtitles {
 	position: relative;
 }
 
-.widget-basebutton_remote_small-default-plex-subtitles-next .title {
+.widget-basebutton_remote_small-default-kodi-plex-subtitles .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-subtitles-next .title2 {
+.widget-basebutton_remote_small-default-kodi-plex-subtitles .title2 {
 	position: absolute;
 	bottom: -5px;
 	height: 60%;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-subtitles-next .state_text {
+.widget-basebutton_remote_small-default-kodi-plex-subtitles .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-subtitles-next .icon {
+.widget-basebutton_remote_small-default-kodi-plex-subtitles .icon {
 	position: absolute;
 	top: 12px;
 	font-size: 200%;
 	width: 100%;
 }
 
-.widget-basebutton_remote_small-default-plex-subtitles-next .toggle-area {
+.widget-basebutton_remote_small-default-kodi-plex-subtitles .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -1442,7 +1447,7 @@ input {
 .widget-baseswitch_hor-default-watch-plex-nav-remote .title {
 	position: absolute;
 	right: 3px;
-	top: 5px;
+	top: 3px;
 	width: 60%;
 }
 
@@ -1462,8 +1467,8 @@ input {
 
 .widget-baseswitch_hor-default-watch-plex-nav-remote .icon {
 	position: absolute;
-	top: 8px;
-	width: 50%;
+	top: 5px;
+	left: 8px;
 }
 
 .widget-baseswitch_hor-default-watch-plex-nav-remote .toggle-area {
@@ -1482,7 +1487,7 @@ input {
 .widget-baseswitch_hor-default-watch-bell-nav-remote .title {
 	position: absolute;
 	right: 3px;
-	top: 5px;
+	top: 3px;
 	width: 60%;
 }
 
@@ -1502,8 +1507,8 @@ input {
 
 .widget-baseswitch_hor-default-watch-bell-nav-remote .icon {
 	position: absolute;
-	top: 8px;
-	width: 50%;
+	top: 5px;
+	left: 8px;
 }
 
 .widget-baseswitch_hor-default-watch-bell-nav-remote .toggle-area {
@@ -1522,7 +1527,7 @@ input {
 .widget-baseswitch_hor-default-watch-tv-nav-remote .title {
 	position: absolute;
 	right: 3px;
-	top: 5px;
+	top: 3px;
 	width: 60%;
 }
 
@@ -1542,8 +1547,8 @@ input {
 
 .widget-baseswitch_hor-default-watch-tv-nav-remote .icon {
 	position: absolute;
-	top: 8px;
-	width: 50%;
+	top: 5px;
+	left: 8px;
 }
 
 .widget-baseswitch_hor-default-watch-tv-nav-remote .toggle-area {

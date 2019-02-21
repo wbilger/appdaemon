@@ -1,0 +1,26 @@
+layout: 
+    - ir_tv_sleep(3x2),remote_plex(3x2),remote_tv(3x2),bedroom_off(3x2)
+    -
+
+# Remote Navigation
+ir_tv_sleep:
+    widget_type: button_remote_short
+    entity: switch.ir_bedroom_tv_sleep
+    icon_off: mdi-sleep
+    icon_on: mdi-sleep
+remote_plex:
+    widget_type: navigate_hor
+    title2: Plex
+    icon_inactive: mdi-remote
+    dashboard: Remote_BR_Plex-mobile
+remote_tv:
+    widget_type: navigate_hor
+    title2: TV
+    icon_inactive: mdi-remote
+    dashboard: Remote_BR_TV-mobile
+bedroom_off: 
+    widget_type: script_short
+#    entity: script.bedroom_off
+    entity: switch.bedroom_tv_powertoggle
+    icon_off: mdi-power
+    icon_on: mdi-power

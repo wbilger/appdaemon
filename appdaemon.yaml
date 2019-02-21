@@ -1,30 +1,48 @@
-AppDaemon:
-  cert_verify: True
+secrets: /hass/secrets.yaml    #path to hass secrets file
+log:
+  # logfile: STDOUT
+  # errorfile: STDERR
+  accessfile: /conf/access.log
+  logfile: /conf/appdaemon.log
+  errorfile: /conf/appdaemonerr.log
+  diagfile: /conf/appdaemondiag.log
+  log_generations: 3
+  log_size: 1000000
+appdaemon:
+  threads: 10
   disable_apps: 1
   dash_force_compile: 0
-  logfile: STDOUT
-  errorfile: STDERR
-#  logfile: /home/homeassistant/.appdaemon/appdaemon.log
-#  errorfile: /home/homeassistant/.appdaemon/appdaemonerr.log
-  threads: 10
-  api_ssl_certificate: !secret ssl_certificate
-  api_ssl_key: !secret ssl_key
-  rss_feeds:
-    - feed: https://weather.gc.ca/rss/warning/on-137_e.xml
-      target: rss_weather_alerts
-    - feed: http://www.lfpress.com/rss.xml
-      target: rss_lfpress
-    - feed: http://www.lfpress.com/sports/rss.xml
-      target: rss_lfpress_sports
-    # - feed: https://london.ctvnews.ca/rss/ctv-news-london-1.1073369
-    #   target: rss_ctv
-  rss_update: 600
-  
-HASS:
-  ha_url: !secret ha_url
-  ha_key: !secret ha_password
-HADashboard:
+
+#  SSL handled by docker letsencrypt container ## api_ssl_certificate: !secret ssl_certificate
+#  api_ssl_key: !secret ssl_key
+#  cert_verify: True
+
+#  rss_update: 600
+  plugins:
+    HASS:
+      type: hass
+      ha_url: !secret hass_url
+      ha_token: !secret hass_appdaemon_token
+      #ha_key: !secret hass_password
+      #api_port: (optional) - Port the AppDaemon RESTFul API will listen on
+hadashboard:
   dash_url: !secret dash_url
-  dash_dir: /home/homeassistant/.appdaemon/dashboards
-  dash_ssl_certificate: !secret ssl_certificate
-  dash_ssl_key: !secret ssl_key
+  dashboard_dir: /conf/dashboards
+
+#  SSL handled by docker letsencrypt container ## dash_ssl_certificate: !secret ssl_certificate
+#  dash_ssl_key: !secret ssl_key
+
+  # rss_feeds:
+  #   - feed: https://weather.gc.ca/rss/warning/on-137_e.xml
+  #     target: rss_weather_alerts
+  #   - feed: http://www.lfpress.com/rss.xml
+  #     target: rss_news
+  #   #- feed: https://www.sportsnet.ca/feed/
+  #   - feed: https://www.ctvnews.ca/rss/sports/ctv-news-sports-1.3407726
+  #     target: rss_sports
+  #   # - feed: http://www.lfpress.com/sports/rss.xml #seems to be gone with new LFPress online update
+  #   #   target: rss_sports
+  #   # - feed: https://london.ctvnews.ca/rss/ctv-news-london-1.1073369
+  #   #   target: rss_ctv
+  # rss_update: 300
+  

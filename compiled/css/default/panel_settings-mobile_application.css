@@ -202,26 +202,6 @@ input {
 
 .modalDialogCloseButton:hover { background: #444; }
 
-.widget-baserss-default-rss-weather .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-baserss-default-rss-weather .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-baserss-default-rss-weather .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
 .widget-baserss-default-rss-weather .title {
 	position: absolute;
 	top: 5px;
@@ -306,44 +286,6 @@ input {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-.widget-basedisplay-default-label-top .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-label-top .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-label-top .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-top .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-top .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-top .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
 .widget-basenavigate-default-hass .icon {
 	position: absolute;
 	top: 28px;
@@ -525,6 +467,114 @@ input {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+.widget-baseslider_thin-default-kitchen-radio-volume-favourite {
+	position: relative;
+}
+.widget-baseslider_thin-default-kitchen-radio-volume-favourite .title {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+.widget-baseslider_thin-default-kitchen-radio-volume-favourite .title2 {
+    position: absolute;
+    top: 23px;
+    width: 100%;
+}
+.widget-baseslider_thin-default-kitchen-radio-volume-favourite .state_text {
+    position: absolute;
+    top: 38px;
+    width: 100%;
+}
+
+.widget-baseslider_thin-default-kitchen-radio-volume-favourite .minval {
+    position: absolute;
+    bottom: 5px;
+    left: -5px;
+    width: 33%;
+}
+.widget-baseslider_thin-default-kitchen-radio-volume-favourite .maxval {
+    position: absolute;
+    bottom: 5px;
+    right: -5px;
+    width: 33%;
+}
+.widget-baseslider_thin-default-kitchen-radio-volume-favourite .value {
+    position: absolute;
+    bottom: 5px;
+    left: 33%;
+    width: 33%;
+}
+
+.widget-baseslider_thin-default-kitchen-radio-volume-favourite .slidercontainer {
+   position: absolute;
+   top: 18px;
+   height: 29px;
+   overflow: hidden;
+   width: 100%;
+   horizontal-align: center;
+   margin:auto;
+}
+
+.widget-baseslider_thin-default-kitchen-radio-volume-favourite input[type=range] {
+  -webkit-appearance: slider-horizontal;
+  border: 1px solid white;
+  height: 24px;
+  width: 90%;
+}
+.widget-baseslider_thin-default-bedroom-radio-volume-favourite {
+	position: relative;
+}
+.widget-baseslider_thin-default-bedroom-radio-volume-favourite .title {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+.widget-baseslider_thin-default-bedroom-radio-volume-favourite .title2 {
+    position: absolute;
+    top: 23px;
+    width: 100%;
+}
+.widget-baseslider_thin-default-bedroom-radio-volume-favourite .state_text {
+    position: absolute;
+    top: 38px;
+    width: 100%;
+}
+
+.widget-baseslider_thin-default-bedroom-radio-volume-favourite .minval {
+    position: absolute;
+    bottom: 5px;
+    left: -5px;
+    width: 33%;
+}
+.widget-baseslider_thin-default-bedroom-radio-volume-favourite .maxval {
+    position: absolute;
+    bottom: 5px;
+    right: -5px;
+    width: 33%;
+}
+.widget-baseslider_thin-default-bedroom-radio-volume-favourite .value {
+    position: absolute;
+    bottom: 5px;
+    left: 33%;
+    width: 33%;
+}
+
+.widget-baseslider_thin-default-bedroom-radio-volume-favourite .slidercontainer {
+   position: absolute;
+   top: 18px;
+   height: 29px;
+   overflow: hidden;
+   width: 100%;
+   horizontal-align: center;
+   margin:auto;
+}
+
+.widget-baseslider_thin-default-bedroom-radio-volume-favourite input[type=range] {
+  -webkit-appearance: slider-horizontal;
+  border: 1px solid white;
+  height: 24px;
+  width: 90%;
 }
 .widget-baseselect_thin-default-kitchen-radio-station-preset-1 {
     position: relative;

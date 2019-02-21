@@ -14,23 +14,23 @@ layout:
     - include: widgets_scripts
     
     - include: row_top-mobile
-    - front_porch(2x4),front_entrance_way,front_entrance(2x4),front_window
+    - front_porch(2x4),front_entrance_way(3x4),front_entrance(2x4),front_window(3x4),dining_room_light(2x4)
     - 
     - 
     - 
-    - kitchen_island_night(2x4),kitchen_island,kitchen_island_max(2x4),jenn_bedroom
+    - kitchen_island_night(2x4),kitchen_island(3x4),kitchen_island_max(2x4),dining_room_fan(3x4),dining_room_plug(2x4)
     -
     -
     -
+    - desk_lamp_hor(4x2),familyroom_lights_hor(4x2),couch_lamp_hor(4x2)
+    - 
     - kitchen_radio_station(8x2),kitchen_radio_station_p1(2x3),kitchen_radio_station_p2(2x3)
     -
-    - kitchen_speaker(8x8)
+    - kitchen_speaker(8x6)
     - kitchen_radio_station_p3(2x3),kitchen_radio_station_p4(2x3)
     - 
     - 
-    - kitchen_outside_speakers_group(4x2)
-    - 
-    - kitchen_bedroom_speaker_group(4x2)
-    -
+    - kitchen_outside_speakers_group_mobile(4x1)
+    - kitchen_bedroom_speaker_group_mobile(4x1)
     -
     - include: row_bottom-mobile

@@ -6,7 +6,7 @@ front_entrance_way:
     icon_on: mdi-lightbulb-on
 front_porch:
     widget_type: switch
-    entity: light.front_porch_light
+    entity: light.entrance_light_porch
     title: Front Porch
     icon_off: mdi-lightbulb-outline
     icon_on: mdi-lightbulb-on-outline
@@ -19,12 +19,29 @@ front_entrance:
 #    icon_style_active: "color: yellow"
 #    icon_style_inactive: "color: gray"
 front_window:
-    widget_type: light_with_brightness
+    widget_type: switch
     entity: light.front_window
     title: Front Window
     icon_off: mdi-lightbulb-outline
     icon_on: mdi-lightbulb-on-outline
-    slider_style: "color: green"
+dining_room_light:
+    widget_type: switch
+    entity: light.dining_room_light
+    title: Dining Room Light
+    icon_off: mdi-lightbulb-outline
+    icon_on: mdi-lightbulb-on-outline
+dining_room_fan:
+    widget_type: switch
+    entity: switch.tc2_dining_room_fan
+    title: Dining Room Fan
+    icon_off: mdi-fan
+    icon_on: mdi-fan
+dining_room_plug:
+    widget_type: switch
+    entity: light.dining_room_plug
+    title: Reading Light
+    icon_off: mdi-lightbulb-outline
+    icon_on: mdi-lightbulb-on-outline
 kitchen_island:
     widget_type: group
     entity: group.kitchen_island_lights
@@ -53,6 +70,25 @@ jenn_bedroom:
     icon_on: mdi-lightbulb-on-outline
     # on_attributes:
     #   brightness: 120
+bedroom_fan:
+    widget_type: switch
+    entity: switch.sonoff_basic_02
+    title: Bedroom Fan
+    icon_off: mdi-fan
+    icon_on: mdi-fan
+jalynne_bedroom_light:
+    widget_type: switch
+    entity: light.bedroom_jalynne_light
+    title: Jalynne Light
+    icon_off: mdi-lightbulb-outline
+    icon_on: mdi-lightbulb-on-outline
+jalynne_bedroom_fan:
+    widget_type: switch
+    entity: switch.tc2_bedroom_jalynne_fan
+    title: Jalynne Fan
+    icon_off: mdi-fan
+    icon_on: mdi-fan
+
 theatre:
     widget_type: group
     entity: group.theatre_lights
@@ -91,9 +127,27 @@ desk_lamp:
     title: Desk Lamp
     icon_off: mdi-lamp
     icon_on: mdi-lamp
-couch_light:
-    widget_type: switch
-    entity: light.couch_light
-    title: Couch Light
+couch_lamp:
+    widget_type: light_with_brightness
+    entity: light.couch_lamp
+    title: Couch Lamp
     icon_off: mdi-lightbulb-outline
     icon_on: mdi-lightbulb-on-outline
+familyroom_lights_hor:
+    widget_type: switch_hor
+    entity: group.familyroom_lights
+    title: Family Room Lights
+    icon_off: mdi-lightbulb
+    icon_on: mdi-lightbulb-on
+desk_lamp_hor:
+    widget_type: switch_hor
+    entity: light.desk_lamp
+    title: Desk Lamp
+    icon_off: mdi-lamp
+    icon_on: mdi-lamp
+couch_lamp_hor:
+    widget_type: switch_hor
+    entity: light.couch_lamp
+    title: Couch Lamp
+    icon_off: mdi-lightbulb-outline
+    icon_on: mdi-lightbulb-on-outline    

@@ -12,10 +12,10 @@ layout:
     - ecobee_temperature_target(4x3),bilger_home_temperature_avg(4x3),ecobee_temperature_avg(4x3)
     -
     -
-    - ecobee_temperature(3x3),ecobee_temperature_kitchen(3x3),ecobee_temperature_bedroom(3x3),broadlink_temperature_family_room(3x3)
+    - ecobee_temperature(3x3),ecobee_temperature_kitchen(3x3),ecobee_temperature_family_room(2x3),broadlink_temperature_bedroom(2x3),broadlink_temperature_bedroom_kale(2x3)
     -
     - 
-    - ecobee_humidity(3x3), ecobee_mode_home(3x3),ecobee_occupancy_kitchen(3x3),ecobee_occupancy_bedroom(3x3)
+    - ecobee_humidity(3x3), ecobee_mode_home(3x3),ecobee_occupancy_kitchen(3x3),ecobee_occupancy_family_room(3x3)
     -
     -
     - ecobee_operation(3x3), ecobee_mode_operation(3x3), ecobee_fan(3x3), ecobee_mode_hold(3x3)
@@ -34,41 +34,40 @@ label_3:
     widget_type: label
 
 wayne_presence:
-    widget_type: presence_short
+    widget_type: presence
     title: Wayne
     entity: sensor.presence_wayne_status
-    state_text: 0
+    state_text: 1
     icon_on: fa-male
     icon_off: fa-male
     icon_style_active: "color: #4bcdea"
 jenn_presence:
-    widget_type: presence_short
+    widget_type: presence
     title: Jenn
     entity: sensor.presence_jenn_status
-    picture: /local/photos/jenn.jpg
-    state_text: 0
     icon_style_active: "color: #ea4b82"
+    state_text: 1
     icon_on: fa-female
     icon_off: fa-female
 kale_presence:
-    widget_type: presence_short
+    widget_type: presence
     title: Kale
     entity: sensor.presence_kale_status
-    state_text: 0
+    icon_style_active: "color: #4bcdea"
+    state_text: 1
     icon_on: fa-male
     icon_off: fa-male
-    icon_style_active: "color: #4bcdea"
 jalynne_presence:
-    widget_type: presence_short
+    widget_type: presence
     title: Jalynne
     entity: sensor.presence_jalynne_status
-    state_text: 0
     icon_style_active: "color: #ea4b82"
+    state_text: 1
     icon_on: fa-female
-    icon_off: fa-female    
-
+    icon_off: fa-female
+    
 ecobee_temperature_target:
-    widget_type: sensor
+    widget_type: sensor_short
     entity: sensor.ecobee_temperature_target
     title: Target Temperature
     units: "&deg;C"
@@ -76,7 +75,7 @@ ecobee_temperature_target:
     value_style: "color: red;"
     unit_style: "color: red;"
 bilger_home_temperature_avg:
-    widget_type: sensor
+    widget_type: sensor_short
     entity: sensor.bilger_home_temperature_avg
     title: House Temperature
     units: "&deg;C"
@@ -84,7 +83,7 @@ bilger_home_temperature_avg:
     value_style: "color: orange;"
     unit_style: "color: orange;"
 ecobee_temperature_avg:
-    widget_type: sensor
+    widget_type: sensor_short
     entity: sensor.ecobee_temperature_avg
     title: Ecobee Average
     units: "&deg;C"
@@ -92,7 +91,7 @@ ecobee_temperature_avg:
     value_style: "color: lightblue;"
     unit_style: "color: lightblue;"
 ecobee_temperature:
-    widget_type: sensor
+    widget_type: sensor_short
     entity: sensor.ecobee_temperature
     title: Ecobee
     units: "&deg;C"
@@ -100,31 +99,39 @@ ecobee_temperature:
     value_style: "font-size: 180%;"
     unit_style: "font-size: 75%;"
 ecobee_temperature_kitchen:
-    widget_type: sensor
+    widget_type: sensor_short
     entity: sensor.kitchen_temperature
     title: Kitchen
     units: "&deg;C"
     precision: 1
     value_style: "font-size: 180%;"
     unit_style: "font-size: 75%;"
-ecobee_temperature_bedroom:
-    widget_type: sensor
-    entity: sensor.bedroom_temperature
-    title: Bedroom
-    units: "&deg;C"
-    precision: 1
-    value_style: "font-size: 180%;"
-    unit_style: "font-size: 75%;"
-broadlink_temperature_family_room:
-    widget_type: sensor
+ecobee_temperature_family_room:
+    widget_type: sensor_short
     entity: sensor.family_room_temperature
     title: Family Room
-    units: "&deg;C"
+    units: ""#"&deg;C"
     precision: 1
-    value_style: "font-size: 180%;"
+    value_style: "font-size: 170%;"
+    unit_style: "font-size: 75%;"
+broadlink_temperature_bedroom:
+    widget_type: sensor_short
+    entity: sensor.bedroom_temperature
+    title: Master Bed
+    units: ""#"&deg;C"
+    precision: 1
+    value_style: "font-size: 170%;"
+    unit_style: "font-size: 75%;"
+broadlink_temperature_bedroom_kale:
+    widget_type: sensor_short
+    entity: sensor.bedroom_kale_temperature
+    title: Kale Bed
+    units: ""#"&deg;C"
+    precision: 1
+    value_style: "font-size: 170%;"
     unit_style: "font-size: 75%;"
 ecobee_humidity:
-    widget_type: sensor
+    widget_type: sensor_short
     entity: sensor.ecobee_humidity
     title: Humidity
     units: "%"
@@ -139,27 +146,38 @@ ecobee_mode_home:
       Home: mdi-home
       Away: mdi-home-outline
       Sleep: mdi-sleep
+      Morning: mdi-weather-sunset
+      Evening: mdi-weather-night
+ecobee_operation:
+    widget_type: iconsensor
+    entity: sensor.ecobee_operation
+    title: Furnace
+    state_icons:
+      Heat: fa-fire
+      Cool: mdi-snowflake
+      Fan: mdi-fan
+      Idle: mdi-minus
 ecobee_occupancy_kitchen:
-    widget_type: binary_sensor
+    widget_type: binary_sensor_short
     entity: binary_sensor.kitchen_occupancy
     title: Kitchen
-ecobee_occupancy_bedroom:
-    widget_type: binary_sensor
-    entity: binary_sensor.bedroom_occupancy
-    title: Bedroom
+ecobee_occupancy_family_room:
+    widget_type: binary_sensor_short
+    entity: binary_sensor.family_room_occupancy
+    title: Family Room
+
 ecobee_mode_operation:
-    widget_type: sensor
+    widget_type: sensor_short
     entity: sensor.ecobee_mode_operation
-    title: Operation Mode
-ecobee_operation:
-    widget_type: sensor
-    entity: sensor.ecobee_operation
-    title: Operation
+    title: Furnace Setting
+    text_style: "font-size: 125%; color: gray;"
 ecobee_fan:
-    widget_type: sensor
+    widget_type: sensor_short
     entity: sensor.ecobee_fan
     title: Fan
+    text_style: "font-size: 125%; color: gray;"
 ecobee_mode_hold:
-    widget_type: sensor
+    widget_type: sensor_short
     entity: sensor.ecobee_mode_hold
     title: Hold    
+    text_style: "font-size: 125%; color: gray;"

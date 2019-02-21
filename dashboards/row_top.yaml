@@ -1,13 +1,21 @@
 layout:
-    - date_time(8x3),weather(10x3),rss_weather(6x3),wayne_presence(2x3),jenn_presence(2x3),kale_presence(2x3),jalynne_presence(2x3)
+    - date_time(6x3),weather(9x3),calendar_events(9x3),wayne_presence(2x3),jenn_presence(2x3),kale_presence(2x3),jalynne_presence(2x3)
+
+calendar_events:
+    widget_type: calendar
+    title: Upcoming Calendar Events
+    entity: sensor.calendar_events
+    state_text_style: "color: lightgreen; font-size: 140%"
 
 date_time:
     widget_type: clock
-    time_style: "color: red"
+    date_style: "font-size: 130%"
+    time_style: "font-size: 270%"
     
 weather:
     widget_type: weather #_noicon
     units: "&deg;C"
+#    interval: 30
 
 rss_weather:
     widget_type: rss
@@ -16,18 +24,8 @@ rss_weather:
     interval: 30
     
     
-# wayne_presence:
-#     widget_type: sensor
-#     title: Wayne
-#     text_style: "text-transform: uppercase;font-size: 300%"
-#     entity: sensor.presence_wayne_status
-#     sub_entity: sensor.presence_wayne_status
-#     sub_entity_map:
-#       0: ""
-#       1: "dark"
-      
 wayne_presence:
-    widget_type: presence #_short
+    widget_type: presence
     title: Wayne
     entity: sensor.presence_wayne_status
     state_text: 1
@@ -35,27 +33,26 @@ wayne_presence:
     icon_off: fa-male
     icon_style_active: "color: #4bcdea"
 jenn_presence:
-    widget_type: presence #_short
+    widget_type: presence
     title: Jenn
     entity: sensor.presence_jenn_status
-    picture: /local/photos/jenn.jpg
-    state_text: 1
     icon_style_active: "color: #ea4b82"
+    state_text: 1
     icon_on: fa-female
     icon_off: fa-female
 kale_presence:
-    widget_type: presence #_short
+    widget_type: presence
     title: Kale
     entity: sensor.presence_kale_status
+    icon_style_active: "color: #4bcdea"
     state_text: 1
     icon_on: fa-male
     icon_off: fa-male
-    icon_style_active: "color: #4bcdea"
 jalynne_presence:
-    widget_type: presence #_short
+    widget_type: presence
     title: Jalynne
     entity: sensor.presence_jalynne_status
-    state_text: 1
     icon_style_active: "color: #ea4b82"
+    state_text: 1
     icon_on: fa-female
     icon_off: fa-female

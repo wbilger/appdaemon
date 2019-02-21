@@ -11,7 +11,7 @@ layout:
     - include: widgets_lights-mobile
     - include: widgets_remote-fr
 
-    - desk_lamp(3x3),familyroom_lights(3x3),couch_light(3x3),kitchen_island_night(3x3)
+    - couch_lamp(3x3),familyroom_lights(3x3),desk_lamp(3x3),kitchen_island_night(3x3)
     -
     -
     - familyroom_tv_time(6x2),familyroom_chromecast_time(6x2)
@@ -21,7 +21,7 @@ layout:
     - 
     - ir_tv_10(2x2),ir_tv_31(2x2),ir_tv_input(2x2),ir_tv_mute(2x2)
     - 
-    - ir_tv_left,enter,ir_tv_right
+    - ir_tv_left,ir_tv_ok,ir_tv_right
     -
     - 
     - 

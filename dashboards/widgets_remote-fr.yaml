@@ -148,12 +148,64 @@ bottom:
     icon_off: mdi-format-vertical-align-bottom
     icon_on: mdi-format-vertical-align-bottom
 
-## Remote PC keypresses for PLEX Home Theatre
+## Remote PC keypresses for Kodi-PLEX & PLEX Home Theatre
+kodi_start:
+    widget_type: button_remote_small
+    entity: switch.family_room_kodi
+    icon_off: mdi-kodi
+    icon_on: mdi-kodi
+kodi_home:
+    widget_type: button_remote_small
+    entity: switch.family_room_kodi_home
+    icon_off: mdi-kodi
+    icon_on: mdi-kodi
+kodi_settings:
+    widget_type: button_remote_small
+    entity: switch.family_room_kodi_settings
+    icon_off: mdi-settings
+    icon_on: mdi-settings
+kodi_mlb:
+    widget_type: button_remote_small
+    entity: switch.family_room_kodi_mlb
+    title2: MLB
+    icon_off: ""
+    icon_on: ""
+kodi_sports:
+    widget_type: button_remote_small
+    entity: switch.family_room_kodi_sports
+    title2: Sports
+    icon_off: ""
+    icon_on: ""
+kodi_hgtv:
+    widget_type: button_remote_small
+    entity: switch.family_room_kodi_hgtv
+    title2: HGTV
+    icon_off: ""
+    icon_on: ""
+kodi_ctvnews:
+    widget_type: button_remote_small
+    entity: switch.family_room_kodi_ctvnews
+    title: CTV
+    title2: News
+    icon_off: ""
+    icon_on: ""
+kodi_plex_subtitles:
+    widget_type: button_remote_small
+    entity: switch.plex_subtitles_next
+    icon_off: fa-strikethrough
+    icon_on: fa-strikethrough
+
+ 
+plex_start:
+    widget_type: button_remote_small
+    entity: switch.family_room_plex
+    icon_off: mdi-plex
+    icon_on: mdi-plex
 plex_active:
     widget_type: button_remote_small
     entity: switch.plex_active
-    icon_off: mdi-plex
-    icon_on: mdi-plex
+    icon_off: mdi-arrange-bring-to-front
+    icon_on: mdi-arrange-bring-to-front
 plex_home:
     widget_type: button_remote_small
     entity: switch.plex_home
@@ -167,6 +219,11 @@ plex_home_back:
 plex_info:
     widget_type: button_remote
     entity: switch.plex_info
+    icon_off: mdi-information-variant
+    icon_on: mdi-information-variant
+plex_infocodec:
+    widget_type: button_remote
+    entity: switch.plex_infocodec
     icon_off: mdi-information-variant
     icon_on: mdi-information-variant
 plex_play:
@@ -360,6 +417,11 @@ ir_tv_right:
     entity: switch.ir_tv_right
     icon_off: fa-arrow-right
     icon_on: fa-arrow-right
+ir_tv_ok:
+    widget_type: button_remote
+    entity: switch.ir_tv_ok
+    icon_off: fa-circle
+    icon_on: fa-circle
 ir_tv_back:
     widget_type: button_remote_short
     entity: switch.ir_tv_back

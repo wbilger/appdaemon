@@ -11,7 +11,7 @@ layout:
     - include: widgets_lights-mobile
     - include: widgets_remote-fr
 
-    - desk_lamp(3x3),familyroom_lights(3x3),couch_light(3x3),kitchen_island_night(3x3)
+    - couch_lamp(3x3),familyroom_lights(3x3),desk_lamp(3x3),kitchen_island_night(3x3)
     -
     -
     - familyroom_bell_time(6x2),familyroom_chromecast_time(3x2),monitor_on_off(3x2)

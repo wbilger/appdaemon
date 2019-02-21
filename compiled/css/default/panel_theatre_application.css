@@ -204,7 +204,7 @@ input {
 
 .widget-baseclock-default-date-time.date {
 	position: absolute;
-	top: 5px;
+	top: 15px;
 	width: 100%;
 }
 .widget-baseclock-default-date-time.time {
@@ -285,66 +285,91 @@ input {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-.widget-baserss-default-rss-weather .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-baserss-default-rss-weather .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-baserss-default-rss-weather .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baserss-default-rss-weather .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baserss-default-rss-weather .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-.widget-baseswitch-default-wayne-presence {
+.widget-basecalendar-default-calendar-events {
 	position: relative;
 }
 
-.widget-baseswitch-default-wayne-presence .title {
+.widget-basecalendar-default-calendar-events .title {
 	position: absolute;
-	top: 5px;
+	font-size: 75%;
+	top: 3px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-wayne-presence .title2 {
+.widget-basedisplay-default-calendar-events .title2 {
 	position: absolute;
-	top: 23px;
+	top: 15px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-wayne-presence .state_text {
+.widget-basecalendar-default-calendar-events .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-wayne-presence .icon {
+.widget-basecalendar-default-calendar-events .value1 {
 	position: absolute;
-	top: 43px;
+	top: 17px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-wayne-presence .toggle-area {
+.widget-basecalendar-default-calendar-events .value2 {
+	position: absolute;
+	top: 34px;
+	left: 5px;
+	width: 100%;
+}
+
+.widget-basecalendar-default-calendar-events .value3 {
+	position: absolute;
+	top: 51px;
+	left: 5px;
+	width: 100%;
+}
+
+.widget-basecalendar-default-calendar-events .value4 {
+	position: absolute;
+	top: 68px;
+	left: 5px;
+	width: 100%;
+}
+
+.widget-basecalendar-default-calendar-events .value5 {
+	position: absolute;
+	top: 85px;
+	width: 100%;
+}
+.widget-basepresence-default-wayne-presence {
+	position: relative;
+}
+
+.widget-basepresence-default-wayne-presence .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .state_text {
+	position: absolute;
+	bottom: -3px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .icon {
+	position: absolute;
+	bottom: 18px;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -353,35 +378,36 @@ input {
 	height: 100%;
 }
 
-.widget-baseswitch-default-jenn-presence {
+.widget-basepresence-default-jenn-presence {
 	position: relative;
 }
 
-.widget-baseswitch-default-jenn-presence .title {
+.widget-basepresence-default-jenn-presence .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jenn-presence .title2 {
+.widget-basepresence-default-jenn-presence .title2 {
 	position: absolute;
-	top: 23px;
+	top: 20px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jenn-presence .state_text {
+.widget-basepresence-default-jenn-presence .state_text {
 	position: absolute;
 	bottom: -3px;
+	font-size: 90%;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jenn-presence .icon {
+.widget-basepresence-default-jenn-presence .icon {
 	position: absolute;
-	top: 43px;
+	bottom: 18px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jenn-presence .toggle-area {
+.widget-basepresence-default-jenn-presence .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -390,35 +416,36 @@ input {
 	height: 100%;
 }
 
-.widget-baseswitch-default-kale-presence {
+.widget-basepresence-default-kale-presence {
 	position: relative;
 }
 
-.widget-baseswitch-default-kale-presence .title {
+.widget-basepresence-default-kale-presence .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-kale-presence .title2 {
+.widget-basepresence-default-kale-presence .title2 {
 	position: absolute;
-	top: 23px;
+	top: 20px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-kale-presence .state_text {
+.widget-basepresence-default-kale-presence .state_text {
 	position: absolute;
 	bottom: -3px;
+	font-size: 90%;
 	width: 100%;
 }
 
-.widget-baseswitch-default-kale-presence .icon {
+.widget-basepresence-default-kale-presence .icon {
 	position: absolute;
-	top: 43px;
+	bottom: 18px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-kale-presence .toggle-area {
+.widget-basepresence-default-kale-presence .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -427,35 +454,36 @@ input {
 	height: 100%;
 }
 
-.widget-baseswitch-default-jalynne-presence {
+.widget-basepresence-default-jalynne-presence {
 	position: relative;
 }
 
-.widget-baseswitch-default-jalynne-presence .title {
+.widget-basepresence-default-jalynne-presence .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jalynne-presence .title2 {
+.widget-basepresence-default-jalynne-presence .title2 {
 	position: absolute;
-	top: 23px;
+	top: 20px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jalynne-presence .state_text {
+.widget-basepresence-default-jalynne-presence .state_text {
 	position: absolute;
 	bottom: -3px;
+	font-size: 90%;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jalynne-presence .icon {
+.widget-basepresence-default-jalynne-presence .icon {
 	position: absolute;
-	top: 43px;
+	bottom: 18px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jalynne-presence .toggle-area {
+.widget-basepresence-default-jalynne-presence .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -479,9 +507,8 @@ input {
 }
 
 .widget-basedisplay-default-label-1 .valueunit {
-	position: absolute;
-	top: 43px;
 	width: 100%;
+	vertical-align: middle;
 }
 
 .widget-basedisplay-default-label-1 .title {
@@ -526,7 +553,7 @@ input {
 
 .widget-baseswitch-default-theatre-dim .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -567,7 +594,7 @@ input {
 
 .widget-baselight-default-theatre .icon {
 	position: absolute;
-	top: 43px;
+	top: 47px;
 	width: 100%;
 }
 
@@ -643,11 +670,48 @@ input {
 
 .widget-baseswitch-default-theatre-max .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
 .widget-baseswitch-default-theatre-max .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-theatre-bar {
+	position: relative;
+}
+
+.widget-baseswitch-default-theatre-bar .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-theatre-bar .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-theatre-bar .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-theatre-bar .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-theatre-bar .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -680,7 +744,7 @@ input {
 
 .widget-baseswitch-default-theatre-projector .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -717,7 +781,7 @@ input {
 
 .widget-baseswitch-default-theatre-surround-sound .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -754,7 +818,7 @@ input {
 
 .widget-baseswitch-default-theatre-butt-kickers .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -782,9 +846,8 @@ input {
 }
 
 .widget-basedisplay-default-label-2 .valueunit {
-	position: absolute;
-	top: 43px;
 	width: 100%;
+	vertical-align: middle;
 }
 
 .widget-basedisplay-default-label-2 .title {
@@ -800,44 +863,6 @@ input {
 }
 
 .widget-basedisplay-default-label-2 .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-3 .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-label-3 .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-label-3 .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-3 .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-3 .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-3 .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
@@ -952,9 +977,8 @@ input {
 }
 
 .widget-basedisplay-default-label-scenes-top .valueunit {
-	position: absolute;
-	top: 43px;
 	width: 100%;
+	vertical-align: middle;
 }
 
 .widget-basedisplay-default-label-scenes-top .title {
@@ -1187,7 +1211,7 @@ input {
 
 .widget-baseswitch-default-theatre-movie-time .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -1224,7 +1248,7 @@ input {
 
 .widget-baseswitch-default-theatre-netflix-time .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -1261,7 +1285,7 @@ input {
 
 .widget-baseswitch-default-theatre-off .icon {
 	position: absolute;
-	top: 43px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -1289,9 +1313,8 @@ input {
 }
 
 .widget-basedisplay-default-label-scenes-bottom .valueunit {
-	position: absolute;
-	top: 43px;
 	width: 100%;
+	vertical-align: middle;
 }
 
 .widget-basedisplay-default-label-scenes-bottom .title {
@@ -1307,44 +1330,6 @@ input {
 }
 
 .widget-basedisplay-default-label-scenes-bottom .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-4 .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-label-4 .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-label-4 .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-4 .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-4 .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-4 .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;

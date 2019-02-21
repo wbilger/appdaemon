@@ -1,0 +1,45 @@
+#
+# Main arguments, all optional
+#
+title: Bedroom Roku Remote
+widget_dimensions: [28, 28]
+widget_size: [4, 4]
+widget_margins: [1, 1]
+columns: 12
+
+layout:
+    - include: widgets_lights-mobile
+    - include: widgets_scenes-mobile
+    - include: widgets_remote-br
+    - include: widgets_lights
+    - include: widgets_scripts-mobile
+
+    - jenn_bedroom(6x4),jalynne_bedroom_light(3x4),jalynne_bedroom_fan(3x4)
+    -
+    -
+    -
+    - label_top(12x1)
+    - roku_home,roku_direction_up,roku_youtube(2x2),roku_mlb(2x2)
+    - 
+    - roku_plex(2x2),roku_netflix(2x2)
+    - 
+    - roku_direction_left,roku_select,roku_direction_right
+    -
+    - 
+    - 
+    - roku_info,roku_direction_down,roku_back
+    -
+    - 
+    -
+    - roku_rewind(4x2),roku_play(4x2),roku_fastforward(4x2)
+    -
+    - roku_replay(4x2),ir_tv_volume_down(4x2),ir_tv_volume_up(4x2)
+    -
+    -
+    - include: row_remote-br
+    - include: row_bottom-mobile
+    
+label_top:
+    widget_type: label
+    title: Roku Stick Remote
+    widget_style: "background: purple"

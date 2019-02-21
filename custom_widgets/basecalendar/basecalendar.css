@@ -1,0 +1,55 @@
+.widget-basecalendar-{{id}} {
+	position: relative;
+}
+
+.widget-basecalendar-{{id}} .title {
+	position: absolute;
+	font-size: 75%;
+	top: 3px;
+	width: 100%;
+}
+
+.widget-basedisplay-{{id}} .title2 {
+	position: absolute;
+	top: 15px;
+	width: 100%;
+}
+
+.widget-basecalendar-{{id}} .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basecalendar-{{id}} .value1 {
+	position: absolute;
+	top: 17px;
+	width: 100%;
+}
+
+.widget-basecalendar-{{id}} .value2 {
+	position: absolute;
+	top: 34px;
+	left: 5px;
+	width: 100%;
+}
+
+.widget-basecalendar-{{id}} .value3 {
+	position: absolute;
+	top: 51px;
+	left: 5px;
+	width: 100%;
+}
+
+.widget-basecalendar-{{id}} .value4 {
+	position: absolute;
+	top: 68px;
+	left: 5px;
+	width: 100%;
+}
+
+.widget-basecalendar-{{id}} .value5 {
+	position: absolute;
+	top: 85px;
+	width: 100%;
+}

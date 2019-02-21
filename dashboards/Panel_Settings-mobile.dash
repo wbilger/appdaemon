@@ -14,12 +14,13 @@ layout:
     - include: widgets_settings
 
     - include: row_top-mobile
-    - label_top(12x1)
     - hass(4x3), hass_camera(4x3),default(4x3)
     -
     -
     - simplyred(3x3), glassic(3x3), zen(3x3), obsidian(3x3)
     -
+    -
+    - kitchen_radio_volume_favourite(6x2),bedroom_radio_volume_favourite(6x2)
     -
     - kitchen_radio_station_preset_1(6x2),bedroom_radio_station_preset_1(6x2)
     - 

@@ -7,23 +7,19 @@ widget_size: [4, 4]
 widget_margins: [1, 1]
 columns: 32
 
-ha_frame:
-    widget_type: iframe
-    title: Bilger Home Assistant
-    #refresh: 60
-    url_list: 
-      - https://bilger.duckdns.org:8123/states/group.view_webcams
-
 #
 # Includes (Optional)
 #
 layout:
-    - ha_frame(32x19)
-    - 
+    - include: row_top
+    -
+    -
+    - label_top(32x1)
+    - label_left(5x17),camera_kitchen_tablet(22x17),label_right(5x17)
     -
     -
     -
-    - 
+    -
     -
     -
     -
@@ -34,7 +30,21 @@ layout:
     -
     -
     -
-    -
     - 
     -
+    - label_bottom(32x1)
     - include: row_bottom
+
+camera_kitchen_tablet:
+    widget_type: camera
+    title: Side Door Camera
+    entity_picture: http://192.168.1.70:2971/camera/stream
+
+label_top:
+    widget_type: label
+label_bottom:
+    widget_type: label
+label_left:
+    widget_type: label
+label_right:
+    widget_type: label

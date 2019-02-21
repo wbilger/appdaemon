@@ -1,0 +1,13 @@
+.widget-baserss_alerts-{{id}} .title {
+	position: absolute;
+	top: 7px;
+	font-size: 125%;
+	width: 100%;
+}
+
+.widget-baserss_alerts-{{id}} .text {
+	position: absolute;
+	top: 6px;
+	font-size: 140%;
+	width: 100%;
+}

@@ -191,6 +191,18 @@ label_title_style: $style_title
 label_title2_style: $style_title2
 label_text_style: "color: $blue;"
 label_widget_style: $background_style
+label_state_text_style: "color: $blue; font-size: 100%"
+label_container_style: ""
+
+calendar_title_style: $style_title
+calendar_title2_style: $style_title2
+calendar_row1_style: "color: $blue; font-size: 100%"
+calendar_row2_style: "color: $orange; font-size: 100%"
+calendar_text_style: "color: $white; font-size: 100%"
+calendar_state_text_style: "color: $white; font-size: 100%"
+calendar_unit_style: "color: $blue; font-size: 100%"
+calendar_widget_style: $background_style
+calendar_container_style: ""
 
 sensor_title_style: $style_title
 sensor_title2_style: $style_title2
@@ -199,13 +211,21 @@ sensor_text_style: "color: $blue; font-size: 100%"
 sensor_state_text_style: "color: $blue; font-size: 100%"
 sensor_unit_style: "color: $blue; font-size: 125%"
 sensor_widget_style: $background_style
+sensor_container_style: ""
 
-sensor_small_title_style: $style_title
-sensor_small_value_style: "$style_info; font-size: 200%"
-sensor_small_text_style: "color: $blue; font-size: 70%"
-sensor_small_state_text_style: "color: $blue; font-size: 100%"
-sensor_small_unit_style: "color: $blue; font-size: 125%"
-sensor_small_widget_style: $background_style
+sensor_short_title_style: $style_title
+sensor_short_title2_style: $style_title2
+sensor_short_value_style: "$style_info; font-size: 250%"
+sensor_short_text_style: "color: $blue; font-size: 100%"
+sensor_short_state_text_style: "color: $blue; font-size: 100%"
+sensor_short_unit_style: "color: $blue; font-size: 125%"
+sensor_short_widget_style: $background_style
+
+iconsensor_title_style: $style_title
+iconsensor_title2_style: $style_title2
+iconsensor_widget_style: $background_style
+iconsensor_state_text_style: "color: $blue; font-size: 100%"
+iconsensor_icon_style_active: $style_inactive
 
 reload_icon_active: fa-spinner fa-spin
 reload_icon_inactive: fa-refresh

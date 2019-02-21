@@ -204,7 +204,7 @@ input {
 
 .widget-baseclock-default-date-time.date {
 	position: absolute;
-	top: 5px;
+	top: 15px;
 	width: 100%;
 }
 .widget-baseclock-default-date-time.time {
@@ -285,66 +285,91 @@ input {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-.widget-baserss-default-rss-weather .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-baserss-default-rss-weather .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-baserss-default-rss-weather .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baserss-default-rss-weather .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baserss-default-rss-weather .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-.widget-baseswitch-default-wayne-presence {
+.widget-basecalendar-default-calendar-events {
 	position: relative;
 }
 
-.widget-baseswitch-default-wayne-presence .title {
+.widget-basecalendar-default-calendar-events .title {
 	position: absolute;
-	top: 5px;
+	font-size: 75%;
+	top: 3px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-wayne-presence .title2 {
+.widget-basedisplay-default-calendar-events .title2 {
 	position: absolute;
-	top: 23px;
+	top: 15px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-wayne-presence .state_text {
+.widget-basecalendar-default-calendar-events .state_text {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-wayne-presence .icon {
+.widget-basecalendar-default-calendar-events .value1 {
 	position: absolute;
-	top: 43px;
+	top: 17px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-wayne-presence .toggle-area {
+.widget-basecalendar-default-calendar-events .value2 {
+	position: absolute;
+	top: 34px;
+	left: 5px;
+	width: 100%;
+}
+
+.widget-basecalendar-default-calendar-events .value3 {
+	position: absolute;
+	top: 51px;
+	left: 5px;
+	width: 100%;
+}
+
+.widget-basecalendar-default-calendar-events .value4 {
+	position: absolute;
+	top: 68px;
+	left: 5px;
+	width: 100%;
+}
+
+.widget-basecalendar-default-calendar-events .value5 {
+	position: absolute;
+	top: 85px;
+	width: 100%;
+}
+.widget-basepresence-default-wayne-presence {
+	position: relative;
+}
+
+.widget-basepresence-default-wayne-presence .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .state_text {
+	position: absolute;
+	bottom: -3px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .icon {
+	position: absolute;
+	bottom: 18px;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -353,35 +378,36 @@ input {
 	height: 100%;
 }
 
-.widget-baseswitch-default-jenn-presence {
+.widget-basepresence-default-jenn-presence {
 	position: relative;
 }
 
-.widget-baseswitch-default-jenn-presence .title {
+.widget-basepresence-default-jenn-presence .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jenn-presence .title2 {
+.widget-basepresence-default-jenn-presence .title2 {
 	position: absolute;
-	top: 23px;
+	top: 20px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jenn-presence .state_text {
+.widget-basepresence-default-jenn-presence .state_text {
 	position: absolute;
 	bottom: -3px;
+	font-size: 90%;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jenn-presence .icon {
+.widget-basepresence-default-jenn-presence .icon {
 	position: absolute;
-	top: 43px;
+	bottom: 18px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jenn-presence .toggle-area {
+.widget-basepresence-default-jenn-presence .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -390,35 +416,36 @@ input {
 	height: 100%;
 }
 
-.widget-baseswitch-default-kale-presence {
+.widget-basepresence-default-kale-presence {
 	position: relative;
 }
 
-.widget-baseswitch-default-kale-presence .title {
+.widget-basepresence-default-kale-presence .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-kale-presence .title2 {
+.widget-basepresence-default-kale-presence .title2 {
 	position: absolute;
-	top: 23px;
+	top: 20px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-kale-presence .state_text {
+.widget-basepresence-default-kale-presence .state_text {
 	position: absolute;
 	bottom: -3px;
+	font-size: 90%;
 	width: 100%;
 }
 
-.widget-baseswitch-default-kale-presence .icon {
+.widget-basepresence-default-kale-presence .icon {
 	position: absolute;
-	top: 43px;
+	bottom: 18px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-kale-presence .toggle-area {
+.widget-basepresence-default-kale-presence .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -427,35 +454,36 @@ input {
 	height: 100%;
 }
 
-.widget-baseswitch-default-jalynne-presence {
+.widget-basepresence-default-jalynne-presence {
 	position: relative;
 }
 
-.widget-baseswitch-default-jalynne-presence .title {
+.widget-basepresence-default-jalynne-presence .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jalynne-presence .title2 {
+.widget-basepresence-default-jalynne-presence .title2 {
 	position: absolute;
-	top: 23px;
+	top: 20px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jalynne-presence .state_text {
+.widget-basepresence-default-jalynne-presence .state_text {
 	position: absolute;
 	bottom: -3px;
+	font-size: 90%;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jalynne-presence .icon {
+.widget-basepresence-default-jalynne-presence .icon {
 	position: absolute;
-	top: 43px;
+	bottom: 18px;
 	width: 100%;
 }
 
-.widget-baseswitch-default-jalynne-presence .toggle-area {
+.widget-basepresence-default-jalynne-presence .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -479,9 +507,8 @@ input {
 }
 
 .widget-basedisplay-default-label-top .valueunit {
-	position: absolute;
-	top: 43px;
 	width: 100%;
+	vertical-align: middle;
 }
 
 .widget-basedisplay-default-label-top .title {
@@ -502,6 +529,32 @@ input {
 	width: 100%;
 }
 
+.widget-basenavigate-default-hass-kiosk .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-hass-kiosk .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-hass-kiosk .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-hass-kiosk .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 .widget-basenavigate-default-hass .icon {
 	position: absolute;
 	top: 28px;
@@ -569,9 +622,8 @@ input {
 }
 
 .widget-basedisplay-default-label-1 .valueunit {
-	position: absolute;
-	top: 43px;
 	width: 100%;
+	vertical-align: middle;
 }
 
 .widget-basedisplay-default-label-1 .title {
@@ -592,6 +644,114 @@ input {
 	width: 100%;
 }
 
+.widget-baseslider_thin-default-kitchen-radio-volume-favourite {
+	position: relative;
+}
+.widget-baseslider_thin-default-kitchen-radio-volume-favourite .title {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+.widget-baseslider_thin-default-kitchen-radio-volume-favourite .title2 {
+    position: absolute;
+    top: 23px;
+    width: 100%;
+}
+.widget-baseslider_thin-default-kitchen-radio-volume-favourite .state_text {
+    position: absolute;
+    top: 38px;
+    width: 100%;
+}
+
+.widget-baseslider_thin-default-kitchen-radio-volume-favourite .minval {
+    position: absolute;
+    bottom: 5px;
+    left: -5px;
+    width: 33%;
+}
+.widget-baseslider_thin-default-kitchen-radio-volume-favourite .maxval {
+    position: absolute;
+    bottom: 5px;
+    right: -5px;
+    width: 33%;
+}
+.widget-baseslider_thin-default-kitchen-radio-volume-favourite .value {
+    position: absolute;
+    bottom: 5px;
+    left: 33%;
+    width: 33%;
+}
+
+.widget-baseslider_thin-default-kitchen-radio-volume-favourite .slidercontainer {
+   position: absolute;
+   top: 18px;
+   height: 29px;
+   overflow: hidden;
+   width: 100%;
+   horizontal-align: center;
+   margin:auto;
+}
+
+.widget-baseslider_thin-default-kitchen-radio-volume-favourite input[type=range] {
+  -webkit-appearance: slider-horizontal;
+  border: 1px solid white;
+  height: 24px;
+  width: 90%;
+}
+.widget-baseslider_thin-default-bedroom-radio-volume-favourite {
+	position: relative;
+}
+.widget-baseslider_thin-default-bedroom-radio-volume-favourite .title {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+.widget-baseslider_thin-default-bedroom-radio-volume-favourite .title2 {
+    position: absolute;
+    top: 23px;
+    width: 100%;
+}
+.widget-baseslider_thin-default-bedroom-radio-volume-favourite .state_text {
+    position: absolute;
+    top: 38px;
+    width: 100%;
+}
+
+.widget-baseslider_thin-default-bedroom-radio-volume-favourite .minval {
+    position: absolute;
+    bottom: 5px;
+    left: -5px;
+    width: 33%;
+}
+.widget-baseslider_thin-default-bedroom-radio-volume-favourite .maxval {
+    position: absolute;
+    bottom: 5px;
+    right: -5px;
+    width: 33%;
+}
+.widget-baseslider_thin-default-bedroom-radio-volume-favourite .value {
+    position: absolute;
+    bottom: 5px;
+    left: 33%;
+    width: 33%;
+}
+
+.widget-baseslider_thin-default-bedroom-radio-volume-favourite .slidercontainer {
+   position: absolute;
+   top: 18px;
+   height: 29px;
+   overflow: hidden;
+   width: 100%;
+   horizontal-align: center;
+   margin:auto;
+}
+
+.widget-baseslider_thin-default-bedroom-radio-volume-favourite input[type=range] {
+  -webkit-appearance: slider-horizontal;
+  border: 1px solid white;
+  height: 24px;
+  width: 90%;
+}
 .widget-baseselect_thin-default-kitchen-radio-station-preset-1 {
     position: relative;
 }
@@ -664,6 +824,43 @@ input {
 
 
 
+.widget-basedisplay-default-label-2 .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay-default-label-2 .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay-default-label-2 .valueunit {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.widget-basedisplay-default-label-2 .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-label-2 .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-label-2 .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
 .widget-baseselect_thin-default-kitchen-radio-station-preset-2 {
     position: relative;
 }
@@ -735,44 +932,6 @@ input {
 
 
 
-
-.widget-basedisplay-default-label-2 .unit {
-	font-size: 225%;
-	font-weight: 400;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-
-.widget-basedisplay-default-label-2 .value {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.widget-basedisplay-default-label-2 .valueunit {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-2 .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-2 .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-basedisplay-default-label-2 .state_text {
-	position: absolute;
-	bottom: -3px;
-	width: 100%;
-}
 
 .widget-baseselect_thin-default-kitchen-radio-station-preset-3 {
     position: relative;
@@ -918,96 +1077,6 @@ input {
 
 
 
-.widget-baseselect_thin-default-kitchen-radio-station-preset-dog {
-    position: relative;
-}
-.widget-baseselect_thin-default-kitchen-radio-station-preset-dog .title {
-    position: absolute;
-    top: 5px;
-    width: 100%;
-}
-
-.widget-baseselect_thin-default-kitchen-radio-station-preset-dog .styled-select {
-   position: absolute;
-   top: 25px;
-   height: 30px;
-   overflow: hidden;
-   width: 100%;
-   horizontal-align: center;
-   margin:auto;
-}
-
-.widget-baseselect_thin-default-kitchen-radio-station-preset-dog .styled-select>select {
-   background-color: #333;
-   border: none;
-   outline: none;
-   font-size: 16px;
-   height: 29px;
-   padding: 5px;
-   width: 90%;
-   color: white;
-   -webkit-border-radius: 5px;
-   -moz-border-radius: 5px;
-   border-radius: 5px;
-}
-
-
-
-
-.widget-baseslider_thin-default-kitchen-radio-volume-dog {
-	position: relative;
-}
-.widget-baseslider_thin-default-kitchen-radio-volume-dog .title {
-    position: absolute;
-    top: 5px;
-    width: 100%;
-}
-.widget-baseslider_thin-default-kitchen-radio-volume-dog .title2 {
-    position: absolute;
-    top: 23px;
-    width: 100%;
-}
-.widget-baseslider_thin-default-kitchen-radio-volume-dog .state_text {
-    position: absolute;
-    top: 38px;
-    width: 100%;
-}
-
-.widget-baseslider_thin-default-kitchen-radio-volume-dog .minval {
-    position: absolute;
-    bottom: 5px;
-    left: -5px;
-    width: 33%;
-}
-.widget-baseslider_thin-default-kitchen-radio-volume-dog .maxval {
-    position: absolute;
-    bottom: 5px;
-    right: -5px;
-    width: 33%;
-}
-.widget-baseslider_thin-default-kitchen-radio-volume-dog .value {
-    position: absolute;
-    bottom: 5px;
-    left: 33%;
-    width: 33%;
-}
-
-.widget-baseslider_thin-default-kitchen-radio-volume-dog .slidercontainer {
-   position: absolute;
-   top: 18px;
-   height: 29px;
-   overflow: hidden;
-   width: 100%;
-   horizontal-align: center;
-   margin:auto;
-}
-
-.widget-baseslider_thin-default-kitchen-radio-volume-dog input[type=range] {
-  -webkit-appearance: slider-horizontal;
-  border: 1px solid white;
-  height: 24px;
-  width: 90%;
-}
 .widget-basenavigate-default-default .icon {
 	position: absolute;
 	top: 28px;
@@ -1137,6 +1206,96 @@ input {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+.widget-baseselect_thin-default-kitchen-radio-station-preset-dog {
+    position: relative;
+}
+.widget-baseselect_thin-default-kitchen-radio-station-preset-dog .title {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+
+.widget-baseselect_thin-default-kitchen-radio-station-preset-dog .styled-select {
+   position: absolute;
+   top: 25px;
+   height: 30px;
+   overflow: hidden;
+   width: 100%;
+   horizontal-align: center;
+   margin:auto;
+}
+
+.widget-baseselect_thin-default-kitchen-radio-station-preset-dog .styled-select>select {
+   background-color: #333;
+   border: none;
+   outline: none;
+   font-size: 16px;
+   height: 29px;
+   padding: 5px;
+   width: 90%;
+   color: white;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+
+
+
+
+.widget-baseslider_thin-default-kitchen-radio-volume-dog {
+	position: relative;
+}
+.widget-baseslider_thin-default-kitchen-radio-volume-dog .title {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+.widget-baseslider_thin-default-kitchen-radio-volume-dog .title2 {
+    position: absolute;
+    top: 23px;
+    width: 100%;
+}
+.widget-baseslider_thin-default-kitchen-radio-volume-dog .state_text {
+    position: absolute;
+    top: 38px;
+    width: 100%;
+}
+
+.widget-baseslider_thin-default-kitchen-radio-volume-dog .minval {
+    position: absolute;
+    bottom: 5px;
+    left: -5px;
+    width: 33%;
+}
+.widget-baseslider_thin-default-kitchen-radio-volume-dog .maxval {
+    position: absolute;
+    bottom: 5px;
+    right: -5px;
+    width: 33%;
+}
+.widget-baseslider_thin-default-kitchen-radio-volume-dog .value {
+    position: absolute;
+    bottom: 5px;
+    left: 33%;
+    width: 33%;
+}
+
+.widget-baseslider_thin-default-kitchen-radio-volume-dog .slidercontainer {
+   position: absolute;
+   top: 18px;
+   height: 29px;
+   overflow: hidden;
+   width: 100%;
+   horizontal-align: center;
+   margin:auto;
+}
+
+.widget-baseslider_thin-default-kitchen-radio-volume-dog input[type=range] {
+  -webkit-appearance: slider-horizontal;
+  border: 1px solid white;
+  height: 24px;
+  width: 90%;
 }
 .widget-basenavigate-default-load-main-panel .icon {
 	position: absolute;

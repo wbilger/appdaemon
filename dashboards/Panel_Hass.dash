@@ -2,7 +2,7 @@
 # Main arguments, all optional
 #
 title: Bilger Home Assistant
-widget_dimensions: [31, 34]
+widget_dimensions: [31, 35]
 widget_size: [4, 4]
 widget_margins: [1, 1]
 columns: 32
@@ -12,14 +12,16 @@ ha_frame:
     title: Bilger Home Assistant
     #refresh: 60
     url_list: 
-      - https://bilger.duckdns.org:8123/states
-
+      - https://bilger-ha.duckdns.org
 #
 # Includes (Optional)
 #
 layout:
-    - ha_frame(32x19)
+    - ha_frame(32x22)
     - 
+    -
+    -
+    -
     -
     -
     -

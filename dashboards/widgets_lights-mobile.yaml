@@ -10,16 +10,50 @@ desk_lamp:
     title: Desk Lamp
     icon_off: mdi-lamp
     icon_on: mdi-lamp
-couch_light:
-    widget_type: switch_short
-    entity: light.couch_light
-    title: Couch Light
+couch_lamp:
+    widget_type: light_with_brightness
+    entity: light.couch_lamp
+    title: Couch Lamp
     icon_off: mdi-lightbulb-outline
     icon_on: mdi-lightbulb-on-outline    
-
+    slider_style: "color: green"
+    
 kitchen_island_night:
     widget_type: script_short
     entity: script.kitchen_island_lights_night
     title: Island Dim
     icon_off: mdi-weather-night
     icon_on: mdi-weather-night
+    
+theatre:
+    widget_type: group_short
+    entity: group.theatre_lights
+    title: Theatre Lights
+    icon_off: mdi-spotlight-beam
+    icon_on: mdi-spotlight-beam
+    monitored_entity: light.theatre_rr
+theatre_dim:
+    widget_type: script_short
+    entity: script.theatre_lights_dim
+    title: Theatre Dim
+    icon_off: mdi-weather-night
+    icon_on: mdi-weather-night
+theatre_max:
+    widget_type: script_short
+    entity: script.theatre_lights_bright
+    title: Theatre Bright
+    icon_off: mdi-lightbulb-on
+    icon_on: mdi-lightbulb-on
+theatre_bar:
+    widget_type: switch_short
+    entity: light.bar_light
+    title: Theatre Bar Light
+    icon_off: mdi-lightbulb-outline
+    icon_on: mdi-lightbulb-on-outline
+theatre_butt_kickers:
+    widget_type: switch_hor
+    entity: switch.butt_kickers
+    title: Butt
+    title2: Kickers
+    icon_off: mdi-speaker-wireless
+    icon_on: mdi-speaker-wireless    

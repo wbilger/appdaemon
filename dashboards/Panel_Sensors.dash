@@ -15,11 +15,11 @@ layout:
     -
     -
     - label_ecobee(32x1)
-    - ecobee_temperature_target(4x3),bilger_home_temperature_avg(4x3),ecobee_temperature_avg(3x3),ecobee_temperature(3x3),ecobee_temperature_kitchen(3x3),broadlink_temperature_family_room(3x3),ecobee_temperature_bedroom(3x3),ecobee_humidity(3x3),ecobee_mode_home(2x3),ecobee_occupancy_kitchen(2x3),ecobee_occupancy_bedroom(2x3)
+    - ecobee_mode_home(2x3),ecobee_operation(2x3),ecobee_temperature_target(3x3),bilger_home_temperature_avg(3x3),ecobee_temperature_avg(3x3),ecobee_temperature(3x3),ecobee_temperature_kitchen(3x3),broadlink_temperature_family_room(3x3),ecobee_temperature_bedroom(3x3),ecobee_humidity(3x3),ecobee_occupancy_kitchen(2x3),ecobee_occupancy_bedroom(2x3)
     - 
     -
-    - label_ikea(12x1), label_1(4x4), label_ecobee_2(16x1)
-    - ikea_dimmer_kitchen_island(4x3),ikea_dimmer_jenn(4x3),ikea_dimmer_theatre(4x3),ecobee_mode_operation(4x3),ecobee_operation(4x3),ecobee_fan(4x3),ecobee_mode_hold(4x3)
+    - label_ikea(12x1), label_1(8x4), label_ecobee_2(12x1)
+    - ikea_dimmer_kitchen_island(4x3),ikea_dimmer_jenn(4x3),ikea_dimmer_theatre(4x3),ecobee_mode_operation(4x3),ecobee_fan(4x3),ecobee_mode_hold(4x3)
     - 
     - 
     - label_wallpanel_kitchen(32x1)

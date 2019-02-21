@@ -14,6 +14,10 @@ kitchen_radio_station_preset_4:
   widget_type: input_select_thin
   entity: input_select.kitchen_radio_station_p4
   title: Kitchen Radio Preset 4
+kitchen_radio_volume_favourite:
+  widget_type: input_slider_thin
+  entity: input_number.kitchen_speaker_volume_favourite
+  title: Kitchen Favourite Volume
 kitchen_radio_station_preset_dog:
   widget_type: input_select_thin
   entity: input_select.kitchen_radio_station_pdog
@@ -38,3 +42,7 @@ bedroom_radio_station_preset_4:
   widget_type: input_select_thin
   entity: input_select.bedroom_radio_station_p4
   title: Bedroom Radio Preset 4
+bedroom_radio_volume_favourite:
+  widget_type: input_slider_thin
+  entity: input_number.bedroom_speaker_volume_favourite
+  title: Bedroom Favourite Volume

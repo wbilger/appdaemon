@@ -15,19 +15,19 @@ layout:
     - include: widgets_google_home
     
     - include: row_top-mobile
-    - jenn_bedroom(6x4),bedtime (6x4)
+    - jenn_bedroom,bedroom_fan(2x4),bedtime(2x4),jalynne_bedroom_light(2x4),jalynne_bedroom_fan(2x4)
     -
     -
     -
-    - bedroom_radio_station(12x2)
+    - bedroom_tv(4x2),bedroom_plex_time(4x2),bedroom_tv_time(4x2)
     -
-    - bedroom_speaker(8x8),bedroom_radio_station_p1(2x3),bedroom_radio_station_p2(2x3)
+    - bedroom_radio_station(8x2),kitchen_bedroom_speaker_group(4x2)
+    -
+    - bedroom_speaker(8x6),bedroom_radio_station_p1(2x3),bedroom_radio_station_p2(2x3)
     -
     -
     - bedroom_radio_station_p3(2x3),bedroom_radio_station_p4(2x3)
     -
-    -
-    - kitchen_bedroom_speaker_group(4x2)
     -
     - bedroom_plex(6x8), bedroom_chromecast(6x8)
     -
@@ -37,6 +37,7 @@ layout:
     -
     -
     -
+    - include: row_remote-br
     -
     - include: row_bottom-mobile
     
@@ -44,7 +45,34 @@ layout:
     
 
 
-
+remote_plex:
+    widget_type: navigate_hor
+    title2: Roku
+    icon_inactive: mdi-remote
+    dashboard: Remote_BR_Plex-mobile
+bedroom_tv:
+    widget_type: switch_hor
+    entity: input_boolean.bedroom_tv
+    title2: TV
+    icon_off: fa-television
+    icon_on: fa-television
+    
+bedroom_plex_time: 
+    widget_type: script_hor
+    entity: input_boolean.bedroom_tv
+    title: Watch 
+    title2: Plex
+    icon_off: mdi-plex
+    icon_on: mdi-plex
+    dashboard: Remote_BR_Plex-mobile
+bedroom_tv_time: 
+    widget_type: script_hor
+    entity: input_boolean.bedroom_tv
+    title: Watch 
+    title2: TV
+    icon_off: mdi-television
+    icon_on: mdi-television
+    dashboard: Remote_BR_TV-mobile
 
 label_1:
     widget_type: label

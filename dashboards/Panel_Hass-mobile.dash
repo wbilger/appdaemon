@@ -9,7 +9,7 @@ ha_frame:
     title: Bilger Home Assistant
     #refresh: 60
     url_list: 
-      - https://bilger.duckdns.org:8123/states
+      - https://bilger-ha.duckdns.org
 
 layout:
     - ha_frame(12x22)

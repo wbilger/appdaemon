@@ -1,4 +1,4 @@
-widget_type: baseswitch
+widget_type: basepresence
 entity: device_tracker.{{device}}
 state_active: "Home"
 state_inactive: "Away"
@@ -31,5 +31,11 @@ static_css:
   state_text_style: $device_tracker_state_text_style
   widget_style: $device_tracker_widget_style
 state_map:
-    home: HOME
-    away: AWAY
+    Home: ""
+    Away: ""
+    Extended Away: "Vacation"
+    Just Arrived: "Arrived"
+    Just Left: "Left"
+active_map:
+    - Home
+    - Just Arrived    

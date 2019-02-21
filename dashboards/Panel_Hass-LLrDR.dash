@@ -1,0 +1,12 @@
+title: Dining Room Remote
+widget_dimensions: [347, 636]
+widget_size: [1, 1]
+columns: 1
+
+ha_frame:
+    widget_type: iframe
+    url_list: 
+      - https://bilger-ha.duckdns.org/lovelace/r.dining_room
+
+layout:
+    - ha_frame

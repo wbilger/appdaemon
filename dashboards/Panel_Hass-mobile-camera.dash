@@ -4,17 +4,11 @@ widget_size: [4, 4]
 widget_margins: [1, 1]
 columns: 12
 
-ha_frame:
-    widget_type: iframe
-    title: Bilger Cameras
-    #refresh: 60
-    url_list: 
-      - https://bilger.duckdns.org:8123/states/group.view_webcams
-
 layout:
-    - ha_frame(12x22)
+    - include: row_top-mobile
+    - label_top(12x2)
     -
-    -
+    - camera_kitchen_tablet(12x9)
     -
     -
     -
@@ -23,16 +17,22 @@ layout:
     - 
     -
     -
-    -
-    - 
-    -
-    -
-    -    
+    - label_bottom (12x7)
     -
     -
     -
     -
-    - 
+    -
     -
     -
     - include: row_bottom-mobile
+
+camera_kitchen_tablet:
+    widget_type: camera
+    title: Side Door Camera
+    entity_picture: http://192.168.1.70:2971/camera/stream
+
+label_top:
+    widget_type: label
+label_bottom:
+    widget_type: label

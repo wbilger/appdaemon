@@ -1,0 +1,155 @@
+# Projector
+theatre_projector:
+    widget_type: switch_short
+    entity: switch.projector
+    icon_off: mdi-projector
+    icon_on: mdi-projector
+theatre_projector_off:
+    widget_type: script_short
+    entity: switch.projector
+    title: Pwr off
+    icon_off: mdi-projector
+    icon_on: mdi-projector
+theatre_projector_hdmi1:
+    widget_type: button_remote_short
+    entity: switch.ir_theatre_projector_hdmi1
+    title2: HDMI 1
+    icon_off: ''
+    icon_on: ''
+theatre_projector_menu:
+    widget_type: button_remote
+    entity: switch.ir_theatre_projector_menu
+    icon_off: mdi-menu
+    icon_on: mdi-menu
+theatre_projector_direction_up:
+    widget_type: button_remote
+    entity: switch.ir_theatre_projector_up
+    icon_off: fa-arrow-up
+    icon_on: fa-arrow-up
+theatre_projector_direction_down:
+    widget_type: button_remote
+    entity: switch.ir_theatre_projector_down
+    icon_off: fa-arrow-down
+    icon_on: fa-arrow-down
+theatre_projector_direction_left:
+    widget_type: button_remote
+    entity: switch.ir_theatre_projector_left
+    icon_off: fa-arrow-left
+    icon_on: fa-arrow-left
+theatre_projector_direction_right:
+    widget_type: button_remote
+    entity: switch.ir_theatre_projector_right
+    icon_off: fa-arrow-right
+    icon_on: fa-arrow-right
+theatre_projector_ok:
+    widget_type: button_remote
+    entity: switch.ir_theatre_projector_ok
+    icon_off: fa-circle
+    icon_on: fa-circle
+
+# Surround Sound
+theatre_surround_sound:
+    widget_type: switch_hor
+    entity: switch.surround_sound_theatre
+    title: Surround
+    title2: Sound
+    icon_off: mdi-speaker
+    icon_on: mdi-speaker
+theatre_surround_sound_input_tv:
+    widget_type: button_remote_hor
+    entity: switch.surround_sound_theatre_tv        
+    title2: Roku
+    icon_off: mdi-speaker
+    icon_on: mdi-speaker
+volume_up:
+    widget_type: button_remote_small
+    entity: switch.volume_up_theatre
+    icon_off: mdi-volume-plus
+    icon_on: mdi-volume-plus
+volume_down:
+    widget_type: button_remote_small
+    entity: switch.volume_down_theatre
+    icon_off: mdi-volume-minus
+    icon_on: mdi-volume-minus
+
+
+## Remote Roku keypresses
+roku_home:
+    widget_type: button_remote
+    entity: switch.theatre_roku_home
+    icon_off: mdi-home
+    icon_on: fa-home
+roku_plex:
+    widget_type: button_remote_small
+    entity: switch.theatre_roku_plex
+    icon_off: mdi-plex
+    icon_on: mdi-plex
+roku_netflix:
+    widget_type: button_remote_small
+    entity: switch.theatre_roku_netflix
+    icon_off: mdi-netflix
+    icon_on: mdi-netflix
+roku_youtube:
+    widget_type: button_remote_small
+    entity: switch.theatre_roku_youtube
+    icon_off: mdi-youtube-play
+    icon_on: mdi-youtube-play
+roku_mlb:
+    widget_type: button_remote_small
+    entity: switch.theatre_roku_mlb
+    title2: MLB
+roku_direction_up:
+    widget_type: button_remote
+    entity: switch.theatre_roku_up
+    icon_off: fa-arrow-up
+    icon_on: fa-arrow-up
+roku_direction_down:
+    widget_type: button_remote
+    entity: switch.theatre_roku_down
+    icon_off: fa-arrow-down
+    icon_on: fa-arrow-down
+roku_direction_left:
+    widget_type: button_remote
+    entity: switch.theatre_roku_left
+    icon_off: fa-arrow-left
+    icon_on: fa-arrow-left
+roku_direction_right:
+    widget_type: button_remote
+    entity: switch.theatre_roku_right
+    icon_off: fa-arrow-right
+    icon_on: fa-arrow-right
+roku_select:
+    widget_type: button_remote
+    entity: switch.theatre_roku_select
+    icon_off: fa-circle
+    icon_on: fa-circle
+roku_back:
+    widget_type: button_remote
+    entity: switch.theatre_roku_back
+    icon_off: mdi-keyboard-backspace
+    icon_on: mdi-keyboard-backspace
+roku_info:
+    widget_type: button_remote
+    entity: switch.theatre_roku_info
+    icon_off: mdi-information-variant
+    icon_on: mdi-information-variant
+roku_play:
+    widget_type: button_remote_small
+    entity: switch.theatre_roku_play
+    icon_off: fa-play
+    icon_on: fa-play
+roku_fastforward:
+    widget_type: button_remote_small
+    entity: switch.theatre_roku_fwd
+    icon_off: mdi-fast-forward
+    icon_on: mdi-fast-forward
+roku_rewind:
+    widget_type: button_remote_small
+    entity: switch.theatre_roku_rev
+    icon_off: mdi-rewind
+    icon_on: mdi-rewind
+roku_replay:
+    widget_type: button_remote_small
+    entity: switch.theatre_roku_replay
+    icon_off: mdi-replay
+    icon_on: mdi-replay

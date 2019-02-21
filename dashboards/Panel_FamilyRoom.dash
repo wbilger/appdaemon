@@ -17,7 +17,7 @@ layout:
     -
     -
     - label_1(32x1)
-    - desk_lamp(3x4),familyroom_lights(6x4),couch_light(3x4),spacer(2x4),familyroom_pc,familyroom_4ktv,familyroom_surround_sound,familyroom_plex_switch(3x4),familyroom_bell_switch(3x4)
+    - desk_lamp(3x4),familyroom_lights(6x4),couch_lamp(3x4),spacer(2x4),familyroom_pc,familyroom_4ktv,familyroom_surround_sound,familyroom_plex_switch(3x4),familyroom_bell_switch(3x4)
     -
     -
     -

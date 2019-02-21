@@ -9,7 +9,7 @@ columns: 12
 
 layout:
     - include: row_top-mobile
-    - label_1(12x12)
+    - theatre_dim(2x4),theatre(5x4),theatre_max(2x4),theatre_bar(3x4)
     -
     - 
     - 

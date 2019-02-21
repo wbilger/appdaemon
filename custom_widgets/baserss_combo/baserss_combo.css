@@ -1,0 +1,12 @@
+.widget-baserss_combo-{{id}} .title {
+	position: absolute;
+	bottom: 23px;
+	width: 100%;
+}
+
+.widget-baserss_combo-{{id}} .text {
+	position: absolute;
+	top: 10px;
+	font-size: 90%;
+	width: 100%;
+}

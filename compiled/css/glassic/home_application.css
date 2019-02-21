@@ -1,0 +1,2613 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,700,900');
+
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  background-image: url(/css/glassic/img/glassic_bg.jpg);
+  background-repeat: repeat
+  font-size: 15px;
+  padding: 0;
+  line-height: 1;
+  font-family: 'Titillium Web', 'Helvetica Neue', 'Helvetica', 'Open Sans', 'Arial'
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+img, object {
+  max-width: 100%;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;}
+
+iframe {
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+td {
+  vertical-align: middle;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, p {
+  padding: 0;
+  margin: 0;
+
+}
+h1 {
+  margin-bottom: 6px;
+  text-align: center;
+  font-size: 100%;
+  font-weight: 200;
+}
+h2 {
+  font-size: 300%;
+  font-weight: 400;
+  
+}
+h3 {
+  font-size: 125%;
+  font-weight: 300;
+  
+}
+
+.dashboard_main {
+	margin: 0px auto;
+}
+
+.gridster {
+  margin: 0px auto;
+}
+
+.icon-background {
+  pointer-events: none;
+  width: 100%!important;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.1;
+  font-size: 1375%;
+  text-align: center;
+  margin-top: 82px;
+}
+
+.list-nostyle {
+  list-style: none;
+}
+
+.gridster ul {
+  list-style: none;
+}
+
+.gs-w {
+  width: 100%;
+  display: table;
+  cursor: pointer;
+  z-index: auto !important;
+}
+
+.iframe {
+  position: relative;
+  overflow: hidden; 
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.widget {
+  padding: 0px 0px;
+  text-align: center;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  /*transform: translateY(5px);*/
+  background-color: rgba(46, 174, 212, 0.15);
+  -moz-box-shadow: 
+   0 0 5px rgba(255, 255, 255, 0.9),
+   inset 0 0 18px rgba(255, 255, 255, 0.65);
+  -webkit-box-shadow:
+   0 0 5px rgba(255, 255, 255, 0.9),
+   inset 0 0 18px rgba(255, 255, 255, 0.65);
+  box-shadow: 
+   0 0 5px rgba(255, 255, 255, 0.9),
+   inset 0 0 18px rgba(255, 255, 255, 0.65);*/
+}
+
+.xwidget:hover {
+  background-color: rgba(46, 174, 240, 0.4);
+  -moz-box-shadow: inset 0 0 48px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: inset 0 0 48px rgba(255, 255, 255, 0.75);
+  box-shadow: inset 0 0 48px rgba(255, 255, 255, 0.75);
+
+}
+.xwidget:active {
+  background: rgba(46,174,240,0.75);
+  -moz-box-shadow: 0 1px #444;
+  -webkit-box-shadow: 0 1px #444;
+  box-shadow: 0 1px #444;
+  transform: translateY(5px);
+}
+
+
+
+  .title {
+    /*color: #fff;*/
+  }
+
+  .icon-inactive {
+    /*color: #888;*/
+  }
+
+  .icon-active {
+    /*color: #aaff00;*/
+  }
+}
+
+#container {
+  padding-top: 0px;
+}
+
+.modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 9999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialogOpen {
+	opacity:0.95;
+	pointer-events: auto;
+}
+
+.modalDialogClose {
+	opacity:0;
+	pointer-events: none;
+}
+
+.modalDialog > div {
+	width: 275px;
+	position: relative;
+	margin: 3% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+}
+
+.modalDialogCloseButton {
+	line-height: 50px;
+	position: absolute;
+	right: -25px;
+	text-align: center;
+	top: -20px;
+	width: 50px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+}
+
+.modalDialogCloseButton:hover { background: #313133 }
+
+.widget-baseclock-default-date-time.date {
+	position: absolute;
+	top: 15px;
+	width: 100%;
+}
+.widget-baseclock-default-date-time.time {
+ 	position: absolute;
+	top: 45px;
+	width: 100%;
+}
+.widget-baseweather-default-weather {
+	color: white;
+}
+
+.widget-baseweather-default-weather h1 {
+	margin-bottom: 0px;
+}
+
+.widget-baseweather-default-weather [class^="primary"] {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.widget-baseweather-default-weather [class^="secondary"] {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.widget-baseweather-default-weather .primary-climacon {
+	font-family: "Climacons-Font";
+	font-size: 55px;
+}
+
+.widget-baseweather-default-weather .primary-info {
+	font-size: 300%;
+	font-weight: 400;
+}
+
+.widget-baseweather-default-weather .primary-unit {
+	font-size: 300%;
+	font-weight: 400;
+	margin-left: 0;
+	margin-top: 10px;
+	vertical-align: top;
+}
+
+.widget-baseweather-default-weather .secondary-icon {
+	font-family: "Climacons-Font";
+	font-size: 40px;
+	margin-left: 10px;
+	margin-right: 0px;
+}
+
+.widget-baseweather-default-weather .secondary-climacon {
+	font-family: "Climacons-Font";
+	font-size: 55px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.widget-baseweather-default-weather .secondary-info {
+	font-size: 120%;
+	font-weight: 200;
+}
+
+.widget-baseweather-default-weather hr {
+	width: 90%;
+	border: 0;
+	height: 1px;
+	background: rgba(255, 255, 255, 0.25);
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.widget-basedisplay_short-default-calendar-events .valueunit {
+	position: absolute;
+	top: 10px;
+	width: 80%;
+}
+
+.widget-basecalendar-default-calendar-events .value {
+	font-size: 225%;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay_short-default-calendar-events .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basecalendar-default-calendar-events .value2 {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basecalendar-default-calendar-events .value3 {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basecalendar-default-calendar-events .value4 {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basecalendar-default-calendar-events .title {
+	position: absolute;
+	font-size: 75%;
+	top: 3px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-calendar-events .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basecalendar-default-calendar-events .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence {
+	position: relative;
+}
+
+.widget-basepresence-default-wayne-presence .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .state_text {
+	position: absolute;
+	bottom: -3px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .icon {
+	position: absolute;
+	bottom: 18px;
+	width: 100%;
+}
+
+.widget-basepresence-default-wayne-presence .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basepresence-default-jenn-presence {
+	position: relative;
+}
+
+.widget-basepresence-default-jenn-presence .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basepresence-default-jenn-presence .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-basepresence-default-jenn-presence .state_text {
+	position: absolute;
+	bottom: -3px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-basepresence-default-jenn-presence .icon {
+	position: absolute;
+	bottom: 18px;
+	width: 100%;
+}
+
+.widget-basepresence-default-jenn-presence .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basepresence-default-kale-presence {
+	position: relative;
+}
+
+.widget-basepresence-default-kale-presence .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basepresence-default-kale-presence .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-basepresence-default-kale-presence .state_text {
+	position: absolute;
+	bottom: -3px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-basepresence-default-kale-presence .icon {
+	position: absolute;
+	bottom: 18px;
+	width: 100%;
+}
+
+.widget-basepresence-default-kale-presence .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basepresence-default-jalynne-presence {
+	position: relative;
+}
+
+.widget-basepresence-default-jalynne-presence .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basepresence-default-jalynne-presence .title2 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+}
+
+.widget-basepresence-default-jalynne-presence .state_text {
+	position: absolute;
+	bottom: -3px;
+	font-size: 90%;
+	width: 100%;
+}
+
+.widget-basepresence-default-jalynne-presence .icon {
+	position: absolute;
+	bottom: 18px;
+	width: 100%;
+}
+
+.widget-basepresence-default-jalynne-presence .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basedisplay-default-weather-summary .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay-default-weather-summary .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay-default-weather-summary .valueunit {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.widget-basedisplay-default-weather-summary .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-weather-summary .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-weather-summary .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baserss_alerts-default-rss-weather-alerts .title {
+	position: absolute;
+	top: 7px;
+	font-size: 125%;
+	width: 100%;
+}
+
+.widget-baserss_alerts-default-rss-weather-alerts .text {
+	position: absolute;
+	top: 6px;
+	font-size: 140%;
+	width: 100%;
+}
+.widget-baseiconsensor-default-ecobee-mode-home {
+	position: relative;
+}
+
+.widget-baseiconsensor-default-ecobee-mode-home .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseiconsensor-default-ecobee-mode-home .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseiconsensor-default-ecobee-mode-home .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseiconsensor-default-ecobee-mode-home .icon {
+	position: absolute;
+	top: 33px;
+	width: 100%;
+}
+
+.widget-baseiconsensor-default-ecobee-operation {
+	position: relative;
+}
+
+.widget-baseiconsensor-default-ecobee-operation .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseiconsensor-default-ecobee-operation .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseiconsensor-default-ecobee-operation .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseiconsensor-default-ecobee-operation .icon {
+	position: absolute;
+	top: 33px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-target .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-target .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-target .valueunit {
+	position: absolute;
+	top: 45px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-target .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-ecobee-temperature-target .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-target .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-bilger-home-temperature-avg .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay_short-default-bilger-home-temperature-avg .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay_short-default-bilger-home-temperature-avg .valueunit {
+	position: absolute;
+	top: 45px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-bilger-home-temperature-avg .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-bilger-home-temperature-avg .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-bilger-home-temperature-avg .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-avg .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-avg .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-avg .valueunit {
+	position: absolute;
+	top: 45px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-avg .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-ecobee-temperature-avg .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-avg .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature .valueunit {
+	position: absolute;
+	top: 45px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-ecobee-temperature .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-kitchen .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-kitchen .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-kitchen .valueunit {
+	position: absolute;
+	top: 45px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-kitchen .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-ecobee-temperature-kitchen .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-kitchen .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-broadlink-temperature-family-room .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay_short-default-broadlink-temperature-family-room .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay_short-default-broadlink-temperature-family-room .valueunit {
+	position: absolute;
+	top: 45px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-broadlink-temperature-family-room .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-broadlink-temperature-family-room .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-broadlink-temperature-family-room .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-bedroom .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-bedroom .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-bedroom .valueunit {
+	position: absolute;
+	top: 45px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-bedroom .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-ecobee-temperature-bedroom .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-temperature-bedroom .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-humidity .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay_short-default-ecobee-humidity .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay_short-default-ecobee-humidity .valueunit {
+	position: absolute;
+	top: 45px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-humidity .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-ecobee-humidity .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay_short-default-ecobee-humidity .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-ecobee-occupancy-kitchen {
+	position: relative;
+}
+
+.widget-baseswitch-default-ecobee-occupancy-kitchen .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-ecobee-occupancy-kitchen .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-ecobee-occupancy-kitchen .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-ecobee-occupancy-kitchen .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-ecobee-occupancy-kitchen .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-ecobee-occupancy-bedroom {
+	position: relative;
+}
+
+.widget-baseswitch-default-ecobee-occupancy-bedroom .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-ecobee-occupancy-bedroom .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-ecobee-occupancy-bedroom .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-ecobee-occupancy-bedroom .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-ecobee-occupancy-bedroom .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baserss_combo-default-rss-news .title {
+	position: absolute;
+	bottom: 23px;
+	width: 100%;
+}
+
+.widget-baserss_combo-default-rss-news .text {
+	position: absolute;
+	top: 10px;
+	font-size: 90%;
+	width: 100%;
+}
+.widget-baseswitch-default-front-porch {
+	position: relative;
+}
+
+.widget-baseswitch-default-front-porch .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-front-porch .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-front-porch .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-front-porch .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-front-porch .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-front-entrance-way {
+	position: relative;
+}
+
+.widget-baseswitch-default-front-entrance-way .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-front-entrance-way .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-front-entrance-way .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-front-entrance-way .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-front-entrance-way .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-front-entrance {
+	position: relative;
+}
+
+.widget-baseswitch-default-front-entrance .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-front-entrance .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-front-entrance .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-front-entrance .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-front-entrance .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-kitchen-island-night {
+	position: relative;
+}
+
+.widget-baseswitch-default-kitchen-island-night .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-kitchen-island-night .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-kitchen-island-night .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-kitchen-island-night .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-kitchen-island-night .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baselight-default-kitchen-island {
+	position: relative;
+}
+
+.widget-baselight-default-kitchen-island .state_text {
+	font-size: 85%;
+}
+
+.widget-baselight-default-kitchen-island .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baselight-default-kitchen-island .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baselight-default-kitchen-island .state_text {
+	position: absolute;
+	top: 38px;
+	width: 100%;
+}
+
+.widget-baselight-default-kitchen-island .icon {
+	position: absolute;
+	top: 47px;
+	width: 100%;
+}
+
+.widget-baselight-default-kitchen-island .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 75%;
+}
+
+.widget-baselight-default-kitchen-island .level {
+	display: inline-block;
+}
+
+.widget-baselight-default-kitchen-island .unit {
+	display: inline-block;
+}
+
+.widget-baselight-default-kitchen-island .levelunit {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-baselight-default-kitchen-island .secondary-icon {
+	position: absolute;
+	bottom: 0px;
+	font-size: 20px;
+	width: 32px;
+	color: white;
+}
+
+.widget-baselight-default-kitchen-island .secondary-icon.plus {
+	right: 24px;
+}
+
+.widget-baselight-default-kitchen-island .secondary-icon.plus i {
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+.widget-baselight-default-kitchen-island .secondary-icon.minus {
+	left: 8px;
+}
+
+.widget-baselight-default-kitchen-island .secondary-icon.minus i {
+	padding-top: 10px;
+	padding-right: 30px;
+}
+.widget-baseswitch-default-kitchen-island-max {
+	position: relative;
+}
+
+.widget-baseswitch-default-kitchen-island-max .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-kitchen-island-max .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-kitchen-island-max .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-kitchen-island-max .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-kitchen-island-max .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-base_light_with_brightness-default-front-window {
+	position: relative;
+}
+.widget-base_light_with_brightness-default-front-window .title {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+.widget-base_light_with_brightness-default-front-window .title2 {
+    position: absolute;
+    top: 23px;
+    width: 100%;
+}
+.widget-base_light_with_brightness-default-front-window .iconcontainer {
+	position: absolute;
+	bottom: 30%;
+	width: 100%;
+}
+
+.widget-base_light_with_brightness-default-front-window .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 75%;
+}
+
+.widget-base_light_with_brightness-default-front-window .slidercontainer {
+   position: absolute;
+   bottom: 5px;
+   height: 25%;
+   overflow: hidden;
+   width: 100%;
+   horizontal-align: center;
+   margin:auto;
+}
+
+.widget-base_light_with_brightness-default-front-window input[type=range] {
+  -webkit-appearance: slider-horizontal;
+  border: 1px solid white;
+  height: 90%;
+  width: 90%;
+}
+.widget-baseswitch-default-dining-room-light {
+	position: relative;
+}
+
+.widget-baseswitch-default-dining-room-light .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-light .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-light .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-light .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-light .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_hor-default-kitchen-outside-speakers-group {
+	position: relative;
+}
+
+.widget-baseswitch_hor-default-kitchen-outside-speakers-group .title {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-kitchen-outside-speakers-group .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-kitchen-outside-speakers-group .state_text {
+	position: absolute;
+	right 3px;
+	bottom: -3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-kitchen-outside-speakers-group .icon {
+	position: absolute;
+	top: 5px;
+	left: 8px;
+}
+
+.widget-baseswitch_hor-default-kitchen-outside-speakers-group .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group {
+	position: relative;
+}
+
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .title {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .title2 {
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .state_text {
+	position: absolute;
+	right 3px;
+	bottom: -3px;
+	width: 60%;
+}
+
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .icon {
+	position: absolute;
+	top: 5px;
+	left: 8px;
+}
+
+.widget-baseswitch_hor-default-kitchen-bedroom-speaker-group .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseselect_thin-default-kitchen-radio-station {
+    position: relative;
+}
+.widget-baseselect_thin-default-kitchen-radio-station .title {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+
+.widget-baseselect_thin-default-kitchen-radio-station .styled-select {
+   position: absolute;
+   top: 25px;
+   height: 30px;
+   overflow: hidden;
+   width: 100%;
+   horizontal-align: center;
+   margin:auto;
+}
+
+.widget-baseselect_thin-default-kitchen-radio-station .styled-select>select {
+   background-color: #333;
+   border: none;
+   outline: none;
+   font-size: 16px;
+   height: 29px;
+   padding: 5px;
+   width: 90%;
+   color: white;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+
+
+
+
+.widget-basebutton-default-kitchen-radio-station-p1 {
+	position: relative;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p1 .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p1 .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p1 .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p1 .icon {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+	font-size: 210%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p1 .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p2 {
+	position: relative;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p2 .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p2 .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p2 .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p2 .icon {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+	font-size: 210%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p2 .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p3 {
+	position: relative;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p3 .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p3 .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p3 .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p3 .icon {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+	font-size: 210%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p3 .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p4 {
+	position: relative;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p4 .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p4 .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p4 .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p4 .icon {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+	font-size: 210%;
+}
+
+.widget-basebutton-default-kitchen-radio-station-p4 .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-desk-lamp {
+	position: relative;
+}
+
+.widget-baseswitch-default-desk-lamp .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-desk-lamp .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-desk-lamp .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-desk-lamp .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-desk-lamp .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-familyroom-lights {
+	position: relative;
+}
+
+.widget-baseswitch-default-familyroom-lights .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-lights .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-lights .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-lights .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-lights .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-couch-light {
+	position: relative;
+}
+
+.widget-baseswitch-default-couch-light .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-couch-light .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-couch-light .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-couch-light .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-couch-light .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basedisplay-default-label-scenes-top .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay-default-label-scenes-top .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay-default-label-scenes-top .valueunit {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.widget-basedisplay-default-label-scenes-top .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-label-scenes-top .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-label-scenes-top .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-fan {
+	position: relative;
+}
+
+.widget-baseswitch-default-dining-room-fan .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-fan .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-fan .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-fan .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-fan .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-dining-room-plug {
+	position: relative;
+}
+
+.widget-baseswitch-default-dining-room-plug .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-plug .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-plug .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-plug .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-dining-room-plug .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-familyroom-plex-time {
+	position: relative;
+}
+
+.widget-baseswitch-default-familyroom-plex-time .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-plex-time .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-plex-time .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-plex-time .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-plex-time .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-familyroom-bell-time {
+	position: relative;
+}
+
+.widget-baseswitch-default-familyroom-bell-time .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-bell-time .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-bell-time .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-bell-time .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-bell-time .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-familyroom-off {
+	position: relative;
+}
+
+.widget-baseswitch-default-familyroom-off .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-off .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-off .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-off .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-familyroom-off .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker {
+	position: relative;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .artist {
+	position: absolute;
+	top: 30px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .album {
+	position: absolute;
+	top: 55px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .media_title {
+	position: absolute;
+	top: 80px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .state_text {
+	position: absolute;
+	top: 38px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .previous {
+  position: absolute;
+	bottom: 50px;
+  left: 65px;
+	font-size: 20px;
+  z-index: 10;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .play {
+  position: absolute;
+	bottom: 30px;
+  width: 100%;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .next {
+  position: absolute;
+	bottom: 50px;
+	right: 65px;
+	font-size: 20px;
+  z-index: 10;
+}
+
+
+.widget-basemedia_speaker-default-kitchen-speaker .level {
+	display: inline-block;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .unit {
+	display: inline-block;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .levelunit {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .secondary-icon {
+	position: absolute;
+	bottom: 5px;
+	font-size: 50px;
+	width: 32px;
+	color: white;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .secondary-icon.plus {
+	right: 25px;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .secondary-icon.plus i {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .secondary-icon.minus {
+	left: 10px;
+}
+
+.widget-basemedia_speaker-default-kitchen-speaker .secondary-icon.minus i {
+	padding-top: 10px;
+	padding-right: 30px;
+}
+.widget-baselight-default-theatre {
+	position: relative;
+}
+
+.widget-baselight-default-theatre .state_text {
+	font-size: 85%;
+}
+
+.widget-baselight-default-theatre .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baselight-default-theatre .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baselight-default-theatre .state_text {
+	position: absolute;
+	top: 38px;
+	width: 100%;
+}
+
+.widget-baselight-default-theatre .icon {
+	position: absolute;
+	top: 47px;
+	width: 100%;
+}
+
+.widget-baselight-default-theatre .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 75%;
+}
+
+.widget-baselight-default-theatre .level {
+	display: inline-block;
+}
+
+.widget-baselight-default-theatre .unit {
+	display: inline-block;
+}
+
+.widget-baselight-default-theatre .levelunit {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.widget-baselight-default-theatre .secondary-icon {
+	position: absolute;
+	bottom: 0px;
+	font-size: 20px;
+	width: 32px;
+	color: white;
+}
+
+.widget-baselight-default-theatre .secondary-icon.plus {
+	right: 24px;
+}
+
+.widget-baselight-default-theatre .secondary-icon.plus i {
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+.widget-baselight-default-theatre .secondary-icon.minus {
+	left: 8px;
+}
+
+.widget-baselight-default-theatre .secondary-icon.minus i {
+	padding-top: 10px;
+	padding-right: 30px;
+}
+.widget-baseswitch-default-theatre-bar {
+	position: relative;
+}
+
+.widget-baseswitch-default-theatre-bar .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-theatre-bar .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-theatre-bar .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-theatre-bar .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-theatre-bar .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-theatre-movie-time {
+	position: relative;
+}
+
+.widget-baseswitch-default-theatre-movie-time .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-theatre-movie-time .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-theatre-movie-time .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-theatre-movie-time .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-theatre-movie-time .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-theatre-off {
+	position: relative;
+}
+
+.widget-baseswitch-default-theatre-off .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-theatre-off .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-theatre-off .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-theatre-off .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-theatre-off .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-bedtime {
+	position: relative;
+}
+
+.widget-baseswitch-default-bedtime .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-bedtime .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-bedtime .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-bedtime .icon {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-bedtime .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-base_light_with_brightness-default-jenn-bedroom {
+	position: relative;
+}
+.widget-base_light_with_brightness-default-jenn-bedroom .title {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+.widget-base_light_with_brightness-default-jenn-bedroom .title2 {
+    position: absolute;
+    top: 23px;
+    width: 100%;
+}
+.widget-base_light_with_brightness-default-jenn-bedroom .iconcontainer {
+	position: absolute;
+	bottom: 30%;
+	width: 100%;
+}
+
+.widget-base_light_with_brightness-default-jenn-bedroom .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 75%;
+}
+
+.widget-base_light_with_brightness-default-jenn-bedroom .slidercontainer {
+   position: absolute;
+   bottom: 5px;
+   height: 25%;
+   overflow: hidden;
+   width: 100%;
+   horizontal-align: center;
+   margin:auto;
+}
+
+.widget-base_light_with_brightness-default-jenn-bedroom input[type=range] {
+  -webkit-appearance: slider-horizontal;
+  border: 1px solid white;
+  height: 90%;
+  width: 90%;
+}
+.widget-basedisplay-default-label-scenes-bottom .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay-default-label-scenes-bottom .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay-default-label-scenes-bottom .valueunit {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.widget-basedisplay-default-label-scenes-bottom .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-label-scenes-bottom .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-label-scenes-bottom .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-label-bottom .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay-default-label-bottom .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay-default-label-bottom .valueunit {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.widget-basedisplay-default-label-bottom .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-label-bottom .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-label-bottom .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-main-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-main-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-main-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-main-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-familyroom-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-familyroom-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-familyroom-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-familyroom-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-theatre-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-theatre-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-theatre-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-theatre-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-bedroom-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-bedroom-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-bedroom-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-bedroom-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-weather .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-weather .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-weather .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-weather .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-sensors-panel .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-sensors-panel .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-sensors-panel .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-sensors-panel .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-load-settings .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-settings .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-settings .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-load-settings .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-basenavigate-default-reload .icon {
+	position: absolute;
+	top: 28px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-reload .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-reload .title2 {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+}
+
+.widget-basenavigate-default-reload .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

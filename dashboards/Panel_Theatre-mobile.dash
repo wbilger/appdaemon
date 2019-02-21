@@ -8,38 +8,47 @@ widget_margins: [1, 1]
 columns: 12
 
 layout:
+    - include: widgets_remote-th
     - include: widgets_media
-    - include: widgets_lights
+    - include: widgets_lights-mobile
     - include: widgets_scripts-mobile
     - include: widgets_scenes-mobile
     
     - include: row_top-mobile
-    - theatre_dim(2x4),theatre(5x4),theatre_max(2x4),theatre_bar(3x4)
+    - theatre_dim(2x3),theatre(5x3),theatre_max(2x3),theatre_bar(3x3)
     -
     -
+    - theatre_projector_off(2x2),theatre_projector(2x2),theatre_surround_sound(4x2),theatre_butt_kickers(4x2)
     -
-    - theatre_projector(4x3),theatre_surround_sound(4x3),theatre_butt_kickers(4x3)
-    -
-    -
-    - theatre_plex(8x9),theatre_movie_time(4x3)
+    - remote_roku(4x2),remote_radio(4x2),theatre_movie_time(4x3)
     - 
-    - 
+    - theatre_plex(8x7)
     - theatre_netflix_time(4x3)
     - 
     - 
     - theatre_off(4x3)
     - 
     -
-    - theatre_roku(6x8),theatre_chromecast(6x8)
+    - theatre_roku(6x7),theatre_chromecast(6x7)
     -
-    - 
     -
-    - 
+    -
     -
     - 
     -
     - 
     - include: row_bottom-mobile
+    
+remote_roku:
+    widget_type: navigate_hor
+    title2: Roku
+    icon_inactive: mdi-remote
+    dashboard: Remote_TH_Roku-mobile
+remote_radio:
+    widget_type: navigate_hor
+    title2: Radio
+    icon_inactive: mdi-remote
+    dashboard: Remote_TH_Radio-mobile
     
 label_scenes_top:
     widget_type: label
